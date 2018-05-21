@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>优装美家 装修管家</title>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: normal 14px/22px "Microsoft YaHei UI", "Microsoft YaHei";
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+#loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #194b96;
+    z-index: 33;
+}
+#load-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 158px;
+    height: 467px;
+    transform: translate(-50%,-50%);
+}
+#load-state {
+    margin-top: 53px;
+    font: normal 56px/90px "Microsoft YaHei UI", "Microsoft YaHei";
+    color: #fff;
+    text-align: center;
+}
+#load-state span {
+    display: inline-block;
+    padding-right: 10px;
+    text-align: center;
+}
+#load-txt {
+    font: normal 22px/26px "Microsoft YaHei UI", "Microsoft YaHei";
+    text-align: center;
+    color: #fff;
+}
+#imgs {
+    display: none;
+}
+</style>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--Loading Start-->
+    <section id="loading">
+        <div id="load-content">
+            <img width="158" height="224" src="imgs/LOGO_loading.png">
+            <h2 id="load-state"><span id="percent">0</span>%</h2>
+            <h3 id="load-txt">Loading...</h3>
+        </div>
+    </section>
+    <!--Loading End-->
+    <!--Menu Start-->
+    <nav id="top-nav">
+        <a id="logo" href="http://www.uzhuang.com" target="_blank"></a>
+        <ul id="menu">
+            <li><a href="#" target="_blank">装修管家</a></li>
+            <li><a href="#" target="_blank">真实图库</a></li>
+            <li><a href="#" target="_blank">家居特卖</a></li>
+            <li><a href="#" target="_blank">装修公司</a></li>
+            <li><a href="#" target="_blank">管家日志</a></li>
+        </ul>
+    </nav>
+    <!--Menu End-->
+    <!--Section 1-->
+    <section id="s1" class="container">
+            <div id="page1-title">
+                <h1>装修管家 解决装修痛点</h1>
+                <h2>全程免费上门帮您监管装修</h2>
+            </div>
+            <div id="page1-stage">
+                <div id="page1-container">
+                    <!--Five Peoples-->
+                    <div id="person-1"><span id="p1-eyes">&nbsp;</span></div>
+                    <div id="person-2"><span id="p2-eyes">&nbsp;</span></div>
+                    <div id="person-3"><span id="p3-eyes">&nbsp;</span></div>
+                    <div id="person-4"><span id="p4-eyes">&nbsp;</span></div>
+                    <div id="person-5"><span id="p5-eyes">&nbsp;</span></div>
+                    <!--Others-->
+                    <div id="left-salt">&nbsp;</div>
+                    <div id="right-saw">&nbsp;</div> 
+                </div>
+            </div>
+    </section>
+    <!--Section 2-->
+    <section id="s2" class="container">
+            <div id="s2-left">
+                <div class="title">
+                    <h2>传统装修</h2>
+                    <h3>低报价&nbsp;&nbsp;后增项&nbsp;&nbsp;偷梁换柱</h3>
+                </div>
+                <div class="ground">
+                    <div id="left-person-1">
+                        <p class="person">&nbsp;</p>
+                        <p class="leg">&nbsp;</p>
+                    </div>
+                    <div id="left-person-2">
+                        <p class="person">&nbsp;</p>
+                        <p class="leg">&nbsp;</p>
+                    </div>
+                    <div id="left-person-3">
+                        <p class="person">&nbsp;</p>
+                        <p class="leg">&nbsp;</p>
+                    </div>
+                    <div id="left-pole"></div>
+                </div>
+            </div>
+            <div id="s2-right">
+                <div class="title">
+                    <h2>优装装修管家</h2>
+                    <h3>省心!&nbsp;&nbsp;&nbsp;省时!&nbsp;&nbsp;&nbsp;省钱!</h3>
+                </div>
+                <div class="ground">
+                    <div id="right-person-1">
+                        <p class="person">&nbsp;</p>
+                        <p class="leg">&nbsp;</p>
+                    </div>
+                    <div id="right-person-2">
+                        <p class="person">&nbsp;</p>
+                        <p class="leg">&nbsp;</p>
+                    </div>
+                    <div id="right-person-3">
+                        <p class="person">&nbsp;</p>
+                        <p class="leg">&nbsp;</p>
+                    </div>
+                    <div id="right-book"></div>
+                </div>
+            </div>
+    </section>
+    <!--Section 3-->
+    <section id="s3" class="container">
+    <div class="content">
+        <div id="grid">
+            <div id="furniture"></div>
+        </div>
+        <div id="s3-right">
+            <h2>免费量房及设计</h2>
+            <h3>
+                <p>根据需求推荐3家最合适的装修公司</p>
+                <p>自主选择1~3家装修公司免费量房和设计</p>
+            </h3>
+            <div id="s3-image">
+                <div id="rule">&nbsp;</div>
+                <div id="pen">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--Section 4-->
+    <section id="s4" class="container">
+        <div class="content">
+            <div id="s4-left">
+                <div id="block-1" class="white-grid">&nbsp;</div>
+                <div id="block-2">&nbsp;</div>
+                <div id="block-3">&nbsp;</div>
+                <div id="block-4" class="white-grid">&nbsp;</div>
+                <div id="block-5">&nbsp;</div>
+                <div id="block-6">&nbsp;</div>
+                <div id="block-7">&nbsp;</div>
+                <div id="block-8" class="white-grid">&nbsp;</div>
+                <div id="block-9">&nbsp;</div>
+                <div id="block-10">&nbsp;</div>
+                <div id="block-11" class="white-grid">&nbsp;</div>
+            </div>
+            <div id="s4-right">
+                <h2>免费材料验收</h2>
+                <div id="s4-txt">
+                    <p>超过100种材料验收，防止假货劣质产品出现；</p>
+                    <p>20种以上材料小样留存，确保装修前后材料品质如一</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section 5-->
+    <section id="s5" class="container">
+        <div class="content">
+            <ul class="clearfix">
+                <li id="feature-1">
+                    <div class="image">&nbsp;</div>
+                    <h3><b>27</b>次上门服务</h3>
+                </li>
+                <li id="feature-2">
+                    <div class="image">&nbsp;</div>
+                    <h3><b>297</b>项报价审核</h3>
+                </li>
+                <li id="feature-3">
+                    <div class="image">&nbsp;</div>
+                    <h3><b>198</b>个施工节点验收</h3>
+                </li>
+                <li id="feature-4">
+                    <div class="image">&nbsp;</div>
+                    <h3><b>2</b>次环保检测</h3>
+                </li>
+                <li id="feature-5">
+                    <div class="image">&nbsp;</div>
+                    <h3><b>108</b>项材料验收</h3>
+                </li>
+                <li id="feature-6">
+                    <div class="image">&nbsp;</div>
+                    <h3><b>21</b>个服务节点日志</h3>
+                </li>
+            </ul>
+            <button id="reg-now">立即装修</button>
+            <p id="free-service">免费量房/免费设计/免费报价/免费审核/免费验收/免费环保</p>
+        </div>
+    </section>
+    <!--Contact-->
+    <section id="layer" style="display:none">
+        <div id="post-box">
+            <h2>享受装修服务</h2>
+            <div id="input-block">
+                <div class="input-box">
+                    <p class="tip">您的姓名</p>
+                    <input class="user-data" type="text">
+                </div>
+                <div class="input-box">
+                    <p class="tip">手机号</p>
+                    <input class="user-data" type="text">
+                </div>
+                <div class="select-box">
+                    <select>
+                        <option>所在城市</option>
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>广州</option>
+                        <option>深圳</option>
+                    </select>
+                </div>
+            </div>
+            <button id="post-now">立即预约</button>
+        </div>
+        <div id="close-btn">&nbsp;</div>
+    </section>
+    <script src="../js/jquery-1.8.1.min.js"></script>
+    <script src="js/guanjia.js"></script>
+    <script>
+        //Loading
+        var loading = 0;
+        var percent = 0;
+        var total = 732;
+        var now_percent = 0;
+        document.body.style.overflow = "hidden";
+        function loaded(number){
+            loading += number;
+            console.log("total "+total+" loading:"+loading);
+            if(loading >= total-50)
+            {
+                //document.body.style.overflow = "visible";
+                $("#loading").hide(0);
+                play(1);
+            }
+            else {
+                now_percent = parseInt(loading/total*100);
+                console.log(now_percent);
+                playLoad();
+            }
+        }
+        function playLoad() {
+            percent++;
+            document.getElementById("percent").innerHTML = percent;
+            if(percent<now_percent)
+            {
+                setTimeout(playLoad,100);	
+            }
+        }
+    </script>
+    <div id="imgs">
+    
+        <img src="imgs/logo.png"  onload="loaded(6)" width="127" height="53" alt=""/>
+        <img src="imgs/section_A.png"  onload="loaded(62)" width="745" height="263" alt=""/>
+        <img src="imgs/section_A_salt.png"  onload="loaded(23)" width="501" height="141" alt=""/>
+        <img src="imgs/section_B_Book.png"  onload="loaded(11)" width="404" height="103" alt=""/>
+        <img src="imgs/section_B_L.png"  onload="loaded(56)" width="710" height="303" alt=""/>
+        <img src="imgs/section_B_R.png"  onload="loaded(63)" width="698" height="271" alt=""/>
+        <img src="imgs/section_C_Grid.png"  onload="loaded(6)" width="598" height="510" alt=""/>
+        <img src="imgs/section_C_Pen.png"  onload="loaded(11)" width="269" height="356" alt=""/>
+        <img src="imgs/section_C_Ruler.png"  onload="loaded(4)" width="725" height="85" alt=""/>
+        <img src="imgs/section_C_Sofa.png"  onload="loaded(54)" width="598" height="510" alt=""/>
+        <img src="imgs/section_D.png" onload="loaded(375)" width="1164" height="152" alt=""/>
+        <img src="imgs/section_E.png"  onload="loaded(40)" width="620" height="424" alt=""/>
+        <img src="imgs/title.png"  onload="loaded(21)" width="820" height="258" alt=""/>
+        
+
+    </div>  
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>中网易站 beta</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="header">
+  <div id="head_content"> <a id="logo" href="#"></a>
+    <ul id="menu">
+      <li class="menu_li current"><a class="menu_a" href="#">首&nbsp;&nbsp;页</a></li>
+      <li class="menu_li"><a class="menu_a" href="#">模版主题</a></li>
+      <li class="menu_li"><a class="menu_a" href="#">产品功能</a></li>
+      <li class="menu_li"><a class="menu_a" href="#">案例发现</a></li>
+      <li class="menu_li"><a class="menu_a" href="#">支持中心</a></li>
+      <li class="menu_li"><a class="menu_a" href="#">产品日志</a></li>
+    </ul>
+  </div>
+</div>
+<section id="s1">
+  <div id="s1_content">
+    <div id="s1_left">
+      <h1 id="s1_h1">免费创建一个属于你的网站</h1>
+      <p id="s1_lp">模块化创建方式，简单，快捷，自由搭配</p>
+      <a id="try_now" href="#">立即体验</a> </div>
+    <div id="s1_right">
+      <div id="s1_page">
+        <ul id="s1_slide">
+          <li class="s1_slide"><img src="imgs/bannerB1.png" width="363" height="143" alt=""/></li>
+          <li class="s1_slide"><img src="imgs/bannerB2.png" width="363" height="143" alt=""/></li>
+          <li class="s1_slide"><img src="imgs/bannerB3.png" width="363" height="143" alt=""/></li>
+        </ul>
+        <div id="left_arrow"></div>
+        <div id="right_arrow"></div>
+      </div>
+      <div id="s1_pad"></div>
+    </div>
+  </div>
+</section>
+<section id="s2">
+  <div id="s2_content">
+    <div id="s2_left">
+      <h2 id="s2_h2">丰富模版，缤纷选择</h2>
+      <p id="s2_lp">我们提供免费的模版服务，无论是企业官网还是个人站点，活动宣传或是产品介绍,均可在此得到您想要的风格</p>
+    </div>
+    <div id="s2_right">
+     <img id="s2_page1" class="s2_page" src="imgs/pageA.png" width="363" height="490" alt=""/> 
+     <img id="s2_page2" class="s2_page" src="imgs/pageB.png" width="363" height="490" alt=""/> 
+     <img id="s2_page3" class="s2_page" src="imgs/pageC.png" width="363" height="490" alt=""/> 
+    </div>
+  </div>
+</section>
+<section id="s3">
+	<div id="s3_content">
+    	<div id="s3_video">
+        	<div id="browser_top"></div>
+          	<video id="s3_player" src="imgs/demo1.mp4" autoplay loop></video>
+        </div>
+        <div id="s3_right">
+        	<h2 id="s3_h2">双击鼠标编辑内容</h2>
+            <p id="s3_rp">双击鼠标=开始编辑内容，标题、正文、图片一切编辑都可以从双击鼠标开始，这是一个快而有效的操作</p>
+        </div>
+    </div>
+</section>
+<section id="s4">
+	<div id="s4_content">
+    	<div id="s4_left">
+        	<div id="s4_earth"></div>
+            <div id="s4_circle1"></div>
+            <div id="s4_circle2"></div>
+            <div id="s4_airplane"></div>
+        </div>
+        <div id="s4_right">
+        	<h2 id="s4_h2">PC网站自动跨越手机网站</h2>
+            <p id="s4_rp">响应式设计为您自动覆盖全终端，一次维护多重响应，PC、PAD、手机网站自动适配、自动响应</p>
+        </div>
+    </div>
+</section>
+<section id="s5">
+<div id="s5_content">
+	<h2 id="s5_h2">如果您有一个创意，我们为您提供一个支点</h2>
+    <p id="s5_bp">———&nbsp;&nbsp;中网易站响应式免费建站平台</p>
+    <a id="s5_btn" href="#"></a>
+</div>
+</section>
+<footer>Design by BigBear</footer>
+<script src="js/jquery-1.8.1.min.js"></script>
+<script>
+	var s1_h;
+	var s2_top;
+	var s4_top;
+	$(function(){
+		s1_h = $(window).height();
+		if(s1_h>840)
+		{
+			s1_h = 840;	
+		}
+		$("#s1").height(s1_h);
+		s2_top = 500-($(window).height()-s1_h);
+		s4_top = s1_h+1320+350-$(window).height();
+		slide();
+		$(document).scroll(player);	
+	})
+	function slide(){
+		var now = 0;
+		var next = 1;
+		var total = 2;
+		var delay = 10;
+		var speed = 3000;
+		var timer;
+		var slider = $(".s1_slide");
+		console.log("next:"+next);
+		$(slider).hide().eq(now).show().addClass("show");
+		timer = setTimeout(slideplay,speed);	
+		function slideplay() {
+			next = now+1;
+			if(next > total)
+			{
+				next = 0;
+				console.log("aaanext"+next);
+			}
+			console.log("next:"+next);
+			$(slider).removeClass("show").eq(next).show();
+			setTimeout(function(){
+				$(slider).eq(next).addClass("show");	
+			},delay);	
+			timer = setTimeout(slideplay,speed);	
+			now =  next;
+		}
+	}
+	function player(){
+		var t = $(window).scrollTop();
+		if(t>s2_top)
+		{
+			console.log("bbb"+s2_top);
+			$("#s2_right").addClass("show");	
+		}
+		if(t>s4_top)
+		{
+			$("#s4_left").addClass("show");	
+		}
+		
+	}
+</script>
+</body>
+</html>

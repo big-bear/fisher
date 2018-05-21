@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>讯库/Design By 大熊</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+.set_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+ul, li {
+	list-style: none;
+}
+body {
+	font: normal 14px/28px "微软雅黑", "黑体", "宋体";
+	color: #333;
+}
+#loading {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 900;
+}
+#loadCircle {
+	position: relative;
+	margin: 80px auto 0 auto;
+	width: 425px;
+}
+#load_box {
+	position: absolute;
+	left: 85px;
+	top: 85px;
+	width: 256px;
+	height: 256px;
+	-webkit-border-radius: 128px;
+	-ms-border-radius: 128px;
+	border-radius: 128px;
+	background-color: #4cb620;
+	-webkit-animation: scrollload 2s linear 0ms infinite normal backwards;
+	animation: scrollload 2s linear 0ms infinite normal backwards;
+	overflow: hidden;
+}
+#load_light {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 256px;
+	height: 256px;
+	z-index: 902;
+}
+@-webkit-keyframes scrollload {
+	 0% {
+	 -webkit-transform: rotate(0);
+	}
+	 100% {
+	 -webkit-transform: rotate(360deg);
+	}
+}
+@keyframes scrollload {
+	 0% {
+	 transform: rotate(0);
+	}
+	 100% {
+	 transform: rotate(360deg);
+	}
+}
+#load_contnet {
+	position: absolute;
+	left: 96px;
+	top: 96px;
+	width: 234px;
+	height: 234px;
+	border-radius: 117px;
+	background-color: #202020;
+	z-index: 905;
+}
+#percent {
+	margin-top: 66px;
+	font: normal 60px/72px "微软雅黑", "黑体", "宋体";
+	color: #fff;
+	text-align: center;
+}
+#load_word {
+	font: normal 24px/30px "微软雅黑", "黑体", "宋体";
+	text-align: center;
+	color: #fff;
+}
+#load_light1 {
+	position: absolute;
+	left: 5%;
+	top: -10%;
+	width: 97px;
+	height: 97px;
+	border-radius: 50%;
+	background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(170,253,40) 0%, rgba(76,182,32,0) 100%);
+	background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(170,253,40) 0%, rgba(76,182,32,0) 100%);
+	background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(170,253,40) 0%, rgba(76,182,32,0) 100%);
+}
+#load_light2 {
+	position: absolute;
+	left: 55%;
+	top: 70%;
+	width: 103px;
+	height: 103px;
+	background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(154,241,38) 0%, rgb(76,182,32) 100%);
+	background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(154,241,38) 0%, rgb(76,182,32) 100%);
+	background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(154,241,38) 0%, rgb(76,182,32) 100%);
+}
+#imgs {
+	display: none;
+}
+</style>
+</head>
+
+<body onResize="setSize()">
+<div id="loading">
+  <div class="container set_center">
+    <div id="loadCircle"> <img src="imgs/circle.jpg" width="425" height="425" alt=""/>
+      <div id="load_contnet">
+        <p id="percent"><span id="load_val">0</span>%</p>
+        <p id="load_word">Loading...</p>
+      </div>
+      <div id="load_box">
+        <ul id="load_light">
+          <li id="load_light1"></li>
+          <li id="load_light2"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<nav id="nav_bottom">
+  <ul id="nav_ul">
+    <li class="nav_li current" onClick="changePlay(1)">首&nbsp;&nbsp;页</li>
+    <li class="nav_li" onClick="changePlay(2)">监测范围</li>
+    <li class="nav_li" onClick="changePlay(3)">剪报功能</li>
+    <li class="nav_li" onClick="changePlay(4)">关于我们</li>
+    <li class="nav_li" onClick="changePlay(5)">联系我们</li>
+    <li class="nav_li"><a id="company" target="_blank" href="http://www.xunku.org/">公司官网</a></li>
+  </ul>
+  <div id="scroll">
+    <p id="scroll_tip">向下滚动</p>
+    <div id="scroll_btn"></div>
+  </div>
+</nav>
+<section id="s1">
+  <div class="container set_center">
+    <div id="s1_left">
+      <div id="leida">
+        <div id="lighting"></div>
+        <div id="particular"></div>
+      </div>
+      <div id="weixing"></div>
+    </div>
+    <div id="s1_right">
+      <h1 id="page_title">讯库舆情监测系统</h1>
+      <p class="s1_p">全面信息采集，智能数据挖掘</p>
+      <p class="s1_p">公关危机预警，媒体追踪，行业动态分析</p>
+      <a id="trynow" href="#">立即试用</a> </div>
+  </div>
+</section>
+<section id="s2">
+  <div class="container set_center">
+    <ul id="s2_chester">
+      <li class="chest"></li>
+      <li id="qq" class="chest"></li>
+      <li class="chest"></li>
+      <li id="twitter" class="chest"></li>
+      <li class="chest"></li>
+      <li id="baidu" class="chest"></li>
+      <li class="chest"></li>
+      <li id="wangyi" class="chest"></li>
+      <li class="chest"></li>
+      <li class="chest"></li>
+      <li id="fenghuang" class="chest"></li>
+      <li class="chest"></li>
+      <li id="weixin" class="chest"></li>
+      <li class="chest"></li>
+      <li id="weibo" class="chest"></li>
+      <li id="facebook" class="chest"></li>
+    </ul>
+    <div id="s2_text">
+      <h2 id="s2_title">全媒体实时监测</h2>
+      <p id="s2_p">1,000个国内平面媒体，37,000个国内网络媒体，200个国外全球性媒体。500个国内主流论坛， 10,000个地方和行业论坛，5大微博网站，6大博客网站。<br>
+        平面媒体、网络媒体改版均可自动查证，人工24小时修正。“讯库”每日自动添加100个新信息源，逐步扩大监测范围。</p>
+    </div>
+  </div>
+</section>
+<section id="s3">
+  <div class="container set_center">
+    <div id="paper">
+      <div id="paper_main">
+        <div id="paper_1"></div>
+        <div id="paper_2"></div>
+        <div id="paper_3"></div>
+      </div>
+      <div id="s3_arrow">
+        <div id="s3_img"></div>
+      </div>
+    </div>
+    <div id="s3_content">
+      <h2 id="s3_title">智能剪报制作</h2>
+      <div id="s3_p">用户在系统中看到的每一条信息均可一站式生成剪报（可以是Word、Excel或PDF格式）。用户指定任何版式的剪报要求，系统均可自动生成，确保提升用户的工作效率。<br>
+        每5分钟完成一次智能采集，当监测到不良信息时，”讯库”会自动通过手机、MSN和邮件将信息推送给用户。</div>
+      <a id="download" href="#">下载APP</a> </div>
+  </div>
+</section>
+<section id="s4">
+  <ul id="s4_ul">
+    <li class="s4_li">
+      <div id="face1"></div>
+      <h3 class="s4_h3">销&nbsp;&nbsp;售</h3>
+      <p class="s4_lp">我们的销售人员会为您提供详细的产品说明。以及各种适合您的解决方案，并可提供一对一的上门定制服务。</p>
+    </li>
+    <li class="s4_li">
+      <div id="face2"></div>
+      <h3 class="s4_h3">分析师</h3>
+      <p class="s4_lp">专业分析人员，为用户提供全面、实时的新闻分析报告、负面新闻分析报告、公关危机处理方案等报告服务。</p>
+    </li>
+    <li class="s4_li">
+      <div id="face3"></div>
+      <h3 class="s4_h3">工程师</h3>
+      <p class="s4_lp">数十名新闻学专家，程序工程师，打造出全新的讯库3.0舆情监测引擎。更快，更精准！</p>
+    </li>
+    <li class="s4_li">
+      <div id="face4"></div>
+      <h3 class="s4_h3">售&nbsp;&nbsp;后</h3>
+      <p class="s4_lp">专业的客服团队，为您提供完善的售后服务。为您提供系统使用中的各种支持，解决您的后顾之忧。</p>
+    </li>
+  </ul>
+  <h2 id="s4_title">关于我们</h2>
+</section>
+<section id="s5">
+  <div class="container set_center">
+    <div id="s5_left">
+      <h3 id="key">KEY&nbsp;WORK</h3>
+    </div>
+    <div id="s5_right">
+      <h2 id="s5_title">联系我们</h2>
+      <div id="contact">
+        <p class="contact"><span class="title">热线电话：</span><span class="val">400-650-3050，为用户提供电话技术支持</span></p>
+        <p class="contact"><span class="title">传真回复：</span><span class="val">010 68464256-608</span></p>
+        <p class="contact"><span class="title">远程维护：</span><span class="val">访问网站www.xunku.org提供在线客服技术支持</span></p>
+        <p class="contact"><span class="title">联系地址：</span><span class="val">北京市海淀区中关村南大街9号理工大厦818房间</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+	//加载进度
+	var loading = 0;
+	var percent = 0;
+	var total = 173;
+	document.body.style.overflow = "hidden";
+	function loaded(number){
+		loading += number;
+		console.log("total "+total)
+		if(loading >= total)
+		{
+			document.body.style.overflow = "visible";
+			$("#loading").hide(0);
+			changePlay(1);
+		}
+		else {
+			playLoad();
+		}
+	}
+	function playLoad() {
+		percent++;
+		document.getElementById("percent").innerHTML = percent;
+		if(percent<loading/total*100)
+		{
+			setTimeout(playLoad,100);	
+		}
+	}
+</script>
+<div id="imgs">
+	<img src="imgs/chest.gif" onload="loaded(12)" width="341" height="385" alt=""/>
+    <img src="imgs/circle.jpg" onload="loaded(46)" width="425" height="425" alt=""/>
+    <img src="imgs/lighting.png" onload="loaded(12)" width="163" height="163" alt=""/>
+    <img src="imgs/loading.png" onload="loaded(21)" width="255" height="255" alt=""/>
+    <img src="imgs/logos.png" onload="loaded(12)" width="368" height="184" alt=""/>
+    <img src="imgs/particular.png" onload="loaded(3)" width="163" height="163" alt=""/>
+    <img src="imgs/s2.png" onload="loaded(3)" width="42" height="64" alt=""/>
+    <img src="imgs/s3.png" onload="loaded(3)" width="35" height="72" alt=""/>
+    <img src="imgs/s3_left.gif" onload="loaded(11)" width="354" height="491" alt=""/>
+    <img src="imgs/s4.png" onload="loaded(36)" width="834" height="185" alt=""/>
+    <img src="imgs/s5.png" onload="loaded(3)" width="35" height="66" alt=""/>
+    <img src="imgs/scroll.png" onload="loaded(3)" width="93" height="69" alt=""/>
+    <img src="imgs/weixing.png" onload="loaded(20)" width="348" height="385" alt=""/>
+</div>
+<script src="js/jquery-1.8.1.min.js"></script> 
+<script>
+	var W;
+	var H;
+	var d = 0;
+	var now = 1;
+	var next = 2;
+	var state = 0; //0为停止，1为动画滚动中
+	var goal = 0;
+	function setSize() {
+		W = $(window).width();
+		H = $(window).height();
+		$("section").height(H);	
+	}
+	function test() {
+		if(state == 1)
+		{
+			return;	
+		}
+		var t = $(window).scrollTop();
+		if(d-t<0) {
+			//向下滚动
+			next = now+1;
+		}
+		if(d-t>0) {
+			next = now-1;
+		}
+		changePlay(next);
+	}
+	function play(next) {
+		goal = H*(next-1);
+		state = 1;
+		changeTop();
+	}
+	function changeTop() {
+		var nowTop = $(window).scrollTop();
+		var fin = Math.abs(goal-nowTop);
+		if (fin < 5)
+		{
+			console.log("d: "+d+"next: "+next);
+			$("#s"+now).removeClass("show");
+			$(window).scrollTop(goal);
+			now = next;
+			state = 0;
+			d = goal;
+		}
+		else {
+			var distance = (goal-nowTop)*0.2 + nowTop;
+			$(window).scrollTop(distance);
+			setTimeout(changeTop,35);
+		}
+	}
+	function changePlay(n) {
+		next = n;
+		play(next);
+		$(".current").removeClass("current");
+		$(".nav_li").eq(next-1).addClass("current");
+		$("#s"+next).addClass("show");
+	}
+	$(function(){
+		setSize();
+		$("#s1").addClass("show");
+		$(document).scroll(test);
+	})
+</script>
+</body>
+</html>
