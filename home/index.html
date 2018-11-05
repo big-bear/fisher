@@ -1,0 +1,458 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>大熊的个人站/ Big Bear Home</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+.set_center, .set_center.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+#loading {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background-color: #000;
+}
+#prograss {
+	width: 600px;
+	height: 700px;
+}
+#loadStar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 600px;
+	height: 600px;
+}
+#loadName, #personal, #loadNumber {
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 101;
+	color: #fff;
+	text-align: center;
+}
+#loadName {
+	margin-top: 170px;
+	font: normal 80px/100px "微软雅黑", "黑体", "宋体";
+}
+#personal {
+	margin-top: 10px;
+	font: normal 20px/30px "微软雅黑", "黑体", "宋体";
+}
+#loadNumber {
+	margin-top: 120px;
+	font: normal 14px/30px "微软雅黑", "黑体", "宋体";
+}
+#percent_number {
+	font-size: 40px;
+}
+#container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+</style>
+<link href="styles/bigbear.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container">
+<aside>
+  <h1>大熊的个人站</h1>
+  <nav>
+    <ul id="left_nav">
+      <li id="nav1" class="nav">Home</li>
+      <li id="nav2" class="nav">About me</li>
+      <li id="nav3" class="nav">Skills</li>
+      <li id="nav4" class="nav">My works</li>
+      <li id="nav5" class="nav">Contact</li>
+    </ul>
+  </nav>
+</aside>
+<div id="main_bg" class="set_center"></div>
+<div id="main">
+  <!--第一屏-->
+  <section id="s1" class="box set_center">
+    <canvas id="stars" class="set_center"></canvas>
+    <div id="constellation"></div>
+    <div id="index" class="set_center">
+      <h2 id="index_h2">BigBear</h2>
+      <h3 id="index_h3">I’m a designer and coder</h3>
+      <p id="index_p">I live to create stunning, visual and modern websites and applications. </p>
+      <div id="bear"></div>
+    </div>
+  </section>
+  <!--第二屏-->
+  <section id="s2" class="box set_center">
+    <h2 class="title">About Me</h2>
+    <ul id="s2_icons">
+      <li class="s2_icon">
+        <div id="ie" class="icon"></div>
+        <canvas id="ie_star"></canvas>
+        <h3 class="s2_name">Web</h3>
+        <div class="s2_bar">
+          <div class="value percent100"></div>
+        </div>
+      </li>
+      <li class="s2_icon">
+        <div id="phone" class="icon"></div>
+        <canvas id="phone_star"></canvas>
+        <h3 class="s2_name">APP</h3>
+        <div class="s2_bar">
+          <div class="value percent85"></div>
+        </div>
+      </li>
+      <li class="s2_icon">
+        <div id="pc" class="icon"></div>
+        <canvas id="pc_star"></canvas>
+        <h3 class="s2_name">PC UI</h3>
+        <div class="s2_bar">
+          <div class="value percent70"></div>
+        </div>
+      </li>
+      <li class="s2_icon">
+        <div id="html5" class="icon"></div>
+        <canvas id="h5_star"></canvas>
+        <h3 class="s2_name">HTML5</h3>
+        <div class="s2_bar">
+          <div class="value percent70"></div>
+        </div>
+      </li>
+    </ul>
+    <p class="introduce">Making an awesome product that you love is good, but making an awesome product that others use is AMAZING!</p>
+  </section>
+  <!--第三屏-->
+  <section id="s3" class="box set_center">
+    <h2 class="title">My Skills</h2>
+    <div class="s3_content">
+      <ul id="s3_list">
+        <li class="s3_li">
+          <div id="ps" class="s3_icon"></div>
+          <div class="s3_bar">
+            <div class="value1"></div>
+          </div>
+        </li>
+        <li class="s3_li">
+          <div id="dw" class="s3_icon"></div>
+          <div class="s3_bar">
+            <div class="value2"></div>
+          </div>
+        </li>
+        <li class="s3_li">
+          <div id="fl" class="s3_icon"></div>
+          <div class="s3_bar">
+            <div class="value3"></div>
+          </div>
+        </li>
+        <li class="s3_li">
+          <div id="ae" class="s3_icon"></div>
+          <div class="s3_bar">
+            <div class="value4"></div>
+          </div>
+        </li>
+      </ul>
+      <div id="s3_right"></div>
+    </div>
+    <p class="introduce">Design is thinking made visual!</p>
+  </section>
+  <!--第四屏-->
+  <section id="s4" class="box set_center">
+    <h2 class="title">My works</h2>
+    <ul id="s4_list">
+      <li class="s4_li"><img src="imgs/1.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/2.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/3.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/4.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/5.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/6.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/7.png" alt=""/></li>
+      <li class="s4_li"><img src="imgs/8.png" alt=""/></li>
+    </ul>
+    <p class="introduce">Trying to design meaningful things with code. </p>
+  </section>
+  <!--第五屏-->
+  <section id="s5" class="box set_center">
+    <h2 class="title">Contact</h2>
+    <ul id="sky_star" class="set_center">
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+      <li class="star"></li>
+    </ul>
+    <div id="contact_me"><div id="eyes"></div><a id="post" href="mailto:xingzhuangzhi@163.com">POST</a></div>
+    <a id="hireme" href="mailto:xingzhuangzhi@163.com">HIRE  ME</a> 
+    <p id="mail">E-mail：xingzhuangzhi@163.com</p>
+    </section>
+</div>
+<div id="play">
+    <button></button>
+</div>
+<section id="loading">
+	<div id="prograss" class="set_center">
+    	<canvas id="loadStar"></canvas>
+        <h1 id="loadName">Big Bear</h1>
+        <p id="personal">personal website</p>
+        <div id="loadNumber">Loading<span id="percent_number">&nbsp;<span id="percent">0</span>%</span></div>
+    </div>
+</section>
+</div>
+<script>
+//兼容性动画帧方法
+var requestFrame = (function(){
+	var thisFunc,
+		prefixList = ['', 'webkit', 'moz', 'ms'];
+	for (var i=0; i<prefixList.length; i++) {
+		thisFunc = prefixList[i] + 'RequestAnimationFrame';
+		if(window[thisFunc]) {
+			return function(callback) {
+				window[thisFunc](callback);	
+			}	
+		}
+	}		
+})();
+//Scroll particulars code
+function star(r,rw,speed) {
+	this.range = Math.random()*2*Math.PI; //粒子角度
+	this.r = Math.floor(r-rw+2*rw*Math.random()); //粒子半径
+	this.x = this.r*Math.cos(this.range);
+	this.y = this.r*Math.sin(this.range);
+	this.opacity = 1;
+	this.speed = speed*Math.random()+0.002;
+}
+function drawCircle(target,x,y,r,rw1,rw2,num1,num2,speed,bgcolor){
+	var canvas = document.getElementById(target);
+	var W = 2*x, H = 2*y;
+	var ctx = canvas.getContext("2d");
+	canvas.width = W;
+	canvas.height = H;
+	console.log("W:"+W+" H:"+H);
+	var status = 0; //0为运行，1为停止，2为散开
+	var stars1 = [];
+	var stars2 = [];
+	var x = x; var y = y; //圆心
+	var color = bgcolor; //背景颜色
+	this.r = r; //半径
+	this.rw1 = rw1; //主圆环离散半径
+	this.rw2 = rw2; //离散半径
+	this.num1 = num1; //粒子数量
+	this.num2 = num2; //离散粒子数量
+	this.speed = speed; //旋转速度
+	for(var i=0; i<this.num1; i++)
+	{
+		var tempStar = new star(this.r,this.rw1,this.speed);
+		stars1.push(tempStar);
+	}
+	for(var i=0; i<this.num2; i++)
+	{
+		var tempStar = new star(this.r,this.rw2,this.speed);
+		stars2.push(tempStar);
+	}
+	function drawStar(stars,r) {
+		for(var i=0; i< stars.length; i++)
+		{
+			var p = stars[i];
+			ctx.beginPath();
+			var cx = p.x + x;
+			var cy = p.y + y;
+			var gradient = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+			gradient.addColorStop(0, "rgba(125, 125, 180, "+p.opacity+")");
+			gradient.addColorStop(0.5, "rgba(80, 90, 150, "+p.opacity+")");
+			gradient.addColorStop(1, "rgba(125, 125, 180, 0)");
+			ctx.fillStyle = gradient;
+			ctx.arc(cx, cy, r, Math.PI*2, false);
+			ctx.fill();
+		}
+	}
+	//粒子旋转
+	function scrollStar(stars) {
+		for(var i=0; i< stars.length; i++)
+		{
+			var p = stars[i];
+			p.range = p.range+p.speed;
+			p.x = p.r*Math.cos(p.range);
+			p.y = p.r*Math.sin(p.range);	
+		}
+	}
+	//粒子扩散
+	function diffuseStar(stars) {
+		var p = stars[5];
+		var d = Math.floor(p.r*0.04);
+		if(d>3)
+		{
+			d=10;
+		}
+		if(stars.length < 30){
+			this.diffuse();	
+		}
+		for(var i=0; i< stars.length; i++)
+		{
+			var p = stars[i];
+			p.r = p.r+d;
+			if(p.opacity>0)
+			{
+				p.opacity -= 0.03;	
+			}	
+			else {
+				stars.slice(i+1);
+			}
+			p.x = p.r*Math.cos(p.range);
+			p.y = p.r*Math.sin(p.range);	
+		}
+	}
+	//绘制旋转粒子方法
+	function render() {
+		ctx.globalCompositeOperation = "source-over";
+		ctx.fillStyle = color;
+		console.log("W2:"+W+" H2:"+H);
+		ctx.arc(W/2,H/2,W/2,0,2*Math.PI);
+		ctx.fill();
+		ctx.globalCompositeOperation = "lighter";
+		drawStar(stars1,3);
+		drawStar(stars2,2);
+		if(status == 0)
+		{
+			//继续旋转
+			//console.log("scroll");
+			scrollStar(stars1);
+			scrollStar(stars2);
+			requestFrame(render);
+		}
+		else if(status == 2)
+		{
+			//散开
+			//console.log("diffuseStar");
+			diffuseStar(stars1);
+			diffuseStar(stars2);
+			requestFrame(render);
+		}
+		else {
+			//停止
+			ctx.clearRect(0,0,W,H);
+		}
+	}
+	this.stopRun = function() {
+		status = 1;
+	}
+	this.diffuse = function() {
+		status = 2;
+		var sliceNumber = stars1.length-100;
+		var tempArray = stars1.slice(sliceNumber);
+		stars1 = tempArray;
+	}
+	render(); //绘制旋转粒子
+}
+//加载进度
+var loading = 0;
+var percent = 0;
+var total = 390;
+var loadStar = new drawCircle("loadStar",300,300,280,3,5,500,100,0.008,"black");
+function loaded(number){
+	loading += number;
+	if(loading >= total)
+	{
+		console.log("over:"+loading)
+		removeLoad();
+		play(1);
+	}
+	else {
+		playLoad();
+	}
+}
+function playLoad() {
+	percent++;
+	document.getElementById("percent").innerHTML = percent;
+	if(percent<loading/total)
+	{
+		setTimeout(playLoad,100);	
+	}
+}
+function removeLoad() {
+	loadStar.stopRun();
+	$("#loading").hide(0);
+}
+	
+</script>
+<div id="imgs">
+	<img class="loadimg" onload="loaded(30)" src="imgs/1.png" alt=""/>
+    <img class="loadimg" onload="loaded(22)" src="imgs/2.png" alt=""/>
+    <img class="loadimg" onload="loaded(22)" src="imgs/3.png" alt=""/>
+   	<img class="loadimg" onload="loaded(22)" src="imgs/4.png" alt=""/>
+    <img class="loadimg" onload="loaded(13)" src="imgs/5.png" alt=""/>
+    <img class="loadimg" onload="loaded(16)" src="imgs/6.png" alt=""/>
+    <img class="loadimg" onload="loaded(7)" src="imgs/7.png" alt=""/>
+    <img class="loadimg" onload="loaded(10)" src="imgs/8.png" alt=""/>
+    <img class="loadimg" onload="loaded(90)" src="imgs/contactme.png" alt=""/>
+    <img class="loadimg" onload="loaded(3)" src="imgs/eyes.gif" alt=""/>
+    <img class="loadimg" onload="loaded(6)" src="imgs/icons2.png" alt=""/>
+    <img class="loadimg" onload="loaded(55)" src="imgs/icons3.png" alt=""/>
+    <img class="loadimg" onload="loaded(10)" src="imgs/index.png" alt=""/>
+    <img class="loadimg" onload="loaded(21)" src="imgs/bear1.png" alt=""/>
+    <img class="loadimg" onload="loaded(1)" src="imgs/star.png" alt=""/>
+    <img class="loadimg" onload="loaded(62)" src="imgs/stars.png" alt=""/>
+</div>
+<script src="js/jquery-1.8.1.min.js"></script> 
+<script src="js/bigbear.js"></script> 
+<script>
+$(function(){
+	var next = 2;
+	var win_w = $(window).width();
+	var win_h = $(window).height();
+	$("#play").bind("click",function(){
+		play(next);
+		next++;
+	})
+	$("#nav1").bind("click",function(){
+		play(1);
+		next = 2;	
+	})
+	$("#nav2").bind("click",function(){
+		play(2);
+		next = 3;	
+	})
+	$("#nav3").bind("click",function(){
+		play(3);
+		next = 4;	
+	})
+	$("#nav4").bind("click",function(){
+		play(4);
+		next = 5;	
+	})
+	$("#nav5").bind("click",function(){
+		play(5);
+		next = 1;	
+	})
+})
+</script>
+</body>
+</html>

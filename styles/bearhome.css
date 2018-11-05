@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #fff;
+}
+body {
+    font-family: Monospace;
+    background-color: #000;
+    color: #fff;
+    margin: 0px;
+    overflow: hidden;
+    overflow-x: hidden !important;
+}
+#main {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+#f1_content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+#f1_content h1 {
+    padding: 60px 0 28px;
+    font: normal 60px/80px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    -webkit-text-shadow: 2.575px 4.286px 7px rgba(110, 47, 6, 0.22);
+    -ms-text-shadow: 2.575px 4.286px 7px rgba(110, 47, 6, 0.22);
+    -o-text-shadow: 2.575px 4.286px 7px rgba(110, 47, 6, 0.22);
+    -moz-text-shadow: 2.575px 4.286px 7px rgba(110, 47, 6, 0.22);
+    text-shadow: 2.575px 4.286px 7px rgba(110, 47, 6, 0.22);
+    opacity: 0;
+    transform: translateY(10px);
+}
+#f1_content p {
+    font: normal 20px/35px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #6c3c1f;
+    opacity: 0;
+    transform: translateY(10px);
+}
+#f1_content.show p, #f1_content.show h1 {
+    transition: all 0.3s ease-in 0s;
+    opacity: 1;
+    transform: translateY(0);
+}
+#emptyFloor {
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#aboutMe {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+#f2_content {
+    position: absolute;
+    left: 36%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#f2_content h2 {
+    font: normal 60px/80px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    padding: 40px 0 24px;
+    color: #fff;
+}
+#f2_content p {
+    font: normal 20px/40px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #fff;
+}
+#tools {
+    margin-top: 72px;
+    width: 650px;
+    height: 120px;
+    background: url(../img/Skills.png) no-repeat left top;
+}
+#jslibarys {
+    margin: 60px 0 120px;
+    width: 585px;
+    height: 46px;
+    background: url(../img/Code.png) no-repeat left top;
+}
+#Details {
+    width: auto;
+    height: 424px;
+    padding: 0 8.3%;
+    background-color: #fff;
+}
+#f3_content li {
+    position: relative;
+    left: 0;
+    top: 80px;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    opacity: 0;
+}
+#Details.show li {
+    top: 0;
+    opacity: 1;
+}
+#f3_content li:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background-color: #efefef;
+    border-radius: 3px;
+    top: 180px;
+    right: 0;
+    transform: translateX(50%);
+}
+#f3_content li:last-child:after {
+    display: none;
+}
+#f3_content li .icon {
+    margin: 87px auto 0;
+    width: 170px;
+    height: 170px;
+}
+#f3_content li h3 {
+    font: normal 24px/28px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #303033;
+}
+#f3_content li .company {
+    font: normal 16px/30px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #303033;
+}
+#f3_content li .website {
+    font: normal 16px/28px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #fb7736;
+}
+#company_1 .icon {
+    background: url(../img/companys.png) no-repeat 40px 23px;
+}
+#company_2 .icon {
+    background: url(../img/companys.png) no-repeat -149px 23px;
+}
+#company_3 .icon {
+    background: url(../img/companys.png) no-repeat -338px 23px;
+}
+#company_4 .icon {
+    background: url(../img/companys.png) no-repeat -515px 23px;
+}
+#Contacts {
+    position: relative;
+    width: 100%;
+    height: 920px;
+    overflow: hidden;
+    background-color: #303033;
+}
+#left_contacts {
+    position: absolute;
+    right: 52%;
+    top: 30%;
+    width: 770px;
+    opacity: 0;
+    transition: all 0.5s ease-in 0.2s;
+}
+#Contacts.show #left_contacts {
+    right: 50%;
+    opacity: 1;
+}
+#left_contacts h2 {
+    font: normal 72px/110px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    padding-bottom: 10px;
+}
+#left_contacts p {
+    font: normal 20px/40px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #fff;
+}
+.contact-txt {
+    padding-bottom: 1em;
+}
+#contact_now {
+    margin-top: 48px;
+    width: 368px;
+    height: 80px;
+    font: normal 22px/80px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    color: #fff;
+    display: block;
+    text-align: center;
+    background-color: #ff7900;
+    transition: all 0.3s ease-in 0s;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#contact_now:hover {
+    background-color: #ff6700;
+}
+#right_imgs {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+#tree_a1 {
+    position: absolute;
+    left: -222px;
+    bottom: -5px;
+    width: 200px;
+    height: 351px;
+    z-index: 5;
+}
+#tree_a2 {
+    position: absolute;
+    left: 543px;
+    bottom: -5px;
+    width: 242px;
+    height: 424px;
+    z-index: 5;
+    opacity: 0.7;
+}
+#tree_b1 {
+    position: absolute;
+    bottom: -80px;
+    left: -104px;
+    width: 246px;
+    height: 674px;
+    z-index: 4;
+}
+#tree_b2 {
+    position: absolute;
+    bottom: -22px;
+    left: 496px;
+    width: 310px;
+    height: 913px;
+    z-index: 4;
+}
+#tree_b3 {
+    position: absolute;
+    bottom: -23px;
+    left: 761px;
+    width: 199px;
+    height: 666px;
+    z-index: 1;
+    opacity: 0.64;
+}
+#tree_c1 {
+    position: absolute;
+    bottom: 0;
+    left: 56px;
+    width: 188px;
+    height: 416px;
+    z-index: 5;
+}
+#tree_c2 {
+    position: absolute;
+    bottom: 0;
+    left: 170px;
+    width: 151px;
+    height: 334px;
+    z-index: 2;
+    opacity: 0.7;
+}
+#tree_c3 {
+    position: absolute;
+    bottom: 0;
+    left: 736px;
+    width: 160px;
+    height: 354px;
+    z-index: 2;
+    opacity: 0.8;
+}
+#house {
+    position: absolute;
+    left: 216px;
+    bottom: -5px;
+    width: 572px;
+    height: 267px;
+    z-index: 6;
+}
+#bear_house {
+    position: absolute;
+    left: 400px;
+    bottom: 0;
+    width: 99px;
+    height: 123px;
+    opacity: 0.4;
+    z-index: 7;
+    animation: bearfade 4s infinite;
+}
+@keyframes bearfade {
+    0% {
+        opacity: 0.4;
+        filter: blur(0.1px);
+    }
+    38% {
+        opacity: 0.7;
+        filter: blur(2px);
+    }
+    100% {
+        opacity: 0.4;
+        filter: blur(0.1px);
+    }
+}
+@media screen and (max-width: 1440px){
+    #f1_content h1 {
+         font: normal 50px/72px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+         padding: 60px 0 14px;
+    }
+    #f1_content p {
+        font: normal 14px/24px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    }
+    #f2_content h2 {
+        font: normal 50px/72px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+        padding: 80px 0 14px;
+    }
+    #f2_content p {
+        font: normal 14px/24px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+        color: #fff;
+    }
+    #tools {
+        margin-top: 36px;
+        transform: scale(0.6);
+        transform-origin: left top;
+    }
+    #jslibarys {
+        margin: -15px 0 120px;
+        transform: scale(0.6);
+        transform-origin: left top;
+    }
+    #Details {
+        height: 304px;
+    }
+    #f3_content li .icon {
+        transform: scale(0.6);
+        transform-origin: 50% 50%;
+        margin: 20px auto 0;
+    }
+    #f3_content li h3 {
+        font: normal 18px/24px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+        margin-top: -30px;
+    }
+    #f3_content li .company {
+        font: normal 14px/28px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    }
+    #f3_content li .website {
+        font: normal 14px/18px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    }
+    #f3_content li:after {
+        content: "";
+        height: 3px;
+        border-radius: 3px;
+        top: 104px;
+    }
+    #left_contacts {
+        width: 548px;
+    }
+    #left_contacts h2 {
+        font: normal 50px/72px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    }
+    #left_contacts p {
+        font: normal 14px/24px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    }
+    #contact_now {
+        margin-top: 48px;
+        width: 264px;
+        height: 58px;
+        font: normal 18px/58px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+        border-radius: 3px;
+    }
+    #right_imgs {
+        transform: scale(0.6);
+        transform-origin: left bottom;
+    }
+}
+@media screen and (min-width: 2000px){ 
+    #right_imgs {
+        transform: scale(1.3);
+        transform-origin: left bottom;
+    }
+}
