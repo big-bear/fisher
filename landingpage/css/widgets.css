@@ -1,0 +1,301 @@
+/*12号大小字体*/
+.f12 {
+    font-size: 12px;
+}
+
+/*18号大小字体*/
+.f18 {
+    font-size: 18px;
+}
+
+/*26号大小字体*/
+
+.f26{
+    font-size:26px;
+}
+/*金额橘色*/
+.price_c {
+    color: #ff6600;
+}
+
+/*链接颜色*/
+.aline_c {
+    color: #0b62b4;
+    text-decoration: underline;
+}
+
+/*橘色边框颜色*/
+.border_cr {
+    border-color: #ff6600;
+}
+
+/*灰色边框1*/
+.border_cg {
+    border-color: #f0f0f0;
+}
+
+/*灰色边框2*/
+.border_cd {
+    border-color: #dcdcdc;
+}
+/*粉红色边框*/
+.border_c_ff4747{
+    border-color:#ff4747;
+}
+
+.border_c_ff4040{
+    border-color:#ff4040;
+}
+
+.border_c_ff5252{
+    border-color:#ff5252;
+}
+
+/*边框圆角*/
+.border_radius_4{
+    -moz-border-radius: 4px; /* Firefox */
+    -webkit-border-radius: 4px; /* Safari 和 Chrome */
+    border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+
+}
+
+
+
+
+/*三方登录组*/
+.qq,.sina,.zhu{
+    overflow: hidden;
+    text-indent: 999999px;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+}
+.qq{
+background:url( ../img/QQ.png) center center no-repeat;
+}
+.sina{
+    background:url( ../img/sina.png) center center no-repeat;
+}
+.zhu{
+    background:url( ../img/zhu.png) center center no-repeat;
+}
+/*第三方登录组结束*/
+
+
+
+
+
+
+/*找回手机或者邮箱输入框*/
+.mobile_input {
+    width: 288px;
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid #cccccc;
+    font-size: 13px;
+}
+
+/*获取验证码输入框*/
+.get_code_input {
+    width: 149px;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+/*验证码图片*/
+.code_img {
+    width: 88px;
+    height: 36px;
+    vertical-align: top;
+    border: 1px solid #f0f0f0;
+    margin-right: 5px;
+}
+
+/*重新获取验证码按钮*/
+.get_code_btn {
+    width: 37px;
+    height: 36px;
+    border: 1px solid #f0f0f0;
+    background: url("../img/get_code.jpg") no-repeat;
+    vertical-align: top;
+    display: inline-block;
+}
+
+/*短信验证码输入框*/
+.mes_input {
+    width: 149px;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    margin-right: 5px;
+}
+
+/*获取短信验证码按钮*/
+.get_mes_btn {
+    width: 132px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #ff5252;
+    color: #ff5252;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*新密码输入框*/
+.pwd_input {
+    position: relative;
+}
+
+.pwd_input input {
+    width: 288px;
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid #cccccc;
+    font-size: 13px;
+}
+
+.pwd_input a {
+    width: 16px;
+    height: 10px;
+    background: url("../img/look_icon.png") no-repeat center center;
+    position: absolute;
+    right: 11px;
+    top: 15px
+}
+
+.pwd_input a.active {
+    background: url("../img/look_icon_show.png") no-repeat center center;
+}
+
+/*提交按钮*/
+.sub_btn {
+    width: 300px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff5252;
+    display: inline-block;
+}
+
+.sub_btn:hover {
+    background-color: #ff4040;
+}
+
+.sub_btn200 {
+    width: 200px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff5252;
+    display: inline-block;
+}
+
+.sub_btn200:hover {
+    background-color: #ff4040;
+}
+
+/*重置密码提示*/
+.re_pwd_tips {
+    padding-top: 39px;
+    padding-bottom: 31px;
+    margin-left: 447px;
+    display: none;
+}
+
+.re_pwd_tips a {
+    color: #0b62b4;
+    text-decoration: underline;
+}
+
+.re_pwd_tips.active {
+    display: block;
+}
+
+.re_pwd_tips h3 {
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.re_pwd_tips li {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #555555;
+}
+
+/*遮罩层*/
+#mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    z-index: 3;
+    display: none;
+}
+
+/*验证提示*/
+.check_tips {
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+    padding: 0 10px;
+    color: #fff;
+    font-style: normal;
+    position: absolute;
+    left: -2px;
+    top: -40px;
+    background-color: #ff5252;
+    border-radius: 5px;
+    display: none;
+}
+/*立即定制按钮*/
+.dingzhibtn {
+    width:180px;
+    height:46px;
+    background-color: #ff4747;
+    display:inline-block;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    line-height:46px;
+}
+.dingzhibtn:hover {
+    background-color: #f53a3a;
+}
+
+.check_tips i {
+    width: 9px;
+    height: 4px;
+    position: absolute;
+    left: 13px;
+    top: 33px;
+    text-indent: -999px;
+    background: url("../img/bottom_bg.png") no-repeat;
+}
+
+.check_tips .active {
+    display: block;
+}
+
+.check_tips.active {
+    display: block;
+}
+

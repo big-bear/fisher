@@ -1,0 +1,53 @@
+/*css 样式初始化开始*/
+html{
+    font-size:16px;
+}
+body, p, dl, dd, h1, h3, h4 {
+    margin: 0;
+}
+body{
+    font-family:'Lantinghei SC Extralight','STHeiti Light','STHeiti Light [STXihei]','LiSong Pro Light','microsoft yahei Light','microsoft yahei';
+}
+
+ul ,video{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a img{
+    border:none;
+}
+
+/*css 样式初始化结束*/
+
+
+/*css 工具类开始*/
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.yfb_c_r {
+    color: #ff6600;
+}
+
+.yfb_c_b {
+    font-weight: 600;
+}
+
+.yfb_c_9 {
+    color: #999999;
+}
+/*css 工具类结束*/

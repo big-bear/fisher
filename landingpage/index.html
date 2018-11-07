@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1280, user-scalable=no, target-densitydpi=device-dpi">
+<title>落地页</title>
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/headerR.css">
+<link rel="stylesheet" href="./css/widgets.css">
+<link rel="stylesheet" href="./css/indexR.css">
+</head>
+<body>
+<!-- video -->
+<section id = "video-area">
+  <div class = "video-area" id = "videoBox">
+    <div class = "logo"></div>
+    <div class = "content-area">
+      <div class = "advertice">
+        <h1>企业服装及场景服装的一站式服务</h1>
+        <p> 我们有着独特的设计创新能力和22年的服装生产经验<br>
+          满足各类企业多样化的着装需求 </p>
+      </div>
+      <a href="javascript:void(0)" class = "dingzhibtn">立即定制</a> </div>
+    <!-- 遮罩 -->
+    <div id = "mask"></div>
+    <img id="video" src="img/suit_360_25.png">
+    <!--<video id="video" poster="img/banner.jpg" autoplay loop = "loop" autobuffer="true">
+        <source src="./video/suit_360_25.mp4" type="video/mp4" />
+        <source src="./video/hellorf_10977902.ogg" type="video/ogg" />
+            <source src="./video/hellorf_10977902.webm" type="video/webm" />
+            <object data="./video/hellorf_10977902.mp4" width="100%" height="100%">
+            <embed width="100%" height="100%" src="./video/movie.swf" />
+        </object>
+    </video>-->
+    <script>
+        //使视频背景等比例缩放，并居中
+         function V(vWidth, vHeight, obj, objBox, mask) {
+             var scale = vWidth / vHeight //obj的宽高比例
+             if (window.innerWidth || window.innerHeight) {
+                 winWidth = window.innerWidth;
+                 winHeight = window.innerHeight;
+             } 
+             else if ((document.body) && (document.body.clientWidth || document.body.clientHeight)) {
+                 winWidth = document.body.clientWidth;
+                 winHeight = document.body.clientHeight;
+             }
+            
+             obj.style.width = winWidth + 'px';
+             obj.style.height = winWidth / scale + 'px';
+             mask.style.width = winWidth + 'px';
+             mask.style.height = winWidth / scale + 'px';
+             objBox.style.width = winWidth + 'px';
+             objBox.style.height = winHeight + 'px';
+        }
+        
+        var video = document.getElementById('video');
+        var mask = document.getElementById('mask');
+        
+        //如果是移动设备，不播放视频，替换为图片
+        if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)) {
+            console.log("phone");
+            video.parentNode.removeChild(video);
+            var phoneimg = document.createElement("div");
+            phoneimg.setAttribute("id", "img_video");
+            
+            videoBox.appendChild(phoneimg);
+        }
+        else {
+            var video_source = document.createElement("source");
+            video_source.setAttribute("type", "video/mp4");
+            video_source.setAttribute("src", "./video/suit_360_25.mp4");
+            video.appendChild(video_source);
+            
+            window.onresize = function() {
+                V(596, 336, video, videoBox, mask);
+            }
+            V(596, 336, video, videoBox, mask);
+        }
+        //设置全屏背景
+   
+
+    </script>
+  </div>
+</section>
+<!-- floor-1 -->
+<section id = "floor-1">
+  <div class = "floor-1">
+    <div class = "floor-1-left" data-stellar-ratio="1.3">
+      <div class = "chuantong5">
+        <h1>享受全品类的专属<br>
+          团体定制</h1>
+        <p>依服宝专注于团体定制的全品类个性化、专业化，<br>
+          精准化服务，涵盖男女老幼。<br>
+          全方面服装品种，拥有众多国内外资深设计师及<br>
+          优秀的交易顾问，<br>
+          技术实力在行业内保持绝对领先。 </p>
+      </div>
+      <a href="javascript:void(0)" class = "dingzhibtn">立即定制</a> </div>
+    <div class = "floor-1-right">
+      <div class = "floor-1-box clearfix"> <i class = "jiandao">剪刀</i>
+        <div class = "floor-1-img1"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-1-img2"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-1-img3"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-1-img4"> <a href="javascript:void(0)"></a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- floor-2 -->
+<section id = "floor-2">
+  <div class = "floor-2 clearfix">
+    <div class = "floor-2-left">
+      <div class = "chuantong4">
+        <h1>团体元素 个性印制</h1>
+        <p>精湛的工艺和纯熟的技术是完成图案设计的重要工具，<br>
+          它将专属的团队元素与服装结合到一起，彰显出独特的标识性 </p>
+      </div>
+      <a href="javascript:void(0)" class = "dingzhibtn">立即定制</a> </div>
+    <div class = "floor-2-right">
+      <div class = "origin1">
+        <div class = "floor-2-img1" data-stellar-ratio="1.4"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img2" data-stellar-ratio="1.2"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img3" data-stellar-ratio="1.2"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img4"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img5"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img6"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img7"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img8"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img9" data-stellar-ratio="1.4"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-2-img10" data-stellar-ratio="1.1"> <a href="javascript:void(0)"></a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- floor-3 -->
+<section id = "floor-3">
+  <div class = "floor-3 clearfix">
+    <div class = "floor-3-left">
+      <div class = "origin">
+        <div class = "floor-3-img1" data-stellar-ratio="1.5"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-3-img2" data-stellar-ratio="1.5"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-3-img3" data-stellar-ratio="1.3"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-3-img4" data-stellar-ratio="1.1"> <a href="javascript:void(0)"></a> </div>
+        <div class = "floor-3-img5" data-stellar-ratio="1.2"> <a href="javascript:void(0)"></a> </div>
+      </div>
+    </div>
+    <div class = "floor-3-right">
+      <div class = "chuantong2">
+        <h1>灵魂设计师的聚集地</h1>
+        <p>在设计馆里，没有不可能</p>
+        <p>舒适透气的质地、迥然不同的版型，随心设计的图案，<br>
+          和那些特立独行的人一样，打造定制世界的与众不同 </p>
+      </div>
+      <a href="javascript:void(0)" class = "dingzhibtn">立即定制</a> </div>
+  </div>
+</section>
+<!-- floor-4 -->
+<section id = "floor-4">
+  <div class = "floor-4 clearfix">
+    <div class = "floor-4-left">
+      <div class = "chuantong1">
+        <h1>定制不再麻烦</h1>
+        <p>横跨33个品类、300人设计师团队、500家生产厂</p>
+        <p>为您全方位打造柔性供应链，并提供交易顾问服务、解决方案（电子、实体）<br>
+          报价透明、样衣邮寄、具法律保障的合同签署、极致的生产周期<br>
+          无忧售后：收货24小时内无条件退款 </p>
+      </div>
+      <a href="javascript:void(0)" class = "dingzhibtn dingzhi1">立即定制</a> </div>
+    <div class = "floor-4-right"></div>
+  </div>
+</section>
+<!-- floor-5 -->
+<section id = "floor-5">
+  <div class = "floor-5 clearfix">
+    <div class = "floor-5-left">
+      <div class = "left-1"></div>
+      <div class = "left-2"></div>
+      <div class = "left-3"></div>
+    </div>
+    <div class = "floor-5-right">
+      <div class = "chuantong">
+        <h1>匠心定制 因众而生</h1>
+        <p> 全方位的柔性供应链使我们拥有最透明的报价、最细心的方案，最极致的生产周期和保持全程跟单服务的专属交易顾问。我们承诺每一笔订单都会签署正规
+          合同及发票，保障双方权益。 </p>
+      </div>
+      <a href="javascript:void(0)" class = "dingzhibtn">立即定制</a> </div>
+  </div>
+</section>
+<!-- floor-6 -->
+<section id = "floor-6">
+  <div class = "floor-6">
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+    <div class = "floor-6-img"> <a href="javascript:void(0)"></a> </div>
+  </div>
+</section>
+<!-- 底层 -->
+<section id = "floor-bottom">
+  <div class = "floor-bottom">
+    <p> 你们的服装在这里定制 </p>
+    <a href="javascript:void(0)" class = "dingzhibtn">立即定制</a> </div>
+</section>
+<!-- footer --> 
+<!-- footer -->
+<footer id = "footer">
+  <div class = "border"></div>
+  <div class = "footer-content">
+    <ul class = "footer-list clearfix">
+      <li class = "left-area">
+        <div class = "logo-bottom"><a href="./index.html">logo</a></div>
+        <p>客服热线：400-176-8866</p>
+        <p>周一至周日：</p>
+        <p>09：00-20：00</p>
+      </li>
+      <li class = "middle-area">
+        <p><span class = "beian">Copyright © 2016 efubao.com 津ICP备16003131号</span><span>客服邮箱：kf@efubao.com</span></p>
+        <p>文明办网文明上网举报电话：010-82615762 </p>
+      </li>
+      <li class = "erweima-area">
+        <div class = "erweima"></div>
+        <p>微信扫一扫关注</p>
+        <p>依服宝公众号</p>
+      </li>
+    </ul>
+  </div>
+</footer>
+</body>
+<script src="js/jquery-2.0.2.js"></script>
+<script src = "./js/html5shiv.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script>
+$(function(){
+    //视察滚动初始化
+    $.stellar(); 
+});
+</script>
+</html>

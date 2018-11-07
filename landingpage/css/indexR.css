@@ -1,0 +1,693 @@
+
+@media (max-width:1920px) {
+html {
+    font-size: 16px
+}
+}
+
+@media(max-width:1600px) {
+html {
+    font-size: 13.3px;
+}
+}
+
+@media(max-width:1440px) {
+html {
+    font-size: 12px;
+}
+}
+
+@media(max-width:1366px) {
+html {
+    font-size: 12px;
+}
+}
+section {
+    width: 100%;
+    overflow: hidden;
+}
+#videoBox {
+    position: relative;
+    overflow: hidden;
+}
+#img_video {
+    display: block;
+    height: 600px;
+    background: url(../img/banner_for_phone.jpg) no-repeat center center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+.content-area {
+    width: 50rem;
+    height: 16rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25rem;
+    margin-top: -8rem;
+    text-align: center;
+    z-index: 999;
+}
+.logo {
+    width: 9.6875rem;
+    height: 3.75rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1.25rem;
+    background: url(../img/logo-new.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    z-index: 9999;
+}
+#mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    display: block;
+}
+.advertice {
+    width: 50rem;
+    height: 8.125rem;
+    color: #fff;
+}
+.advertice h1 {
+    font-size: 3.25rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+.advertice p {
+    line-height: 2.0625rem;
+    font-size: 1rem;
+}
+.content-area a {
+    margin-top: 5rem
+}
+/*floor-1*/
+#floor-1 {
+    overflow: visible;
+}
+.floor-1 {
+    width: 89.0625rem;
+    height: 50.25rem;
+    margin: 0 auto;
+    position: relative;
+}
+.floor-1-left {
+    position: absolute;
+    top: -7.5rem;
+    left: 0;
+    border: 0.3125rem solid #141414;
+    width: 27rem;
+    height: 39.1875rem;
+    margin-right: 9.625rem;
+    z-index: 9999;
+    background: #fff;
+}
+.floor-1-box {
+    position: absolute;
+    top: 10.5625rem;
+    right: 0;
+    width: 52.125rem;
+    height: 27.75rem;
+    border-top: 0.0625px dashed #ff4747;
+    padding-top: 1.625rem;
+}
+.jiandao {
+    width: 15px;
+    height: 13px;
+    background: url(../img/jiandao-icon.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    position: absolute;
+    right: -14px;
+    top: -7px;
+    font-size: 0;
+}
+.floor-1-box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floor-1-img1, .floor-1-img2, .floor-1-img3, .floor-1-img4 {
+    width: 13rem;
+    height: 27.5rem;
+    float: left;
+}
+.floor-1-img1:hover, .floor-1-img2:hover, .floor-1-img3:hover, .floor-1-img4:hover {
+    -webkit-filter: contrast(1.2);
+    -moz-filter: contrast(1.2);
+    -ms-filter: contrast(1.2);
+    -o-filter: contrast(1.2);
+    filter: contrast(1.2);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.floor-1-img1 {
+    background: url(../img/white.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-1-img2 {
+    background: url(../img/cooker.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-1-img3 {
+    background: url(../img/waiter.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-1-img4 {
+    background: url(../img/student.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-1-left a {
+    margin-left: 2.5rem;
+}
+.chuantong5 {
+    width: 21.4375rem;
+    margin-top: 3.75rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3.5rem;
+}
+.chuantong5 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 4.375rem;
+    color: #333;
+    font-weight: 200;
+}
+.chuantong5 p {
+    width: 110%;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #333;
+}
+/*floor-2*/
+.floor-2 {
+    margin: 0 auto;
+    width: 87.5rem;
+    height: 43.8125rem;
+}
+.floor-2-left {
+    float: left;
+}
+.floor-2-right {
+    float: right;
+    position: relative;
+    margin-right: 7.25rem;
+}
+.origin1 {
+    width: 22.3125rem;
+    height: 35.4375rem;
+    border: 0.3125rem solid #141414;
+}
+.origin1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.chuantong4 {
+    width: 27.375rem;
+    margin-top: 9.375rem;
+    margin-bottom: 4.875rem;
+}
+.chuantong4 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.625rem;
+    line-height: 4.375rem;
+    color: #333;
+    font-weight: 200;
+}
+.chuantong4 p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #333;
+}
+.floor-2-img1, .floor-2-img2, .floor-2-img3, .floor-2-img4, .floor-2-img5, .floor-2-img6, .floor-2-img7, .floor-2-img8, .floor-2-img9, .floor-2-img10 {
+    position: absolute;
+}
+.floor-2-img1 {
+    width: 6.375rem;
+    height: 6.375rem;
+    background: url(../img/3-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: -1.0625rem;
+    left: -18.25rem !important;
+    z-index: 5;
+}
+.floor-2-img2 {
+    width: 3.3125rem;
+    height: 3.3125rem;
+    background: url(../img/4-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 3.75rem;
+    left: -2rem !important;
+    z-index: 5;
+}
+.floor-2-img3 {
+    width: 4.8125rem;
+    height: 4.8125rem;
+    background: url(../img/1-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 6.875rem;
+    right: -9.6875rem !important;
+    left: auto !important;
+    z-index: 5;
+}
+.floor-2-img4 {
+    width: 6.9375rem;
+    height: 9.4375rem;
+    background: url(../img/6-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    margin-top: -4.7186rem;
+    left: -15rem;
+}
+.floor-2-img5 {
+    width: 6.3125rem;
+    height: 8.75rem;
+    background: url(../img/7-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    margin-top: -4.375rem;
+    left: -3.1563rem;
+}
+.floor-2-img6 {
+    width: 10.75rem;
+    height: 16.26rem;
+    background: url(../img/8-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    left: 11.75rem;
+    margin-left: -5.375rem;
+    margin-top: -8.125rem;
+}
+.floor-2-img7 {
+    width: 5.6875rem;
+    height: 9.0625rem;
+    background: url(../img/9-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    margin-top: -4.5313rem;
+    right: -2.8125rem;
+}
+.floor-2-img8 {
+    width: 7.1875rem;
+    height: 8.875rem;
+    background: url(../img/10-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    top: 50%;
+    margin-top: -4.4375rem;
+    right: -15.0625rem;
+}
+.floor-2-img9 {
+    width: 7.375rem;
+    height: 7.375rem;
+    background: url(../img/2-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    bottom: -0.875rem;
+    left: -8.5625rem !important;
+    z-index: 5;
+}
+.floor-2-img10 {
+    width: 3.3125rem;
+    height: 3.3125rem;
+    background: url(../img/5-1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    bottom: 4rem;
+    right: -18.375rem !important;
+    left: auto !important;
+    z-index: 5;
+}
+/*floor-3*/
+.floor-3 {
+    margin: 0 auto;
+    width: 75rem;
+    height: 49.5rem;
+}
+.origin {
+    width: 26.4375rem;
+    height: 26.4375rem;
+    border: 0.3125rem solid #141414;
+    float: left;
+    margin-top: 6.625rem;
+    position: relative;
+}
+.origin a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floor-3-img1 {
+    width: 4.4375rem;
+    height: 5.875rem;
+    position: absolute;
+    /*top: 9.875rem;*/
+    top: 3.875rem;
+    left: -11.9375rem !important;
+    background: url(../img/1.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-3-img2 {
+    width: 3rem;
+    height: 4.1875rem;
+    position: absolute;
+    left: -5.0625rem;
+    bottom: -5.9375rem;
+    background: url(../img/2.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-3-img3 {
+    width: 3.3125rem;
+    height: 4.375rem;
+    position: absolute;
+    bottom: -7.625rem;
+    right: -12.75rem;
+    left: auto !important;
+    background: url(../img/3.png) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-3-img4 {
+    width: 10.5rem;
+    height: 15.1875rem;
+    top: -6.875rem;
+    left: -5rem;
+    position: absolute;
+    background: url(../img/jiandao.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-3-img5 {
+    width: 20.875rem;
+    height: 31.375rem;
+    position: absolute;
+    top: 6.375rem;
+    left: 9.25rem;
+    background: url(../img/photo.jpg) center center no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 17.3px 6.7px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 17.3px 6.7px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0px 0px 17.3px 6.7px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0px 0px 17.3px 6.7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 17.3px 6.7px rgba(0, 0, 0, 0.15);
+}
+.floor-3-right {
+    float: right;
+    position: relative;
+    top: 6rem;
+}
+.chuantong2 {
+    width: 27.125rem;
+    margin-bottom: 4.875rem;
+}
+.chuantong2 h1 {
+    font-size: 2.5rem;
+    line-height: 4.25rem;
+    color: #333;
+    font-weight: 200;
+}
+.chuantong2 p {
+    font-size: 1rem;
+    line-height: 2.0625rem;
+    color: #333;
+}
+.chuantong2 p:nth-child(2) {
+    margin-bottom: 2.25rem;
+}
+/*floor-4*/
+.floor-4 {
+    margin: 0 auto;
+    width: 75rem;
+    height: 28.75rem;
+    margin-bottom: 8.1875rem;
+    position: relative;
+}
+.chuantong1 {
+    width: 35rem;
+    padding-top: 4.125rem;
+    margin-bottom: 4.875rem;
+}
+.chuantong1 h1 {
+    font-size: 2.5rem;
+    line-height: 4.375rem;
+    color: #333;
+    font-weight: 200;
+}
+.chuantong1 p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #333;
+}
+.chuantong1 p:nth-child(2) {
+    margin-bottom: 2rem;
+}
+.floor-4-right {
+    width: 46.875rem;
+    height: 28.75rem;
+    position: absolute;
+    right: -16.875rem;
+    top: 0px;
+    background: url(../img/black.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+/*floor-5*/
+#floor-5 {
+    background: #333333;
+}
+.floor-5 {
+    margin: 0 auto;
+    width: 75rem;
+    height: 38.25rem;
+}
+.floor-5-left {
+    padding-top: 3.75rem;
+    float: left;
+}
+.floor-5-left div {
+    width: 33.125rem;
+    height: 8.9375rem;
+    margin-bottom: 1.875rem;
+}
+.left-1 {
+    background: url(../img/left-1.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.left-2 {
+    background: url(../img/left-2.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.left-3 {
+    background: url(../img/left-3.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-5-right {
+    float: left;
+    padding-top: 5.625rem;
+    margin-left: 6.4375rem;
+}
+.floor-5-right .chuantong {
+    width: 35.375rem;
+    margin-bottom: 2.5rem;
+}
+.chuantong h1 {
+    font-size: 2.5rem;
+    line-height: 4.375rem;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 3.3125rem;
+}
+.chuantong p {
+    font-size: 1rem;
+    line-height: 2.0625rem;
+    color: #fff;
+}
+/*floor-6*/
+#floor-6 {
+    height: 37.5625rem;
+    margin-top: 5.8125rem;
+}
+.floor-6 {
+    width: 75rem;
+    margin: 0 auto;
+}
+.floor-6 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floor-6-img {
+    border: 1px solid #ccc;
+    width: 18.5rem;
+    height: 18.625rem;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.floor-6-img:nth-child(1), .floor-6-img:nth-child(2), .floor-6-img:nth-child(3) {
+    margin-left: -1px;
+}
+.floor-6-img:nth-child(4) {
+    margin-left: -1px;
+}
+.floor-6-img:nth-child(5), .floor-6-img:nth-child(6), .floor-6-img:nth-child(7), .floor-6-img:nth-child(8) {
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.floor-6-img:nth-child(1) {
+    background-image: url(../img/img1.jpg);
+    background-color: #333;
+}
+.floor-6-img:nth-child(2) {
+    background-image: url(../img/img2.jpg);
+}
+.floor-6-img:nth-child(3) {
+    background-image: url(../img/img3.jpg);
+}
+.floor-6-img:nth-child(4) {
+    background-image: url(../img/img4.jpg);
+}
+.floor-6-img:nth-child(5) {
+    background-image: url(../img/img5.jpg);
+}
+.floor-6-img:nth-child(6) {
+    background-image: url(../img/img6.jpg);
+}
+.floor-6-img:nth-child(7) {
+    background-image: url(../img/img7.jpg);
+}
+.floor-6-img:nth-child(8) {
+    background: url(../img/img8.jpg) center center no-repeat;
+}
+/*.floor-6-img:hover {
+    border: 1px solid #ccc;
+    transform: scale(0.9,0.9);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+ } */
+/*floor-bottom*/
+#floor-bottom div {
+    margin: 0 auto;
+    margin-top: 3.875rem;
+    width: 75rem;
+    height: 18rem;
+    text-align: center;
+}
+#floor-bottom p {
+    margin-left: 18.1875rem;
+    margin-bottom: 2.875rem;
+    font-size: 2.625rem;
+    letter-spacing: 2px;
+    width: 38.875rem;
+    line-height: 5.75rem;
+    height: 5.75rem;
+    border-bottom: 0.0625rem dashed #ff4747;
+}

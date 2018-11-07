@@ -1,0 +1,93 @@
+#footer{
+	width:1920px;
+	height:190px;
+	background:#333333;
+}
+.border{
+	padding-top:13px;
+	width:100%;
+	height:0;
+	border-bottom:1px dashed #ff4747;
+}
+.footer-content{
+	width:1200px;
+	margin:0 auto;
+}
+.footer-list{
+	margin-top:13px;
+}
+.footer-list li{
+	float:left;
+	color:#b0b0b0;
+	font-size:13px;
+}
+.footer-list .erweima-area{
+	float:right;
+}
+.left-area p{
+	line-height:26px;
+}
+.logo-bottom{
+	width:161px;
+	height:60px;
+	background:url(../img/LOGO-2.png) center center no-repeat;
+	background-size:contain;
+	margin-bottom:20px;
+	margin-right:63px;
+}
+.logo-bottom a{
+	display:block;
+	width:100%;
+	height:100%;
+	font-size:0;
+}
+.middle-area{
+	margin-top:81px;
+}
+.middle-area p{
+	line-height:26px;
+}
+.middle-area .beian{
+	margin-right:28px;
+}
+.erweima{
+	width:94px;
+	height:94px;
+	background:url(../img/erweima.png) center center no-repeat;
+	background-size:contain;
+	margin-bottom:11px;
+}
+.erweima-area p{
+	line-height:26px;
+	text-align: center
+}
+.mk-nav-box{
+	height:40px;
+	background:url(../img/heitiao.png) center center no-repeat;
+}
+.mk-nav{
+	width:1200px;
+	height:40px;
+	margin:0 auto;
+}
+.mk-nav li{
+	float:left;
+	padding:0 33px;
+	height:35px;
+	line-height:35px;
+	font-size:15px;
+	color:#fff;
+
+}
+.mk-nav li:hover{
+	background:#000;
+}
+.mk-nav li:hover a{
+	color:#ff4747;
+}
+.mk-nav li a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+}
