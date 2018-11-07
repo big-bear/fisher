@@ -197,12 +197,12 @@ body {
     display: block;
     text-align: center;
     background-color: #ff7900;
-    transition: all 0.3s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
     border-radius: 5px;
     text-decoration: none;
 }
 #contact_now:hover {
-    background-color: #ff6700;
+    background-color: #ffa10f;
 }
 #right_imgs {
     position: absolute;
@@ -298,6 +298,43 @@ body {
     z-index: 7;
     animation: bearfade 4s infinite;
 }
+
+#tree_a1, #tree_a2, #tree_b1, #tree_b2, #tree_b3, #tree_c1, #tree_c2, #tree_c3 {
+    transform: translateY(100%);
+}
+.show #tree_a1 {
+    transition: all 0.6s ease-in 0.3s;
+    transform: translateY(0);
+}
+.show #tree_b1 {
+    transition: all 0.6s ease-in 0.4s;
+    transform: translateY(0);
+}
+.show #tree_c1 {
+    transition: all 0.6s ease-in 0.5s;
+    transform: translateY(0);
+}
+.show #tree_c2 {
+    transition: all 0.6s ease-in 0.6s;
+    transform: translateY(0);
+}
+.show #tree_b2 {
+    transition: all 0.6s ease-in 0.7s;
+    transform: translateY(0);
+}
+.show #tree_a2 {
+    transition: all 0.6s ease-in 0.8s;
+    transform: translateY(0);
+}
+.show #tree_b3 {
+    transition: all 0.6s ease-in 0.9s;
+    transform: translateY(0);
+}
+.show #tree_c3 {
+    transition: all 0.6s ease-in 1s;
+    transform: translateY(0);
+}
+
 @keyframes bearfade {
     0% {
         opacity: 0.4;
