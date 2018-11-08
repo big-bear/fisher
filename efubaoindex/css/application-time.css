@@ -1,0 +1,130 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-03-01 18:19:19
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-03-02 15:49:59
+*/
+*{
+	font-family: "微软雅黑";
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main{
+	margin: 0 auto;
+	width: 1198px;
+	border: 1px solid #F0F0F0;
+	height: 440px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main h1{
+	font-size: 36px;
+	font-weight: 100;
+	width: 1198px;
+	height: 87px;
+	text-align: center;
+	padding-top: 60px;
+	color: #231815;
+}
+.form{
+	width: 800px;
+	height: 180px;
+	margin-left:288px;
+}
+.form span{
+	float: left;
+	width: 100px;
+	height: 35px;
+	text-align: right;
+	font-size: 14px;
+	line-height: 35px;
+}
+.form input{
+	width: 208px;
+	height: 35px;
+}
+.number input{
+	float: left;
+}
+.form .number-right{
+	width: 20px;
+}
+.Wdate{
+	border:#999 1px solid;
+	height:20px;
+	background: #fff url(../../../../img/Date-Icon.png) no-repeat 7px 11px;
+}
+.form .time1{
+	padding-left: 25px;
+	width: 188px;
+}
+.next-btn {
+	margin-top: 14px;
+	font-size: 16px;
+    display: block;
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    background: #FF5252;
+    color: #fff;
+    margin-left: 100px;
+	cursor: pointer;
+}
+em {
+    float: left;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+	margin-bottom:18px
+}
+select{
+	height: 35px;
+	line-height: 35px;
+	margin-right: 7px;
+}
+/*.address{
+	margin-bottom: 18px;
+}*/
+.main-bottom{
+	margin-bottom: 100px;
+	text-align: center;
+}
+.main-bottom>ul>li{
+	float: left;
+	width: 286px;
+	height: 268px;
+	border: 1px solid #F0F0F0;
+	margin-left: 16px;
+}
+.main-bottom>ul>li img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.main-bottom>ul>.firstli{
+	margin-left: 0;
+}
+.main-bottom>ul>li .p1{
+	margin-top: 17px;
+	font-size: 16px;
+	color: #333333;
+}
+.main-bottom>ul>li .p2{
+	margin-top: 17px;
+	font-size: 13px;
+	color: #707070;
+}
+.main-bottom>ul>li .p3{
+	margin-top: 6px;
+	font-size: 13px;
+	color: #707070;
+}
+form label.error{
+	left:0
+}
+.next-btn:hover{
+	background-color: #FF4747;
+}

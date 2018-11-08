@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+.wrap{
+	width:351px;
+	height:538px;
+	border:1px solid #f0f0f0;
+	margin:0 auto;
+	margin-top:16px;
+	margin-bottom:70px;
+}
+.title{
+	text-align:center;
+	font-size:22px;
+	padding:30px;
+}
+.command-area{
+	padding:0 45px;
+}
+.command-area p,.command-area input{
+	font-size:14px;
+	font-family:'宋体';
+}
+.command-area p{
+	line-height:32px;
+}
+.command-area input{
+	width:248px;
+	height:30px;
+	margin-bottom:10px;
+}
+.command-area em{
+	display:none;
+}
+.next-btn{
+	margin:0 auto;
+	text-align: center;
+	line-height: 38px;
+	display:block;
+	width:260px;
+	height:38px;
+	background:#ff4747;
+	color:#fff;
+	font-size:14px;
+	margin-top:26px;
+	margin-bottom:12px;
+}
+.sex div{
+	width:125px;
+	height:30px;
+	text-align:center;
+	line-height: 30px;
+	border:1px solid #cccccc;
+	float:left;
+}
+.sex div:first-of-type{
+	margin-right:5px;
+}
+.sex div.active{
+	border:1px solid #ff4747;
+	background:url(../img/sex-active-pc.png) right bottom no-repeat;
+}
+.goback{
+	margin-left:45px;
+	text-decoration: underline;
+	color:#333333;
+}
+@media(max-width:650px){
+	body{
+		background:#f8f9fa;
+	}
+	header,footer{
+		display:none;
+	}
+	.wrap{
+		width:0;
+		height:0;
+		line-height:0;
+		text-align:initial;
+		border:0;
+		float:none;
+		margin:0;
+	}
+	.title{
+		width:16rem;
+		height:2.2rem;
+		text-align:center;
+		line-height:2.2rem;
+		font-size:0.8rem;
+		background-color:#fff;
+		background-image:url(../img/GoBack.png);
+		background-size:0.475rem 0.875rem;
+		background-position:0.725rem center;
+		background-repeat: no-repeat;
+		border-bottom:0.025rem solid #cccccc;
+		margin-bottom:1.575rem;
+		padding:0;
+	}
+	.command-area{
+		padding:0 0.35rem;
+	}
+	.command-area .command,.command-area .people-sign{
+		background:#fff;
+		width:15.225rem;
+		height:2.65rem;
+		border:1px solid #cacaca;
+		border-radius:0.1rem;
+		-webkit-border-radius:0.1rem;
+		-moz-border-radius:0.1rem;
+		-o-border-radius:0.1rem;
+		margin-bottom:0.575rem;
+	}
+	.command-area p,.command-area input[type="text"]{
+		font-size:0.7rem;
+		line-height:2.65rem;
+		float:left;
+		text-align:center;
+	}
+	.command-area p{
+		background:#f3f4f4;
+		width: 4.325rem;
+		text-align:center;
+		border-right:0.025rem solid #cacaca;
+	}
+	.command-area em{
+		display:block;
+		float:right;
+		font-size:0.7rem;
+		width:2.95rem;
+		height:2.65rem;
+		text-align:center;
+		line-height:2.65rem;
+		background:#fff;
+	}
+	.command-area input[type="text"]{
+		height:auto;
+		display:block;
+		padding:0 0.9rem;
+		width:6.1rem;
+		border:0;
+		margin:0;
+	}
+	.next-btn{
+		display:block;
+		margin-left:0.35rem;
+		margin-top:2.275rem;
+		font-size:0.75rem;
+		width:15.3rem;
+		height:2.1rem;
+		text-align:center;
+		line-height:2.1rem;
+		background:#ff4747;
+		color:#fff;
+		border-radius:0.1rem;
+		-webkit-border-radius:0.1rem;
+		-moz-border-radius:0.1rem;
+		-o-border-radius:0.1rem;
+	}
+	.command-area .sex{
+		border:0;
+		border-radius:0;
+	}
+	.sex p{
+		border:0.025rem solid #cacaca;
+	}
+	.sex div{
+		float:left;
+		width:5.05rem;
+		height:2.65rem;
+		float:left;
+		font-size:0.7rem;
+		line-height: 2.65rem;
+		text-align: center;
+		margin-left:0.3rem;
+		border:0.025rem solid #cacaca;
+	}
+	.sex div.active{
+		background:url(../img/active-sex.png) right bottom no-repeat;
+		background-size:0.7rem 0.7rem;
+		border:0.025rem solid #ff4747;
+	}
+	.sex div:first-of-type{
+		margin-right:0px;
+	}
+	.goback{
+		display:none;
+	}
+}

@@ -1,0 +1,85 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-03-01 14:52:25
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-03-02 11:55:51
+*/
+@charset "UTF-8";
+/*form*/
+*{
+    font-family: "microsoft yahei";
+}
+.login-form {
+    padding-top: 50px;
+}
+#phoneCodeLoad span{
+    font-size: 14px;
+    color: #666666;
+    display: block;
+}
+#phoneCodeLoad input {
+    width: 300px;
+    height: 35px;
+    line-height: 30px;
+    padding: 0px 10px;
+    border: 1px solid #cccccc;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#phoneCodeLoad div {
+    margin-bottom: 18px;
+}
+#phoneCodeLoad .valid-code{
+    display: none;
+}
+#phoneCodeLoad .message-code.active {
+    display: block;
+}
+#phoneCodeLoad em {
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 37px;
+    position: relative;
+}
+#phoneCodeLoad .error {
+    left: 0px;
+}
+#phoneCodeLoad .icon {
+    margin-right: 5px;
+}
+#phoneCodeLoad .code-img {
+    float: left;
+    margin-left: 8px;
+    width: 129px;
+    height: 35px;
+    border: 1px solid #cccccc;
+}
+#phoneCodeLoad .code-img img{
+    width: 100%;
+    height: 100%;
+}
+#phoneCodeLoad .get-message {
+    display: block;
+    float: left;
+    width: 129px;
+    height: 35px;
+    color: #ff4747;
+    border: 1px solid #ff4747;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 8px;
+}
+#phoneCodeLoad .letter-middle{
+    text-align: right;
+    width: 77px;
+}
+#phoneCodeLoad .valid-code input{
+    width: 160px;
+}
+#phoneCodeLoad .message-code input{
+    width: 160px;
+}
+

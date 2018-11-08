@@ -1,0 +1,192 @@
+#header {
+    border-bottom: 2px solid #333;
+}
+.head-nav{
+    display: none;
+}
+.main{
+    padding-bottom: 120px;
+}
+.main h1{
+    text-indent: -9999px;
+    background: url("../img/choose-clothing-typetext.png") center center no-repeat;
+    height: 35px;
+    padding: 60px 0;
+}
+.main ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main ul li{
+    float: left;
+    width: 128px;
+    height: 175px;
+    position: relative;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.main ul li.active i{
+    display: block;
+    background-position-y: -33px;
+}
+.main ul li .clothing-bg{
+    width:128px;
+    height: 97px;
+    margin: 0 auto;
+    margin-top: 13px;
+    background-image: url("../img/application-clo-bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.main ul li .clothing-text{
+    height: 65px;
+    line-height: 65px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+}
+.main ul li i{
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    background: url("../img/choose-clo-v.png") 0 0 no-repeat;
+    left: 10px;
+    top: 10px;
+    display: none;
+
+}
+.main ul li:hover{
+    border: 1px solid #F0F0F0;
+}
+.main ul li:hover i{
+    display: block;
+}
+.bottom-div{
+    border-top: 1px solid #F0F0F0;
+    height: 120px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bottom-div .btn-danger{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    font-size: 22px;
+    margin: 30px auto;
+    font-family: "Microsoft Yahei";
+}
+.popup{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 310px;
+    height: 460px;
+    margin-left: -155px;
+    margin-top: -250px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    z-index: 999;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.popup .close{
+    width: 11px;
+    height: 11px;
+    background:url("../img/index-close.png") no-repeat;
+    float: right;
+    margin-top: 13px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+#pop-login .pop-title{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 36px;
+}
+#pop-login .pop-img{
+    margin-top: 16px;
+    margin-left: 70px;
+}
+#mobile-login-div{
+    padding: 0 30px;
+}
+#phoneCodeLoad .letter-middle{
+    text-align: left;
+}
+#pop-login .btn-danger{
+    width: 250px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#pop-login{
+    padding-bottom: 50px;
+    height: auto;
+}
+#tijiao-success .pop-img{
+    width: 153px;
+    height: 140px;
+    margin-left: 70px;
+    margin-top: 68px;
+}
+#tijiao-success .pop-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#tijiao-success .pop-text .p1{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 19px;
+}
+#tijiao-success .pop-text .p2{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 6px;
+}
+#tijiao-success .btn-danger{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 56px;
+    font-size: 16px;
+}
+.footer{
+    margin-top: 00px;
+}
+.bottom-div.static{
+    position: static;
+    margin-top: 30px;
+}
+.thishead{
+    height: 128px;
+}
+#phoneCodeLoad .send-sms-auth-code.disabled-box{
+    color: #ccc;
+    border-color:#ccc;
+}
+#phoneCodeLoad .code-img{
+    width: 110px !important;
+}
+#phoneCodeLoad .valid-code input{
+    width: 131px !important;
+}
+#phoneCodeLoad .send-sms-auth-code {
+    width: 110px !important;
+}
+#phoneCodeLoad .message-code input {
+    width: 131px !important;
+}

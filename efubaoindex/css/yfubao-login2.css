@@ -1,0 +1,360 @@
+/*.yfubao-login{*/
+    /*position: fixed;*/
+    /*width: 300px;*/
+    /*height: 450px;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*margin-left: -150px;*/
+    /*margin-top: -225px;*/
+/*}*/
+
+
+.form {
+    float: right;
+    height: 450px;
+    width: 300px;
+    margin-top: 23px;
+    background: #fff;
+}
+.form-top div {
+    cursor: pointer;
+    text-align: center;
+    line-height: 64px;
+    font-size: 20px;
+    float: left;
+    height: 48px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    color: #333333;
+    background: #ffffff;
+}
+.form .login-phone {
+    border-right: 0;
+}
+.form-content, .form-content1 {
+    display: none;
+    position: relative;
+    padding: 0 20px;
+}
+.no-reg {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 32px;
+    line-height: 34px;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    border-radius: 4px;
+    background: #ff5252;
+}
+.phone-number, .password, .reg-code, .phone-number1, .reg-code1, .message, .get-message {
+    height: 36px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid #cccccc;
+}
+.phone-number:focus , .password:focus , .reg-code:focus , .phone-number1:focus , .reg-code1:focus , .message:focus , .get-message:focus {
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(4, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(4, 0, 0, 0.1);
+    -ms-box-shadow: inset 0px 1px 3px 0px rgba(4, 0, 0, 0.1);
+    -o-box-shadow: inset 0px 1px 3px 0px rgba(4, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 3px 0px rgba(4, 0, 0, 0.1);
+}
+.phone-number, .phone-number1 {
+    width: 244px;
+}
+.password {
+    width: 244px;
+}
+.reg-code-box, .reg-code-box1 {
+    position: relative;
+    width: 278px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.reg-code, .reg-code1, .message, .get-message {
+    width: 106px;
+    height: 34px;
+    margin-right: 6px;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.img-code, .img-code1 {
+    display: block;
+    width: 132px;
+    float: left;
+}
+.img-code-url, .img-code-url1 {
+    display: inline-block;
+    width: 85px;
+    height: 36px;
+    border: 1px solid #f0f0f0;
+}
+.message-box {
+    width: 272px;
+    height: 40px;
+}
+.get-message {
+    width: 120px;
+    border: 1px solid #ff5252;
+    color: #ff5252;
+    text-align: center;
+    line-height: 34px;
+    padding-left: 0;
+    margin-right: 0px;
+}
+.refresh, .refresh1 {
+    cursor: pointer;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: url(../img/Refresh.png) center center no-repeat;
+}
+.tip {
+    font-size: 13px;
+    font-family: '宋体';
+}
+.two-week-box {
+    float: left;
+}
+.forget-password {
+    float: right;
+    color: #0b62b4;
+    text-decoration: underline;
+}
+.sub-btn, .sub-btn1 {
+    display: block;
+    width: 258px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #ff5252;
+    margin-top: 36px;
+    /*margin-bottom:48px;*/
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+.sub-btn:hover {
+    background: #ff4040;
+}
+.sub-btn1:hover {
+    background: #ff4040;
+}
+.third-box {
+    padding: 0 20px;
+}
+.third-content {
+    margin-top: 18px;
+}
+.qq, .sina, .zhu {
+    overflow: hidden;
+    text-indent: 999999px;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+}
+.qq {
+    background: url(../img/QQ.png) center center no-repeat;
+}
+.sina {
+    background: url(../img/sina.png) center center no-repeat;
+}
+.zhu {
+    background: url(../img/zhu.png) center center no-repeat;
+}
+.third-com {
+    float: left;
+}
+.third-word {
+    font-family: '宋体';
+}
+.use-this {
+    position: relative;
+    text-align: center;
+    line-height: 31px;
+    width: 62px;
+    height: 31px;
+    border: 1px solid #f0f0f0;
+    padding-left: 28px;
+    padding-right: 14px;
+    background: url(../img/right.png) no-repeat 8px center;
+    float: right;
+}
+.use-this a {
+    display: block;
+    width: 62px;
+    height: 31px;
+    padding-left: 28px;
+    padding-right: 14px;
+    line-height: 31px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #333333;
+    font-family: '宋体';
+}
+.use-this a:hover {
+    color: #333;
+}
+#footer {
+    height: 97px;
+    margin-top: 78px;
+}
+.footer-content {
+    width: 1200px;
+    height: 97px;
+    margin: 0 auto;
+}
+.footer-content ul li {
+    float: left;
+    padding-top: 2px;
+}
+.footer-content ul li p {
+    font-family: '宋体';
+    margin-bottom: 16px;
+}
+.left-info {
+    padding-left: 45px;
+    margin-right: 90px;
+    position: relative;
+    background: url(../img/mobile_footer.jpg) 0px 0px no-repeat;
+}
+.footer-content ul .right-info {
+    float: right;
+}
+.left-first {
+    margin-top: 4px;
+}
+.erweima {
+    float: left;
+    width: 85px;
+    height: 85px;
+    background: url(../img/erweima.png) center center no-repeat;
+}
+.saoyisao {
+    padding-top: 22px;
+    height: 58px;
+    float: left;
+    padding-left: 10px;
+}
+.form .active {
+    border-bottom: 0;
+    color: #ff5252;
+    background: #fff;
+}
+.group {
+    position: relative;
+}
+.group1 {
+    padding-top: 14px;
+}
+.i {
+    width: 10px;
+    height: 10px;
+    background: url(../img/sanjiao.png) center -20px no-repeat;
+    position: absolute;
+    top: -9px;
+    left: 13px;
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.agreement {
+    width: 760px;
+    height: 450px;
+    position: absolute;
+    top: 112px;
+    left: 50%;
+    margin-left: -380px;
+    background: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.agreement h3 {
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #333333;
+    padding: 10px 10px;
+}
+.content-agree {
+    padding: 20px;
+    padding-top: 0;
+    height: 280px;
+    overflow: scroll;
+}
+.content-agree p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.agreement .close {
+    display: block;
+    width: 156px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #ff4747;
+    margin: 50px auto;
+}
+.agreement .close-icon {
+    cursor: pointer;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/close-agree.png) center center no-repeat;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    font-size: 0;
+}
+/*Xingzhuangzhi 0109 Edit*/
+.header {
+    background-color: #fff;
+}
+.header-container .service-logo {
+    margin-top: 15px;
+    width: 152px;
+    height: 62px;
+    background: url(../img/size-logo.png) no-repeat left top;
+}
+#banner-area {
+    padding-top: 0;
+}
+.header-container .title {
+    margin-top: 10px;
+    line-height: 52px;
+    height: 50px;
+    background: none;
+    color: #333;
+    border-left: 1px solid #f0f0f0;
+    padding: 10px 13px;
+}
+.footer {
+    background-color: #fff;
+}
+.footer-line {
+    border-bottom-width: 0;
+}
+.footer-container p {
+    padding-top: 0;
+    color: #333;
+}
+label::before {
+    margin-left: 0;
+}

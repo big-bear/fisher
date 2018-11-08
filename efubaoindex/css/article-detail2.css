@@ -1,0 +1,80 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-01-18 14:16:18
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-21 17:22:44
+*/
+@charset "UTF-8";
+
+h1, h2, h3, i, em, strong, p, span {
+    font-size: 14px;
+}
+.news-main {
+    width: 1200px;
+    margin: 13px auto;
+}
+.news-main .main-left {
+    width:1200px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+    border: 1px solid #F0F0EF;
+}
+.news-main .main-left .news-top {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+.news-main .main-left .news-top h1 {
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #303030;
+    font-weight: 100;
+}
+.news-main .main-left .news-top h2 {
+    margin-top: 16px;
+    color: #404040;
+    font-weight: 100;
+}
+.news-main .main-left .news-top h2 span {
+    font-size: 14px;
+}
+.news-main .main-left .news-top h2 .h2-right {
+    margin-left: 24px;
+}
+.news-main .news-content img {
+    display: block !important;
+    max-width: 860px !important;
+    min-width: 620px !important;
+    height: auto !important;
+    margin: 6px auto 15px auto !important;
+    padding-top: 7px !important;
+}
+.news-main .news-content p{
+    text-indent: 2em !important;
+    margin-bottom: 26px !important;
+    line-height: 28px !important;
+    font-size: 14px !important;
+    color: #101010 !important;
+    margin-bottom: 14px !important;
+}
+.news-content {
+    padding-bottom: 120px;
+}
+.title {
+    color: #141414;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.title ul li {
+    float: left;
+    margin-right: 8px;
+}
+.title a {
+    color: #141414;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.head-nav .list-head{
+    display: none;
+}
+.head-nav .head-nav-list{
+    margin-left: 0;
+}
+.no-designer h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 80px;
+}
+.no-designer .p-text{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.no-designer .p-text a{
+    color: #ff5252;
+    text-decoration: underline;
+}
+.no-designer .p-img{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 130px;
+}

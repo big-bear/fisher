@@ -1,0 +1,415 @@
+.design-main {
+  margin-bottom: 100px;
+}
+.design-main .design-banner {
+  width: 100%;
+  height: 480px;
+  position: relative;
+  background-color: #FCFDF8;
+  overflow: hidden;
+}
+.design-main .design-banner img {
+  position: absolute;
+  display: block;
+  left: 50%;
+  margin-left: -960px;
+}
+.design-main .menu {
+  width: 1200px;
+  height: 430px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.design-main .menu ul li {
+  float: left;
+  width: 288px;
+  /* height: 428px; */
+  border: 1px solid #F0F0F0;
+  margin-left: 13px;
+  cursor: pointer;
+}
+.design-main .menu ul li .menu-head img {
+  width: 288px;
+  height: 162px;
+}
+.design-main .menu ul li .menu-text {
+  overflow: hidden;
+  width: 146px;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-indent: -999em;
+}
+.design-main .menu ul li .menu-text-bg1 {
+  background: url(../img/design-menu1.png) no-repeat;
+}
+.design-main .menu ul li .menu-text-bg2 {
+  background: url(../img/design-menu2.png) no-repeat;
+}
+.design-main .menu ul li .menu-text-bg3 {
+  width: 195px;
+  background: url(../img/design-menu3.png) no-repeat;
+}
+.design-main .menu ul li .menu-text-bg4 {
+  width: 195px;
+  background: url(../img/design-menu4.png) no-repeat;
+}
+.design-main .menu ul li .menu-p1 {
+  margin-top: 14px;
+  margin-left: 20px;
+  line-height: 26px;
+  color: #404040;
+}
+.design-main .menu ul li .menu-p1 p {
+  font-size: 14px;
+}
+.design-main .menu ul li .menu-p2 {
+  margin: 0 20px;
+  line-height: 20px;
+  color: #666666;
+  font-size: 12px;
+  margin-top: 16px;
+}
+.design-main .menu ul li .menu-price {
+  height: 50px;
+  line-height: 50px;
+  margin-top: 36px;
+  margin-right: 20px;
+  PADDING-BOTTOM: 10PX;
+  text-align: right;
+  font-size: 14px;
+  color: #231815;
+  font-family: "MicrosoftYahei";
+}
+.design-main .menu ul li .menu-price .big-price {
+  font-size: 24px;
+  font-family: "Arial regular", "Arial";
+}
+.design-main .menu ul .firstli {
+  margin-left: 0;
+}
+.design-main .menu ul li:hover {
+  box-shadow: 0px 0px 4.85px 0.15px rgba(6, 0, 1, 0.1);
+}
+.design-main .design-demo {
+  background-color: #F6F6F6;
+  height: 1160px;
+}
+.design-main .design-demo .design-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+.design-main .design-demo .design-center h1 {
+  height: 150px;
+  line-height: 150px;
+  color: #333333;
+  font-size: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+.design-main .design-demo .design-center .design-demo-list ul li {
+  width: 288px;
+  height: 463px;
+  box-shadow: 0px 0px 4.75px 0.25px rgba(6, 0, 1, 0.2);
+  float: left;
+  margin-left: 16px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a {
+  display: block;
+  width: 268px;
+  height: 443px;
+  padding: 10px;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a .demo-list-img {
+  width: 268px;
+  height: 364px;
+  background-color: pink;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a .demo-list-bottom {
+  margin-top: 16px;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a .demo-list-bottom .designer-head {
+  float: left;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: pink;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a .demo-list-bottom .designer-p {
+  float: left;
+  margin-left: 8px;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a .demo-list-bottom .designer-p .p1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #4D4D4D;
+}
+.design-main .design-demo .design-center .design-demo-list ul li a .demo-list-bottom .designer-p .p2 {
+  height: 25px;
+  line-height: 25px;
+  font-size: 13px;
+  color: #4D4D4D;
+}
+.design-main .design-demo .design-center .design-demo-list ul .firstli {
+  margin-left: 0;
+}
+.design-main .design-process {
+  height: 356px;
+  background-color: #3A3A3A;
+}
+.design-main .design-process h1 {
+  text-align: center;
+  height: 156px;
+  color: #F3F3F3;
+  line-height: 156px;
+  font-weight: normal;
+  font-size: 40px;
+}
+.design-main .design-process ul {
+  width: 1117px;
+  margin: 0 auto;
+}
+.design-main .design-process ul li {
+  width: 96px;
+  height: 150px;
+  float: left;
+  margin-left: 10px;
+}
+.design-main .design-process ul li .progress-icon {
+  width: 96px;
+  height: 96px;
+}
+.design-main .design-process ul li .icon-1 {
+  background: url("../img/progress-a.png");
+}
+.design-main .design-process ul li .icon-2 {
+  background: url("../img/progress-b.png");
+}
+.design-main .design-process ul li .icon-3 {
+  background: url("../img/progress-c.png");
+}
+.design-main .design-process ul li .icon-4 {
+  background: url("../img/progress-d.png");
+}
+.design-main .design-process ul li .icon-5 {
+  background: url("../img/progress-e.png");
+}
+.design-main .design-process ul li .icon-6 {
+  background: url("../img/pregress-f.png");
+}
+.design-main .design-process ul li .progress-p {
+  width: 96px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #CECECE;
+  font-size: 16px;
+}
+.design-main .design-process ul .ellipsis {
+  height: 96px;
+  width: 86px;
+  background: url("../img/ellipsis.png") center center repeat-x;
+}
+.design-main .platform-advantage {
+  margin-top: 50px;
+}
+.design-main .platform-advantage ul li {
+  float: left;
+  width: 388px;
+  height: 178px;
+  border: 1px solid #F0F0F0;
+  margin-left: 15px;
+}
+.design-main .platform-advantage ul li .advantage-img {
+  width: 64px;
+  height: 64px;
+  float: left;
+  background: url("../img/advantage1.png");
+  margin-left: 24px;
+  margin-top: 24px;
+}
+.design-main .platform-advantage ul li .advantage2 {
+  background: url("../img/advantage2.png");
+}
+.design-main .platform-advantage ul li .advantage3 {
+  background: url("../img/advantage3.png");
+}
+.design-main .platform-advantage ul li .advantage-right {
+  margin-top: 35px;
+  margin-left: 14px;
+  float: left;
+  width: 257px;
+}
+.design-main .platform-advantage ul li .advantage-right h2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+}
+.design-main .platform-advantage ul li .advantage-right p {
+  margin-top: 6px;
+  height: 28px;
+  line-height: 28px;
+  color: #404040;
+  font-size: 13px;
+}
+.design-main .platform-advantage ul .firstli {
+  margin-left: 0;
+}
+.design-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+.head-nav {
+  border: none;
+}
+.head-nav .list-head {
+  display: none;
+}
+.head-nav .head-nav-list {
+  margin-left: 0;
+}
+/*2017-092-27 Edit*/
+.design-contianer {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.design-goods1 {
+    height: 530px;
+}
+.design-goods2 {
+    height: 624px;
+}
+.design-goods1 .goods-description {
+    padding: 118px 0 0 60px;
+}
+.design-goods2 .goods-description {
+    float: right;
+    margin-top: 126px;
+    width: 540px;
+}
+.goods-description h2 {
+    font: normal 40px/84px normal;
+    letter-spacing: 1px;
+    transform: translateY(60px);
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+}
+.show .goods-description h2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+.goods-content, .goods-price {
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-60px);
+}
+.show .goods-content, .show .goods-price {
+    opacity: 1;
+    transform: translateY(0);
+}
+.right-floor-bg {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.8s ease 0s;
+}
+.show .right-floor-bg {
+    opacity: 1;
+    transform: translateX(0);
+}
+.left-floor-bg {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 0.8s ease 0s;
+}
+.show .left-floor-bg {
+    opacity: 1;
+    transform: translateX(0);
+}
+.goods-description .goods-content, .goods-description .goods-price {
+    font: 300 13px/26px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+}
+.goods-description .goods-price {
+    padding-top: 14px;
+}
+.goods-description .goods-price b {
+    padding-right: 3px;
+    font: 300 24px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    border-bottom: 2px solid #ff5252;
+}
+.goods-description .buy-now {
+    display: block;
+    margin-top: 64px;
+    width: 180px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font: normal 14px/40px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    transition: all .3s ease 0s;
+}
+.goods-description .buy-now:hover {
+    background-color: #ff4747;
+}
+.design-goods1 .right-floor-bg {
+    position: absolute;
+    right: -124px;
+    top: 118px;
+    width: 734px;
+    height: 367px;
+    background: url(../img/FashionStudio/design_floor1_bg.png) no-repeat left top;
+}
+.design-goods2 .left-floor-bg {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 579px;
+    height: 483px;
+    background: url(../img/FashionStudio/design_floor2_bg.jpg) no-repeat left top;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+/*2017-0930 Edit*/
+#design_list {
+    background-color: #fff;
+}
+#feature-box {
+    position: relative;
+    width: 1200px;
+    padding: 76px 0 76px;
+    margin: 0 auto;
+}
+#features_list {
+    width: 120%;
+}
+#features_list>li {
+    float: left;
+    width: 286px;
+    margin-right: 18px;
+    height: 438px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 7px 0px rgba(11, 15, 45, 0.18);
+}
+#features_list h3 {
+    margin: 5px 26px 0;
+    font: 400 22px/50px normal;
+    -webkit-font-smoothing: antialiased;
+}
+#features_list p {
+    padding: 0 26px;
+    width: 120%;
+    font: 200 13px/24px Microsoft YaHei UI, Microsoft YaHei , Heiti;
+    letter-spacing: 1px;
+}
+.design-main {
+    margin-bottom: 0;
+}

@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+#nav-right{
+    width: 58px;
+    height: auto;
+    border: 1px solid #6c6c6c;
+    border-top: 2px solid #ff4747;
+    background-color: #fff;
+    position: fixed;
+    right: 8px;
+    bottom: 62px;
+    z-index: 99999;
+}
+#nav-right li {
+    width: 58px;
+    height: 59px;
+    cursor: pointer;
+    display:none;
+}
+#nav-right li.active{
+    display:block;
+}
+#nav-right .xian {
+    width: 52px;
+    height: 1px;
+    background: #f0f0f0;
+    margin: 0 auto;
+}
+.kefu {
+    background: url(../img/kefu1.png) center bottom no-repeat;
+}
+/*.kefu:hover {*/
+/*background: url(../img/kefu2.png) center bottom no-repeat;*/
+/*}*/
+.sheji {
+    background: url(../img/sheji1.png) center bottom no-repeat;
+}
+.sheji:hover {
+    background: url(../img/sheji2.png) center bottom no-repeat;
+}
+.code {
+    background: url(../img/guanzhu1.png) center bottom no-repeat;
+    position: relative;
+}
+.cart{
+    position:relative;
+    background:url(../img/Cart.png) center bottom no-repeat;
+}
+.red i{
+    font-style:normal;
+    font-size: 12px;
+    display:block;
+    content:'';
+    position:absolute;
+    width: 16px;
+    height: 16px;
+    background:#ff5252;
+    top: 2px;
+    left: 2px;
+    border-radius:50%;
+    color:#fff;
+    text-align:center;
+    line-height: 16px;
+}
+.cart:hover{
+    background:url(../img/Cart2.png) center bottom no-repeat;
+}
+.erweimaC {
+    display: none;
+    position: absolute;
+    width: 135px;
+    height: 130px;
+    top: -36px;
+    left: -137px;
+    background: url(../img/index/77-01.jpg) center center no-repeat;
+    -webkit-background-size: 130px;
+    -moz-background-size: 130px;
+    -ms-background-size: 130px;
+    -o-background-size: 130px;
+    background-size: 130px;
+
+}
+.code:hover {
+    background: url(../img/guanzhu2.png) center bottom no-repeat;
+}
+.code:hover .erweimaC {
+    display: block;
+}
+.gotop {
+    width: 48px;
+    height: 37px;
+    background: url(../img/top1.png) center center no-repeat;
+}
+.gotop:hover {
+    width: 48px;
+    height: 37px;
+    background: url(../img/top2.png) center center no-repeat;
+}
+.right-nav-wrap .mask-right-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    z-index:9999;
+}
+.right-nav-wrap .pop-right-nav {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top:-140px;
+    width: 500px;
+    height: 280px;
+    background: #fff;
+    border-radius: 8px;
+    z-index: 10000;
+    box-shadow:0px 0px 8.3px 1.7px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow:0px 0px 8.3px 1.7px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:0px 0px 8.3px 1.7px rgba(0, 0, 0, 0.15);
+    -o--box-shadow:0px 0px 8.3px 1.7px rgba(0, 0, 0, 0.15);
+}
+.right-nav-wrap .pop-right-nav .close-btn-right-nav {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/Close.png) center center no-repeat;
+    cursor: pointer;
+}
+.right-nav-wrap .pop-right-nav p {
+    line-height: 50px;
+    height: 50px;
+    padding: 0 13px;
+    background: url(../img/pop-background.png) 0px 0px repeat-x;
+    font-size: 16px;
+    color: #fff;
+}
+.right-nav-wrap .form {
+    padding: 0 52px;
+    margin-top: 30px;
+}
+.form textarea{
+    margin:0;
+    padding:0;
+    resize:none;
+    outline:none;
+    width:370px;
+    height:70px;
+    padding:15px;
+}
+.right-nav-wrap .pop-right-nav input {
+    width: 395px;
+    height: 34px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 10px;
+}
+.right-nav-wrap .lijidingzhi-right-nav {
+    display: block;
+    width: 190px;
+    height: 42px;
+    background: #ff4747;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+.right-nav-wrap .ctrl .active {
+    background: #333;
+}
+#MEIQIA-BTN #MEIQIA-BTN-PICTURE{
+    position: relative;
+    top: -3px;
+}

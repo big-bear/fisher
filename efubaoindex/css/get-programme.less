@@ -1,0 +1,363 @@
+.get-programme-main{
+    width: 1200px;
+    height: 575px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 9.5px 0.5px rgba(6, 0, 1, 0.1);
+    .main-left{
+        float: left;
+    }
+    .main-head{
+        margin-left: 53px;
+        margin-top: 60px;
+    }
+    .main-head h1{
+        width: 309px;
+        height: 35px;
+        background: url("../img/get-programme-text.png") no-repeat;
+        overflow: hidden;
+        text-indent: -999px;
+    }
+    .main-head p{
+        margin-top: 12px;
+        color: #FF1313;
+        font-size: 14px;
+        letter-spacing: 2.5px;
+    }
+    .demand-ipt{
+        margin-top: 40px;
+        margin-left: 50px;
+        div{
+            margin-bottom: 18px;
+        }
+        .common-ipt{
+            height: 34px;
+            line-height: 34px;
+            span{
+                font-size: 14px;
+                color: #666666;
+            }
+            p{
+                float: left;
+                height: 34px;
+                line-height: 34px;
+                width: 77px;
+                text-align: right;
+                font-size: 14px;
+            }
+            select{
+                height: 34px;
+                margin-right: 10px;
+            }
+            textarea{
+                width: 618px;
+                height: 58px;
+                resize: none;
+                border: 1px solid #CCCCCC;
+                padding: 10px;
+            }
+            #ctlBtn{
+                height: 32px;
+                text-align: center;
+                line-height: 32px;
+                color: #FF7D7D;
+                background-color: #fff;
+                float: left;
+                cursor: pointer;
+            }
+            .upload-tips{
+                float: left;
+                height: 34px;
+                line-height: 34px;
+                color: #A3A3A3;
+                width: auto;
+                margin-left: 20px;
+
+            }
+            .common-select{
+                position: relative;
+                float: left;
+                cursor: pointer;
+                .common-select-p{
+                    width: 160px;
+                    height: 34px;
+                    line-height: 34px;
+                    text-align: center;
+                    border: 1px solid #cccccc;
+                    background: url("../img/xiaosanjiao.png") 145px center no-repeat;
+                }
+                ul{
+                    position: absolute;
+                    left: 0;
+                    top: 35px;
+                    z-index: 9;
+                    border: 1px solid #cccccc;
+                    display: none;
+                    background-color: #fff;
+                    li{
+                        text-align: center;
+                        height: 34px;
+                        line-height: 34px;
+                        width: 160px;
+                    }
+                    li:hover{
+                        background-color:#f0f0f0;
+                    }
+                }
+                select {
+                    padding: 0 55px;
+
+                }
+            }
+
+        }
+        .second-ul{
+            position: relative;
+            margin-left: 77px;
+            background-color: #E4E5E7;
+            padding-top: 10px;
+            margin-top: -10px;
+            width: 436px;
+            display: none;
+            ul{
+                margin-left: 16px;
+                li{
+                    float: left;
+                    width: 128px;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    background-color: #fff;
+                    border:1px solid #CCCCCC;
+                    margin-right: 7px;
+                    cursor: pointer;
+                    margin-bottom: 10px;
+                }
+                .active{
+                    border: 1px solid #FF4747;
+                    background: url("../img/sex-active-pc.png") right bottom no-repeat;
+                    background-color: #fff;
+                }
+            }
+            .demand-sanjiao{
+                width: 7px;
+                height: 3px;
+                position: absolute;
+                background: url("../img/demand-sangsanjiao.png");
+                left: 75px;
+                top: -3px;
+            }
+        }
+        .style-ul{
+            p{
+                float: left;
+                height: 34px;
+                line-height: 34px;
+            }
+            ul{
+                float: left;
+                width: 970px;
+                li{
+                    margin-bottom: 10px;
+                    float: left;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    border: 1px solid #CCCCCC;
+                    margin-right: 7px;
+                    width: 128px;
+                    cursor: pointer;
+                }
+                .active{
+                    border: 1px solid #FF4747;
+                    background: url("../img/sex-active-pc.png") right bottom no-repeat;
+                }
+            }
+        }
+        .common-textarea{
+            height: 80px;
+        }
+        .show{
+            display: block;
+        }
+        .upload-file{
+            .upload-ul{
+                margin-left: 77px;
+                li{
+                    width: 623px;
+                    height: 58px;
+                    font-size: 12px;
+                    border: 1px solid #F0F0F0;
+                    line-height: 58px;
+                    padding-left: 15px;
+                    margin-bottom: 18px;
+                    position: relative;
+                    .upload-time{
+                        position: absolute;
+                    }
+                    .upload-file-name{
+                        position: absolute;
+                        left: 157px;
+                        max-width: 150px;
+                    }
+                    .upload-status{
+                        position: absolute;
+                        right: 93px;
+                    }
+                    .upload-delete{
+                        position: absolute;
+                        right: 27px;
+                        background: url("../img/delete.png") left center no-repeat;
+                        padding-left: 17px;
+                        cursor: pointer;
+                    }
+                    .upload-delete:hover{
+                        background: url("../img/deleteHover.png") left center no-repeat;
+                        color: #FF4747;
+                    }
+                    .upload-progress{
+                        top: 26px;
+                        position: absolute;
+                        width: 150px;
+                        height: 5px;
+                        background-color: #E5E9F0;
+                        left: 320px;
+                        -webkit-border-radius: 2.5px;
+                        -moz-border-radius: 2.5px;
+                        border-radius: 2.5px;
+                        z-index: 1;
+                        .upload-progressbar{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            z-index: 9;
+                            -webkit-border-radius: 2.5px;
+                            -moz-border-radius: 2.5px;
+                            border-radius: 2.5px;
+                            height: 5px;
+                            width: 0%;
+                            background-color: #7BBC52;
+                        }
+                    }
+                }
+
+            }
+        }
+        .demand-submit{
+            width: 162px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            font-size: 14px;
+            color: #FFF;
+            background-color: #FF5252;
+            margin-left: 77px;
+            margin-top: 3px;
+            cursor: pointer;
+        }
+        .demand-submit:hover{
+            background-color: #FF4747;
+        }
+        input{
+            float: left;
+            height: 32px;
+            line-height: 32px;
+            border: 1px solid #CCCCCC;
+            padding: 0px 10px;
+        }
+        em {
+            display: block;
+            float: left;
+            font-size: 14px;
+            line-height: 34px;
+            position: relative;
+            span{
+                font-size: 14px;
+            }
+        }
+        .error {
+            left: 0px;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+        .code-img {
+            float: left;
+            margin-left: 8px;
+            width: 129px;
+            height: 32px;
+            border: 1px solid #cccccc;
+            /*background: url(../img/check_code.jpg) center center no-repeat;*/
+            img{
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+        .another-btn {
+            display: block;
+            float: left;
+            margin-left: 8px;
+            height: 30px;
+            line-height: 30px;
+            text-decoration: underline;
+            color: #333333;
+        }
+        .get-message {
+            display: block;
+            float: left;
+            width: 129px;
+            height: 32px;
+            color: #ff4747;
+            border: 1px solid #ff4747;
+            text-align: center;
+            line-height: 32px;
+            margin-left: 8px;
+        }
+        .letter-middle{
+            text-align: right;
+            width: 77px;
+            font-size: 14px;
+
+        }
+        .valid-code input{
+            width: 160px;
+        }
+        .message-code input{
+            width: 160px;
+        }
+        .phone-email input{
+            width: 300px;
+        }
+    }
+    .main-right{
+        float: right;
+        height: 575px;
+        width: 456px;
+        position: relative;
+    }
+    .main-right img{
+        height: 575px;
+        width: 456px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+    .subcategories-text{
+        margin-left: 77px;
+        display: none;
+    }
+    .subcategories-text textarea{
+        resize: none;
+        width: 413px;
+        height: 78px;
+        padding: 10px;
+        border: 1px solid #cccccc;
+    }
+    .show{
+        display: block;
+    }
+
+}

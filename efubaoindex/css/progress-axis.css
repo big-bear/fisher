@@ -1,0 +1,55 @@
+.progress-axis {
+    width: 926px;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 30px;
+}
+.progress-axis li{
+    flex: 1;
+    background: url("../img/progress_icon.jpg") top center no-repeat;
+    padding-top: 28px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.progress-axis .after{
+    width: 926px;
+    height: 3px;
+    position: absolute;
+    left: 89px;
+    top: 5px;
+    z-index: 3;
+    background-color: #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.progress-axis .before{
+    width: 926px;
+    height: 3px;
+    position: absolute;
+    right: 89px;
+    top: 5px;
+    z-index: 3;
+    background-color: #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.progress-axis li dt{
+    margin: 0 auto;
+    width: 100%;
+    line-height: 34px;
+    text-align: center;
+    display: block;
+    width: 100px;
+}
+.progress-axis .active{
+    background: url("../img/progress_icon_active.jpg") top center no-repeat;
+}
+.progress-axis .active .before{
+    background-color: #ff5252;
+}
+.progress-axis .active .after{
+    background-color: #ff5252;
+}

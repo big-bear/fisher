@@ -1,0 +1,100 @@
+.banner{
+    min-width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    background: url("../img/scene-package/scene-banner.jpg") center center no-repeat;
+}
+.scene-main .floor{
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    border:1px solid transparent;
+}
+.scene-main .floor .floor-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.scene-main .floor.list1{
+    height: 450px;
+    margin-top: 10px;
+}
+.scene-main .floor.list2{
+    height: 509px;
+    margin-top: 15px;
+}
+.scene-main .floor.list3{
+    height: 450px;
+    margin-top: 30px;
+}
+.scene-main .floor.list4{
+    height: 488px;
+    margin-top: 45px;
+}
+.scene-main .floor.list2 .floor-bg{
+    left: -96px;
+}
+.scene-main .text-detail{
+    margin-top: 130px;
+    width: 350px;
+    margin-left: 115px;
+    color: #000000;
+}
+.scene-main .text-detail h1{
+    height: 50px;
+    line-height: 50px;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 24px;
+    letter-spacing: 1.5px;
+}
+.scene-main .text-detail p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.scene-main .text-detail .look-more{
+    width: 160px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #000000;
+    margin-top: 36px;
+}
+.scene-main .list2 .text-detail{
+    float: right;
+    margin-right: 55px;
+}
+.scene-main .list3 .text-detail{
+    margin-top: 130px;
+}
+.scene-main .list4 .text-detail{
+    margin-top: 120px;
+    float: right;
+    margin-right: 55px;
+}
+.scene-main .scene-footer{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding-top: 90px;
+    text-align: center;
+}
+.scene-main .scene-footer h1{
+    height: 42px;
+    line-height: 42px;
+    font-size: 36px;
+    font-weight: 100;
+}
+.scene-main .scene-footer .scene-footer-detail{
+    margin-top: 26px;
+    margin-bottom: 96px;
+}
+.scene-main .scene-footer .scene-footer-detail p{
+    font-size: 14px;
+    line-height: 22px;
+}

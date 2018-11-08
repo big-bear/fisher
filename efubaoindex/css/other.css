@@ -1,0 +1,106 @@
+p{
+    font-size:14px;
+}
+.main{
+    margin: 0 auto;
+    width: 1160px;
+    border: 1px solid #F0F0F0;
+    height: 598px;
+    margin-top: 20px;
+    padding:0px 19px;
+    margin-bottom: 100px;
+}
+.main .other-title{
+    width:430px;
+    height:78px;
+    font-size: 0px;
+    margin:0 auto;
+    margin-top:60px;
+    background:url(../img/other-title.png) center center no-repeat
+}
+.text,.phone{
+    margin-bottom:20px;
+}
+.text p{
+    line-height: 36px;
+}
+.text .text-area{
+    width:958px;
+    height:96px;
+    outline: none;
+    resize: none;
+    border:1px solid #cccccc;
+    padding:15px;
+    margin:0;
+    color:#333;
+}
+.phone span,.valid-code span{
+    float:left;
+    width:62px;
+    height:36px;
+    line-height:36px;
+    text-align:right
+}
+.phone div,.valid-code div{
+    line-height:34px;
+    height:34px;
+    float:left
+}
+form input{
+    height:32px;
+    line-height:32px;
+}
+.phone input{
+    width:278px;
+    padding:0 10px;
+}
+.valid-code input{
+    width:140px;
+    padding:0 10px;
+}
+.send-btn{
+    display:inline-block;
+    width:128px;
+    height:34px;
+    background:#ff5252;
+    color:#fff;
+    text-align:center;
+    line-height: 34px;
+    margin-left:6px;
+}
+.next-btn {
+    margin-left:62px;
+	font-size: 14px;
+    display: block;
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    background: #FF5252;
+    color: #fff;
+    cursor: pointer;
+}
+em {
+    float: left;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+	margin-bottom:18px
+}
+form label.error{
+	left:0
+}
+.next-btn:hover{
+    background-color: #FF4747;
+}
+.valid-img{
+	width:129px;
+	height:35px;
+}
+.agreements{
+    line-height: 40px;
+}
+.agreements a{
+    color: #666666;
+}
+

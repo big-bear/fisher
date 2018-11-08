@@ -1,0 +1,178 @@
+a{
+    display: block;
+}
+.banner{
+    min-width: 1050px;
+    height:550px;
+    background: url("../img/campaign/campaign08/banner2.jpg") center top no-repeat;
+}
+.tips{
+    min-width: 1050px;
+    height: 189px;
+    background: url("../img/campaign/campaign08/tips.jpg") center top no-repeat;
+}
+.campaign-date{
+    position: relative;
+    min-width: 1050px;
+    height: 175px;
+    /*overflow: hidden;*/
+    background: url("../img/campaign/campaign08/date-bg.jpg") center top no-repeat;
+}
+.campaign-date ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.campaign-date ul li{
+    width: 180px;
+    float: left;
+}
+.campaign-date ul li .date{
+    width: 143px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #3C2B81;
+    margin: 0 auto;
+    color: #E2DFDC;
+    text-align: center;
+    margin-top: 46px;
+    font-size: 20px;
+}
+.campaign-date ul li .date-name{
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+    color:#E2DFDC;
+}
+.campaign-date ul li.active .date{
+    font-size: 22px;
+    color: #FFC000;
+    font-weight: bold;
+}
+.campaign-date ul li.active .date-name{
+    font-size: 19px;
+    color: #FFC000;
+    font-weight: bold;
+}
+.detail{
+    background: url("../img/campaign/campaign08/bg.jpg");
+    padding-bottom: 186px;
+}
+.floor{
+    width: 1050px;
+    margin: 0 auto;
+}
+.floor .floor-banner{
+    height: 590px;
+    width: 1050px;
+}
+.floor .floor-banner img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.shop-detail{
+    background: #fff;
+}
+.shop-detail .shop-img{
+    width: 240px;
+    height: 249px;
+}
+.shop-detail .shop-img img{
+    width: 100%;
+    height: 100%;
+}
+.shop-detail .p1{
+    margin-top: 11px;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #757474;
+}
+.shop-detail .price-box{
+    height: 42px;
+    position: relative;
+}
+.shop-detail .price-box .leftp{
+    position: absolute;
+    left: 10px;
+    bottom: 7px;
+    font-size: 16px;
+    color: #757474;
+}
+.shop-detail .price-box .rightp{
+    position: absolute;
+    bottom: 7px;
+    right: 15px;
+    color:#6A2FB0;
+}
+.shop-detail .price-box .rightp .span1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.shop-detail .price-box .rightp .span2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.floor-shop ul li{
+    margin-top: 8px;
+    width: 239px;
+    overflow: hidden;
+    float: left;
+    margin-right: 31px;
+}
+.buy-btn{
+    width: 239px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4D30B0;
+    margin-top: 4px;
+}
+.floor-shop ul li.last-li{
+    margin-right: 0;
+}
+.wrapper{
+    width: 1050px;
+    position: absolute;
+    top:0px;
+    z-index: 99;
+    left: 50%;
+    margin-left: -525px;
+    display: none;
+}
+.wrapper.active{
+    display: block;
+    position: fixed;
+}
+.wrapper .qr-code-box{
+    position: absolute;
+    right: -210px;
+}
+.qr-code-box{
+    width: 210px;
+    height: 320px;
+}
+.gongcheng .buy-btn {
+    background-color: #FF811C;
+}
+.gongcheng .shop-detail .price-box .rightp{
+    color: #FF811C;
+}
+.canyin .buy-btn {
+    background-color: #31B641;
+}
+.canyin .shop-detail .price-box .rightp {
+    color: #31B641;
+}
+.suit .buy-btn {
+    background-color: #ECB805;
+}
+.suit .shop-detail .price-box .rightp {
+    color: #ECB805;
+}

@@ -1,0 +1,269 @@
+.banner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 1200px;
+    height: 298px;
+}
+.package-main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 88px;
+}
+.package-main .floor{
+    margin-bottom: 152px;
+}
+.package-main .floor .shop-img{
+    margin-left: 35px;
+    float: left;
+    width: 450px;
+    height: 541px;
+}
+.package-main .floor .shop-detail{
+    padding-left: 35px;
+    float: right;
+    width: 646px;
+    height: 541px;
+}
+.package-main .floor .number-box .num {
+    float: left;
+}
+.package-main .floor .number-box .num a {
+    float: left;
+    cursor: pointer;
+}
+.package-main .floor .number-box .num .number {
+    border: 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 79px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    outline: none;
+    font: normal 18px/40px Arial, sans-serif;
+    padding: 0 5px;
+}
+.number-box .num .jia,.number-box .num .jian {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cccccc;
+}
+.number-box .num .jia {
+    background: url(../img/jia.png) center center no-repeat;
+}
+.number-box .num .jian {
+    background: url(../img/jian.png) center center no-repeat;
+}
+.package-main .floor .shop-detail>h1{
+    height: 50px;
+    line-height: 50px;
+    font-size: 36px;
+    font-weight: 100;
+}
+.package-main .floor .shop-detail>h1 a{
+    color: #333333;
+}
+.package-main .floor .shop-detail .shop-label{
+    margin-top: 17px;
+}
+.package-main .floor .shop-detail .shop-label li{
+    float: left;
+    padding: 0 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 4px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #F0F0F0;
+}
+.package-main .floor .shop-detail .shop-label li a{
+    color: #333333;
+    display: block;
+}
+.package-main .floor .shop-detail .sho-introduce{
+    margin-top: 27px;
+}
+.package-main .floor .shop-detail .sho-introduce p{
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+}
+.package-main .floor .shop-detail .package-detail-img{
+    margin-top: 35px;
+}
+.package-main .floor .shop-detail .package-detail-img li{
+    float: left;
+    margin-right: 20px;
+    width: 98px;
+}
+.package-main .floor .shop-detail .package-detail-img li img{
+    border:1px solid #f0f0f0;
+    width: 96px;
+    height: 96px;
+}
+.package-main .floor .shop-detail .package-detail-img li .shop-name{
+    line-height: 22px;
+    margin-top: 6px;
+    font-size: 12px;
+    font-family: "Songti";
+    height: 44px;
+    text-align: center;
+    color: #333333;
+}
+.package-main .floor .shop-detail .shop-price-box{
+    height: 32px;
+    line-height: 32px;
+    margin-top: 50px;
+}
+.package-main .floor .shop-detail .shop-price-box .price-label{
+    font-size: 13px;
+}
+.package-main .floor .shop-detail .shop-price-box .price-logo{
+    font-size: 13px;
+}
+.package-main .floor .shop-detail .shop-price-box .price{
+    font-size: 30px;
+    color: #ff5252;
+    font-family: "Arial regular", "Arial";
+}
+.package-main .floor .shop-detail .number-box{
+    margin-top: 23px;
+}
+.package-main .floor .shop-detail .number-box .num-label{
+    float: left;
+    line-height: 42px;
+}
+.package-main .floor .shop-detail .number-box .go-buy{
+    font-size: 16px;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+}
+.package-main .floor.even .shop-img{
+    float: right;
+}
+.package-main .floor.even .shop-detail{
+    float: left;
+}
+.popup{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 310px;
+    height: 460px;
+    margin-left: -155px;
+    margin-top: -250px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    z-index: 999;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.popup .close{
+    width: 11px;
+    height: 11px;
+    background:url("../img/index-close.png") no-repeat;
+    float: right;
+    margin-top: 13px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+#pop-login .pop-title{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 36px;
+}
+#pop-login .pop-img{
+    margin-top: 16px;
+    margin-left: 70px;
+}
+#mobile-login-div{
+    padding: 0 30px;
+}
+#phoneCodeLoad .letter-middle{
+    text-align: left;
+}
+#pop-login .btn-danger{
+    width: 250px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#pop-login{
+    padding-bottom: 50px;
+    height: auto;
+}
+#tijiao-success .pop-img{
+    width: 153px;
+    height: 140px;
+    margin-left: 70px;
+    margin-top: 68px;
+}
+#tijiao-success .pop-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#tijiao-success .pop-text .p1{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 19px;
+}
+#tijiao-success .pop-text .p2{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 6px;
+}
+#tijiao-success .btn-danger{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 56px;
+    font-size: 16px;
+}
+.footer{
+    margin-top: 00px;
+}
+.bottom-div.static{
+    position: static;
+    margin-top: 30px;
+}
+.thishead{
+    height: 128px;
+}
+#phoneCodeLoad .send-sms-auth-code.disabled-box{
+    color: #ccc;
+    border-color:#ccc;
+}
+#phoneCodeLoad .code-img{
+    width: 110px !important;
+}
+#phoneCodeLoad .valid-code input{
+    width: 131px !important;
+}
+#phoneCodeLoad .send-sms-auth-code {
+    width: 110px !important;
+}
+#phoneCodeLoad .message-code input {
+    width: 131px !important;
+}
+.btn-danger{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #EA5514;
+}
+.btn-danger:hover{
+    background-color: #EA5514;
+    border-color: #EA5514;
+}
+

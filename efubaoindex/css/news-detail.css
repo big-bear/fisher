@@ -1,0 +1,449 @@
+/*
+* @Author: lizeshuai
+* @Date:   2018-01-16 14:16:18
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-21 17:22:44
+*/
+@charset "UTF-8";
+h1, h2, h3, i, em, strong, p, span {
+    font-size: 14px;
+}
+.news-main {
+    width: 1200px;
+    margin: 13px auto;
+    margin-bottom: 55px;
+}
+.news-main .main-left {
+    width: 942px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+    border: 1px solid #F0F0EF;
+    position: relative;
+    margin-bottom: 40px;
+}
+.news-main .main-left .news-top {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.news-main .main-left .news-top h1 {
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #303030;
+    font-weight: 100;
+}
+.news-main .main-left .news-top h2 {
+    margin-top: 16px;
+    color: #404040;
+    font-weight: 100;
+}
+.news-main .main-left .news-top h2 span {
+    font-size: 14px;
+}
+.news-main .main-left .news-top h2 .h2-right {
+    margin-left: 24px;
+}
+.news-main .news-content img {
+    display: block !important;
+    max-width: 860px !important;
+    min-width: 620px !important;
+    height: auto !important;
+    margin: 6px auto 15px auto !important;
+    padding-top: 7px !important;
+}
+.news-main .news-content p {
+    line-height: 28px !important;
+    font-size: 14px !important;
+    color: #101010 !important;
+}
+.news-main .main-right {
+    float: right;
+}
+.new-banner-form {
+    width: 245px;
+    height: 360px;
+    box-sizing: border-box;
+    border: 1px solid #F0F0F0;
+}
+.new-banner-form hgroup {
+    text-align: center;
+    margin-top: 34px;
+}
+.new-banner-form hgroup h2 {
+    font-size: 20px;
+    color: #4E4E4E;
+    font-weight: normal;
+}
+.new-banner-form hgroup h3 {
+    margin-top: 13px;
+    font-size: 12px;
+    color: #999999;
+    font-weight: normal;
+}
+.new-banner-form .form-show {
+    width: 207px;
+    height: 128px;
+    margin: 17px auto;
+    color: #999999;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.new-banner-form .form-show textarea {
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    line-height: 24px;
+}
+.sub_area .sub_btn {
+    font-size: 16px;
+    background: #ff5252;
+    width: 206px;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    margin-bottom: 25px;
+}
+.sub_area {
+    margin-top: 13px;
+    text-align: center;
+}
+.sub_area p {
+    position: relative;
+    text-align: center;
+    font-family: "Songti";
+    font-size: 12px;
+}
+.sub_area p span {
+    font-size: 12px;
+    color: #ff6600;
+}
+.news-content {
+    padding-bottom: 120px;
+}
+.title {
+    color: #141414;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.title ul li {
+    float: left;
+    margin-right: 8px;
+}
+.title a {
+    color: #141414;
+}
+.news-main .main {
+    padding: 30px 0;
+    width: 1200px;
+    box-sizing: border-box;
+    height: auto;
+    border: 1px solid #F0F0EF;
+}
+.news-main .main img {
+    max-width: 1200px;
+    display: block;
+}
+.news-main .main p {
+    display: block;
+    padding: 10px 40px;
+}
+.article-page {
+    position: absolute;
+    right: -1px;
+    bottom: -45px;
+    width: 942px;
+}
+.page-next-div {
+    /*margin-left: 8px;*/
+}
+.article-page .article-page-div {
+    float: left;
+    width: 465px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    line-height: 35px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    cursor: pointer;
+}
+.article-page .article-page-div.page-next-div {
+    float: right;
+}
+.article-page .page-next {
+    width: 5px;
+    height: 13px;
+    background: url("../img/article-page.png") -13px -25px no-repeat;
+    float: right;
+    margin-top: 11px;
+    margin-right: 16px;
+}
+.article-page .article-page-div .span1 {
+    float: right;
+    margin-right: 22px;
+}
+.article-page .page-previous-div .news-title {
+    width: 370px;
+    float: left;
+    text-align: center;
+}
+.article-page .page-next-div .news-title {
+    width: 370px;
+    float: right;
+    text-align: center;
+}
+.article-page .page-previous {
+    width: 5px;
+    height: 13px;
+    background: url("../img/article-page.png") -1px 0px no-repeat;
+    float: left;
+    margin-top: 11px;
+    margin-left: 16px;
+}
+.article-page .article-page-div .span2 {
+    float: left;
+    margin-left: 22px;
+}
+.article-page .article-page-div:hover {
+    color: #ff5252;
+    border: 1px solid #ff5252;
+}
+.article-page .article-page-div:hover .page-next {
+    background: url("../img/article-page.png") -0px -25px no-repeat;
+}
+.article-page .article-page-div:hover .page-previous {
+    background: url("../img/article-page.png") -14px 0px no-repeat;
+}
+.latest-recommendation-title{
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    border-bottom: 1px dashed #5A5A5A;
+    width: 245px;
+    font-family: "Microsoft Yahei";
+}
+.latest-recommendation-ul li{
+    margin-top: 15px;
+}
+.latest-recommendation-img{
+    float: left;
+    width: 100px;
+    height: 66px;
+}
+.latest-recommendation-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.latest-recommendation-p{
+    float: right;
+    width: 133px;
+    color: #000000;
+    font-size: 13px;
+    line-height: 22px;
+    font-family: MicrosoftYahei;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -o-line-clamp: 2;
+    -moz-line-clamp: 2;
+    -ms-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    word-break: break-all;
+    display: -webkit-box;
+    height: 45px;
+    overflow: hidden;
+}
+.shop-class{
+    width: 245px;
+    border: 1px solid #F0F0F0;
+    margin-top: 20px;
+    padding-bottom: 27px;
+}
+.shop-class .shop-class-title{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    padding-left: 18px;
+}
+.shop-class .shop-class-ul{
+
+}
+.shop-class .shop-class-ul .shop-class-firstli{
+    border-top: 1px dashed #F0F0F0;
+    padding-left: 18px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    padding-bottom:10px;
+
+}
+.shop-class .shop-class-p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    display: block;
+    color: #000000;
+}
+.shop-class .shop-class-ul li ul li{
+    float: left;
+    font-family: Songti;
+    font-size: 12px;
+    padding-left: 0;
+    margin-right: 12px;
+}
+.shop-class .shop-class-ul li ul li a{
+    color: #000000;
+}
+.list-area-right{
+    margin-top: 20px;
+}
+
+
+#dingzhituijian {
+    margin: 30px auto;
+    width: 1200px;
+    margin-top: 52px;
+    margin-bottom: 0;
+}
+#dingzhituijian .title {
+    background: #f6f6f6;
+    width: 942px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+#dingzhituijian h1 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 2px;
+    padding-left: 13px;
+}
+.dingzhi-product {
+    width: 964px;
+    margin-top: -30px;
+}
+.dingzhi-product .good-box {
+    width: 225px;
+    height: 327px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 11px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.good-box img {
+    width: 198px;
+    height: 198px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.good-box div {
+    padding: 0 10px;
+    height: 36px;
+    margin-left: 2px;
+    border-top: 1px solid #cccccc;
+}
+.good-box p {
+    float: left;
+    line-height: 36px;
+    font-family: "Microsoft Yahei";
+    max-width: 140px;
+}
+.good-box .tuijian-goods-name {
+    width: 12em;
+}
+.good-box a {
+    display: block;
+    height: 289px;
+    position: relative;
+}
+.dingzhi-product .good-box:last-child {
+    margin-right: 0;
+}
+.good-box .price-final {
+    float: right;
+}
+.price-final span {
+    font-size: 16px;
+}
+.dingzhi-product .final-product {
+    margin-right: 0;
+}
+.footer{
+    margin-top: 120px;
+}
+.relevant-articles{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.relevant-articles h1{
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333333;
+}
+.relevant-articles ul {
+    width: 964px;
+}
+.relevant-articles ul li{
+    float: left;
+    margin-right: 14px;
+    width: 203px;
+    height: 200px;
+    border: 1px solid #F0F0F0;
+    padding: 13px 10px;
+}
+.relevant-articles ul li .img-a{
+    display: block;
+}
+.relevant-articles ul li img{
+    width: 203px;
+    height: 134px;
+    display: block;
+}
+.relevant-articles .relevant-articles-text{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    height: 44px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.relevant-articles .relevant-articles-text:hover{
+    color: #ff5252;
+}
+.fl-w942{
+    float: left;
+    width: 942px;
+}

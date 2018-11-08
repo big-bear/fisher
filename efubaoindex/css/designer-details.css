@@ -1,0 +1,186 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-01-18 14:16:18
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-21 17:22:44
+*/
+@charset "UTF-8";
+
+h1, h2, h3, i, em, strong, p, span {
+    font-size: 14px;
+}
+.head-nav .list-head{
+    display: none;
+}
+.head-nav .head-nav-list{
+    margin-left: 0;
+}
+.body-bgc{
+    background-color:#F7F7F7;
+    padding-top: 13px;
+    padding-bottom: 80px;
+}
+
+.news-main {
+    width: 1200px;
+    margin: 0 auto;
+}
+.news-main .main-left {
+    float: left;
+    width: 853px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: auto;
+    border: 1px solid #F0F0F0;
+    background-color: #fff;
+}
+.news-main .main-left .news-top {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 23px;
+}
+.news-main .main-left .news-top h1 {
+    letter-spacing: 1px;
+    font-size: 36px;
+    color: #231815;
+    font-weight: 100;
+}
+.news-main .main-left .news-top h2 {
+    margin-top: 11px;
+    color: #231815;
+    font-weight: 100;
+}
+.news-main .main-left .news-top h2 span {
+    font-size: 12px;
+    font-family: "Songti";
+}
+.news-main .main-left .news-top h2 .h2-right {
+    margin-left: 20px;
+}
+.news-main .news-content img {
+    display: block !important;
+    max-width: 733px !important;
+    min-width: 400px !important;
+    height: auto !important;
+    margin: 6px auto 15px auto !important;
+    padding-top: 7px !important;
+}
+.news-main .news-content p{
+    font-family: "Microsoft Yahei";
+    text-indent: 2em !important;
+    margin-bottom: 26px !important;
+    line-height: 26px !important;
+    font-size: 14px !important;
+    color: #101010 !important;
+    margin-bottom: 14px !important;
+}
+.news-content {
+    padding-bottom: 70px;
+}
+.title {
+    color: #141414;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.title ul li {
+    float: left;
+    margin-right: 8px;
+}
+.title a {
+    color: #141414;
+}
+
+
+.news-main .main {
+    padding: 30px 0;
+    width:1200px;
+    box-sizing: border-box;
+    height: auto;
+    border: 1px solid #F0F0EF;
+}
+.news-main .main img {
+    max-width: 1200px;
+    display: block;
+}
+.news-main .main p {
+    display: block;
+    padding: 10px 40px;
+}
+.news-main .warning{
+    font-size: 12px;
+    color: #999999;
+    height: 30px;
+}
+/*è®¾è®¡å¸ˆä¿¡æ¯*/
+.news-main .main-right {
+    float: right;
+    width: 272px;
+    min-height: 500px;
+    background-color: #fff;
+    border: 1px solid #F0F0F0;
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+.news-main .main-right .designer-top {
+    margin-top: 30px;
+}
+.designer-top .designer-face {
+    float: left;
+    width: 122px;
+    height: 122px;
+    box-shadow: 0px 0px 9.5px 0.5px rgba(6, 0, 1, 0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.designer-top .designer-face img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.designer-top .designer-top-right {
+    float: left;
+    margin-left: 18px;
+    width: 20px;
+}
+.designer-top .designer-name {
+    font-size: 22px;
+    color: #231815;
+    font-weight: 900;
+    margin-top: 26px;
+    width: 7em;
+}
+.designer-top .designer-profession{
+    height: 22px;
+    line-height: 22px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 15px;
+    width: 100px;
+    text-align: center;
+}
+.designer-details {
+    margin-top: 29px;
+}
+.designer-details span{
+    color: #221815;
+    font-family:"Songti";
+    font-size: 12px;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 17px;
+}
+.designer-details .classify-title{
+    margin-right: 0px;
+}
+.designer-details .style-title{
+    margin-right: 0px;
+}

@@ -1,0 +1,57 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-02-16 11:43:53
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-21 17:22:49
+*/
+@charset "UTF-8";
+.empty-cart{
+    height: 320px;
+    margin-top: 50px;
+    margin-bottom: 185px;
+}
+.empty-cart .empty-cart-main{
+    margin:0 auto;
+}
+.empty-cart .empty-img{
+    width: 178px;
+    height: 157px;
+    margin:0 auto;
+    position: relative;
+    left: 10px;
+}
+.empty-cart .empty-img img{
+
+    width: 178px;
+    height: 157px;
+}
+.empty-cart p{
+    text-align: center;
+    margin-top: 26px;
+    font-size: 18px;
+    color: #595959;
+    font-family: "微软雅黑";
+}
+.empty-cart .lookindex{
+    margin:30px auto;
+    width: 125px;
+}
+.empty-cart .lookindex a{
+    margin:0 auto;
+    display: inline-block;
+    width: 125px;
+    height: 36px;
+    color:#666666;
+    line-height: 36px;
+    text-align: center;
+    background-color: #FF5252;
+    color:#FFF3F3;
+}
+.empty-cart .lookindex a:hover{
+    background-color: #FF4747;;
+}
+.redtext{
+    color: #FF5252;
+    font-size: 18px;
+    font-family: 'microsoft yahei';
+}

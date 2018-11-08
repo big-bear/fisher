@@ -1,0 +1,283 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-03-01 10:42:34
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-03-02 11:07:50
+*/
+@charset "UTF-8";
+*{
+  font-family: "microsoft yahei";
+}
+.main{
+  margin: 0 auto;
+  width: 1198px;
+  border: 1px solid #F0F0F0;
+  height: 598px;
+  margin-top: 20px;
+  margin-bottom: 78px;
+  overflow: hidden;
+}
+.main h1{
+  font-size: 36px;
+  font-weight: 100;
+  width: 1198px;
+  height: 87px;
+  text-align: center;
+  padding-top: 60px;
+  color: #231815;
+}
+.choose{
+  width: 844px;
+  height: 228px;
+  margin: 0 auto;
+}
+.choose .choose-p{
+  height: 62px;
+  line-height: 62px;
+  font-size: 16px;
+  color: #5A5250;
+}
+.choose>ul>li{
+  height: 145px;
+  float: left;
+  margin-left: 30px;
+}
+.choose>ul>.choose-firstli{
+  margin-left: 0px;
+}
+.choose>ul>li .a1{
+  width: 115px;
+  height: 115px;
+
+  display: block;
+}
+.choose>ul>li .a1 .a1bg{
+  width: 115px;
+  height: 115px;
+  background: url("./../img/appliaction_worker.png") no-repeat;
+}
+.choose>ul>li .a1 p{
+  width: 115px;
+  height: 30px;
+  line-height: 30px;
+  color: #5A5250;
+  text-align: center;
+}
+.choose>ul>li .a1 .list1{
+  background-position: 0px 0px;
+  background-color: #D6EDFF;
+}
+.choose>ul>li:hover .a1 .list1{
+  background-color: #ACDBFF;
+}
+.choose>ul>li .a1 .list2{
+  background-position: 0px -135px;
+  background-color: #FFE0E1;
+}
+.choose>ul>li:hover .a1 .list2{
+  background-color:#FFCBCD;
+}
+.choose>ul>li .a1 .list3{
+  background-position: 0px -270px;
+  background-color: #FFF5CB;
+}
+.choose>ul>li:hover .a1 .list3{
+  background-color:#FFDFB2;
+}
+.choose>ul>li .a1 .list4{
+  background-position: 0px -405px;
+  background-color: #F4DEBF;
+}
+.choose>ul>li:hover .a1 .list4{
+  background-color:#FFE1B6;
+}
+.choose>ul>li .a1 .list5{
+  background-position: 0px -540px;
+  background-color: #CFEBC9;
+}
+.choose>ul>li:hover .a1 .list5{
+  background-color: #C5F8BB;
+}
+.choose>ul>li .a1 .list6{
+  background-position: 0px -698px;
+  background-color: #C9DAEB;
+}
+.choose>ul>li:hover .a1 .list6{
+  background-color: #62BCFF;
+}
+/*已经选择后的样式*/
+.have-choose{
+  margin: 0 20px;
+  margin-top: 300px;
+}
+.have-choose-head{
+  height: 113px;
+}
+.have-choose-img{
+  position: relative;
+}
+
+.have-choose-img img{
+  width: 72px;
+  height: 72px;
+  position: relative;
+  z-index: 1;
+}
+.have-choose-img .img-hover{
+  display: none;
+  top: 0px;
+  left:0px;
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  background-color: #FF6868;
+  z-index: 9;
+  opacity: 0.8;
+  line-height: 72px;
+  text-align: center;
+  font-size:13px;
+  color: #fff;
+  font-family: "宋体";
+}
+.have-choose-img a:hover .img-hover{
+  display: block;
+}
+.have-choose-head>p{
+  height: 40px;
+  font-size: 16px;
+  color: #231815;
+}
+.have-choose-head>div>a{
+  float: left;
+}
+.have-choose-head>div>a>img{
+  display: block;
+}
+.have-choose-head>div>span{
+  float: left;
+  height: 72px;
+  line-height: 72px;
+  font-size: 16px;
+  color:#231815;
+  margin-left: 15px;
+}
+.classify{
+  margin-top: 8px;
+}
+.classify>ul>li{
+  float: left;
+  margin-right: 7px;
+  margin-top: 12px;
+  width: 139px;
+  height: 34px;
+  border: 1px solid #CCCCCC;
+}
+.classify>ul>li a{
+  display: block;
+  width: 139px;
+  height: 34px;
+
+  text-align: center;
+  line-height: 34px;
+  color: #666666;
+  font-size: 14px;
+}
+.classify ul .active{
+  border: 1px solid #FF5252;
+  background: url(../img/sex-active-pc.png) right bottom no-repeat;
+}
+.ipt{
+
+}
+/*form*/
+.form {
+  padding-top: 50px;
+}
+.form span{
+  font-size: 14px;
+  color: #666666;
+}
+.form input {
+  width: 300px;
+  height: 35px;
+  line-height: 30px;
+  padding: 0px 10px;
+  border: 1px solid #cccccc;
+  float: left;
+}
+.form div {
+  margin-bottom: 18px;
+}
+.form .message-code.active {
+  display: block;
+}
+.form em {
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 37px;
+  position: relative;
+}
+.form .error {
+  left: 0px;
+}
+.form .icon {
+  margin-right: 5px;
+}
+.code-img {
+  float: left;
+  margin-left: 8px;
+  width: 129px;
+  height: 35px;
+  border: 1px solid #cccccc;
+  /*background: url(../img/check_code.jpg) center center no-repeat;*/
+}
+.another-btn {
+  display: block;
+  float: left;
+  margin-left: 8px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #333333;
+}
+.get-message {
+  display: block;
+  float: left;
+  width: 129px;
+  height: 35px;
+  color: #ff4747;
+  border: 1px solid #ff4747;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 8px;
+}
+.next-btn {
+  display: block;
+  width: 148px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  background: #FF5252;
+  color: #fff;
+  margin-left: 78px;
+  cursor: pointer;
+}
+.next-btn:hover{
+  background-color:#FF4747;
+}
+.letter-middle{
+  text-align: justify;
+  width: 77px;
+  text-align-last: justify;
+}
+.valid-code input{
+  width: 160px;
+}
+.message-code input{
+  width: 160px;
+}
+/*form-end*/
+.agreements a{
+  color: #666666;
+}

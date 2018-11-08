@@ -1,0 +1,76 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-02-16 11:43:53
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-21 17:22:49
+*/
+@charset "UTF-8";
+
+#header{
+    height: 120px;
+}
+.title-word {
+    font-size: 17px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #333333;
+}
+.line {
+    float: left;
+    height: 68px;
+    width: 1px;
+    background: #000;
+    margin-top: -26px;
+    margin-left: 8px;
+}
+.header-content-bottom-box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.1);
+}
+section{
+    margin-top: 50px;
+}
+.empty-cart{
+    height: 320px;
+}
+.empty-cart .empty-cart-main{
+    margin:0 auto;
+}
+.empty-cart .empty-img{
+    width: 178px;
+    height: 157px;
+    margin:0 auto;
+}
+.empty-cart .empty-img img{
+    width: 100%;
+}
+.empty-cart p{
+    text-align: center;
+    margin-top: 26px;
+    font-size: 18px;
+    color: #595959;
+    font-family: "微软雅黑";
+}
+.empty-cart .lookindex{
+    margin:30px auto;
+    width: 272px;
+}
+.empty-cart .lookindex a{
+    margin:0 auto;
+    display: inline-block;
+    width: 123px;
+    height: 36px;
+    color:#666666;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+}
+.empty-cart .lookindex a:hover{
+    background-color: #FF5252;
+    color: #fff;
+}
+.empty-cart .lookindex .active{
+    background-color: #FF5252;
+    color: #fff;
+}

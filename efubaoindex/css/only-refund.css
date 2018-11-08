@@ -1,0 +1,447 @@
+#header{
+    overflow: hidden;
+}
+.head-nav .list-head{
+    display: none;
+}
+.head-nav .head-nav-list{
+    margin-left: 0;
+}
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.right-content {
+    float: left;
+    width: 956px;
+    border: 1px solid #F0F0F0;
+    padding: 0 20px;
+    margin-bottom: 120px;
+    padding-bottom: 20px;
+}
+.right-content h1{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.right-content .table-top{
+    background-color: #F0F0F0;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #f0f0f0;
+}
+.right-content .table-top .order-num{
+    float: left;
+    margin-left: 10px;
+}
+.right-content .table-top .business{
+    float: right;
+    margin-right: 10px;
+}
+.right-content .goods-detail table{
+    width: 956px;
+    border: 1px solid #F0F0F0;
+}
+.right-content .goods-detail table tr{
+    border: 1px solid #F0F0F0;
+}
+.right-content .goods-detail table td{
+    border: 1px solid #F0F0F0;
+    vertical-align: top;
+}
+.goods-detail table .td-div{
+    margin: 10px;
+}
+.right-content .goods-detail table .td1{
+    width: 370px;
+}
+.goods-detail table .td1 .shopimg
+.right-content .goods-detail table .td2{
+    width: 183px;
+}
+.right-content .goods-detail table .td3{
+    width: 206px;
+}
+.right-content .goods-detail table .td4{
+    width: 195px;
+}
+.goods-detail table .td1 .shopimg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f0f0f0;
+    float: left;
+}
+.goods-detail table .td1 .shop-describe{
+    line-height: 24px;
+    float: left;
+    margin-left: 10px;
+}
+.progress-axis li dt{
+    width: 120px;
+}
+.right-content .apply h2{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 100;
+    border-bottom: 1px solid #f0f0f0;
+}
+.apply .mt20{
+    margin-top: 20px;
+}
+.apply i{
+    color: #ff5252;
+    padding: 0 5px;
+}
+.apply .left-span{
+    float: left;
+    text-align: right;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+}
+.apply .ft{
+    float: left;
+    line-height: 34px;
+}
+.ml30{
+    margin-left: 30px;
+}
+.apply .goods-receipt label{
+    font-family: "å®‹ä½“";
+}
+.apply .goods-receipt label:before{
+    padding-left: 13px;
+}
+.apply .reason .common-select-p{
+    width: 340px;
+    background-position:320px center;
+}
+.apply .reason ul li{
+    width: 340px;
+}
+.apply input{
+    height: 30px;
+    float: left;
+}
+.apply .w130{
+    width: 130px;
+}
+.apply .yuan{
+    margin-left: 8px;
+}
+.apply .maxyuan{
+    margin-left: 10px;
+    color: #A0A0A0;
+}
+.apply .explain-textarea{
+    width: 700px;
+    height: 90px;
+    line-height: 24px;
+    border-color: #cccccc;
+    padding: 10px;
+}
+#ctlBtn{
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+}
+.upload-tips{
+    height: 35px;
+    line-height: 35px;
+    margin-left: 100px;
+    color: #A0A0A0;
+}
+
+.upload-file .upload-ul li {
+    width: 623px;
+    height: 70px;
+    font-size: 12px;
+    border: 1px solid #F0F0F0;
+    line-height: 70px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.upload-file .upload-ul li .upload-img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    display: block;
+}
+.upload-file .upload-ul li .upload-img img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.upload-file .upload-ul li .upload-file-name {
+    position: absolute;
+    left: 80px;
+    max-width: 150px;
+    top: 0;
+}
+.upload-file .upload-ul li .upload-status {
+    position: absolute;
+    right: 93px;
+    top: 0;
+}
+.upload-file .upload-ul li .upload-delete {
+    position: absolute;
+    top: 0;
+    right: 27px;
+    background: url("../img/delete.png") left center no-repeat;
+    padding-left: 17px;
+    cursor: pointer;
+}
+.upload-file .upload-ul li .upload-delete:hover {
+    background: url("../img/deleteHover.png") left center no-repeat;
+    color: #FF4747;
+}
+.upload-file .upload-ul li .upload-progress {
+    top: 33px;
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    background-color: #E5E9F0;
+    left: 282px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    z-index: 1;
+}
+.upload-file .upload-ul li .upload-progress .upload-progressbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    height: 5px;
+    width: 0%;
+    background-color: #7BBC52;
+}
+.webuploader-pick {
+    padding: 0 40px;
+    line-height: 32px;
+}
+#ctlBtn{
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #FF7D7D;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.upload-file .upload-tips{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    color: #A3A3A3;
+    width: auto;
+    margin-left: 20px;
+}
+.upload-file .letter-middle{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    width: 77px;
+    text-align: right;
+    font-size: 14px;
+}
+.upload-file .error-p{
+    color: #ff5252;
+}
+.upload-div{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.tijiao{
+    margin-left: 100px;
+}
+.tijiao a{
+    height: 36px;
+    width: 136px;
+    line-height: 36px;
+    font-size: 13px;
+    margin-right: 4px;
+}
+.server-details{
+    margin-top: 50px;
+}
+.server-details h2{
+    background: url("../img/serves-detail.png") 3px center no-repeat;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.server-details ul li{
+    margin-top: 12px;
+}
+.server-details ul li p{
+    line-height: 25px;
+}
+.server-details ul li .p1{
+    margin-left: 24px;
+    font-size: 13px;
+    color: #666666;
+    font-family: "Microsoft Yahei";
+}
+.server-details ul li .p2{
+    margin-left: 40px;
+}
+
+
+.processing-state{
+    margin-top: 55px;
+    margin-bottom: -50px;
+}
+.processing-top{
+    height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.processing-state .processing-top h2{
+    background: url("../img/progressing-state.png") 8px center no-repeat;
+    padding-left: 40px;
+    float: left;
+    font-weight: 100;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+}
+.processing-state .processing-top h3{
+    background: url("../img/processing-timer.png") 8px center no-repeat;
+    padding-left: 40px;
+    float: right;
+    font-weight: 100;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff5252;
+    margin-right: 23px;
+}
+.processing-detail-left{
+    float: left;
+    width: 750px;
+    border-right: 1px solid #f0f0f0;
+    margin-top: 10px;
+}
+.processing-detail-left .p1{
+    font-size: 12px;
+    font-family: "Songti";
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.processing-detail-left .p2{
+    font-size: 12px;
+    font-family: "Songti";
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.processing-detail-left .processing-detail-btn{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.processing-detail-left .processing-detail-btn .btn{
+    width: 136px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    margin-right: 8px;
+    font-size: 13px;
+    font-family: "Microsoft Yahei";
+}
+.processing-detail-left .processing-detail-btn span {
+    float: left;
+    margin-left: 7px;
+    height: 36px;
+    line-height: 36px;
+}
+.processing-detail-left .processing-detail-btn .intervention{
+    color: #ff5252;
+    text-decoration: underline;
+    height: 36px;
+    line-height: 36px;
+    font-family: "Songti";
+}
+.processing-detail-right{
+    padding-top: 30px;
+    /* padding-left:30px; */
+    float: left;
+    width: 205px;
+}
+.processing-detail-right .shengluehao{
+    height: 24px;
+    line-height: 24px;
+    width: 172px;
+    padding-left: 30px;
+}
+.processing-detail-right .explain{
+    width: 172px;
+    line-height: 24px;
+    padding-left: 30px;
+}
+.processing-detail-right .explain .span1{
+    float: left;
+    width: 36px;
+}
+.processing-detail-right .explain .span2{
+    float: left;
+    width: 136px;
+}
+.processing-state.success{
+    margin-bottom: 0;
+}
+.processing-state.success .processing-top h2{
+    background-image: url("../img/refund-success.png");
+    color: #35B06E;
+}
+.processing-state.success .processing-top h3{
+    background-image: none;
+    font-size: 12px;
+    color: #333333;
+}
+
+.processing-state.success .processing-detail-right{
+    width: 896px;
+}
+.processing-state.success .processing-detail-right .shengluehao{
+    width: auto;
+}
+.processing-state.success .processing-detail-right .explain{
+    width: 896px;
+}
+.processing-state.success .processing-detail-right .explain .span2{
+    width: 700px;
+}
+.processing-state.success .error h2{
+    background-image: url("../img/refund-error.png");
+}
+
+.delivery .explain-textarea{
+    width: 560px;
+}
+.delivery .processing-detail-left .processing-detail-btn{
+    margin-left: 100px;
+}
+.delivery .reason ul li{
+    width: 210px;
+}
+.delivery .reason .common-select-p{
+    width: 210px;
+    background-position:190px center;
+}
+.delivery .processing-detail-left .processing-detail-btn{
+    margin-bottom: 50px;
+}
+.delivery .logistics-ipt{
+    width: 200px;
+}

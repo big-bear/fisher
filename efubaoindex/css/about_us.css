@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document About us 2017-07-10*/
+
+#about_banner {
+    width: 100%;
+    height: 400px;
+    background: #eeeeee url(../img/about_us_02.jpg) no-repeat center top;
+}
+#about_banner h1, #about_s2 h2, #about_s2 p {
+    line-height: 999;
+    overflow: hidden;
+    height: 0;
+}
+#about_s2 {
+    width: 100%;
+    height: 302px;
+    background: url(../img/about_us_05_05.gif) no-repeat center top;
+}
+#about_inform_1 {
+    width: 100%;
+    height: 494px;
+    background: #f8f8f8 url(../img/about_us_05.jpg) no-repeat center top;
+}
+#about_inform_2 {
+    width: 100%;
+    height: 541px;
+    background: #f8f8f8 url(../img/about_us_05_07.jpg) no-repeat center top;
+}
+#about_logos {
+    width: 100%;
+    height: 310px;
+    background: url(../img/about_us_05_08.jpg) no-repeat center top;
+}
+#about_service {
+    width: 100%;
+    height: 616px;
+    background: #f8f8f8 url(../img/about_us_05_09.gif) no-repeat center top;
+}
+#about_cases1 {
+    width: 100%;
+    height: 856px;
+    background: url(../img/about_us__10.jpg) no-repeat center top;
+}
+#about_cases2 {
+    padding-bottom: 60px;
+    width: 100%;
+    height: 730px;
+    background: url(../img/about_us_10.jpg) no-repeat center top;
+}

@@ -1,0 +1,44 @@
+
+.page{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page .pageup{
+    margin-right: 10px;
+}
+.page .pageup:hover{
+    color: #ff5252;
+}
+.page .pagedown{
+    margin-left: 10px;
+}
+.page .pagedown:hover{
+    color: #ff5252;
+}
+.page a{
+    color: #000;
+}
+.page .page-num{
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page .page-num:hover{
+    color: #ff5252;
+}
+.page .current{
+    background: #323232;
+    color: #fff;
+}
+.page .current:hover{
+    color: #fff;
+    background-color: #ff5252;
+}
+.page .disabled{
+    color: #CCCCCC;
+    border: none;
+}

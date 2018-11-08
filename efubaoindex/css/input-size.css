@@ -1,0 +1,209 @@
+/*录入尺码弹框*/
+#read-rules-pop{
+    display: none;
+}
+#read-rules-pop.active{
+    display: block;
+}
+#read-rules-pop .read-rules-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFFFFF;
+    opacity: 0.8;
+    z-index: 98;
+}
+#read-rules-pop .read-rules-box{
+    background-color: #fff;
+    width: 670px;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -250px;
+    z-index: 999;
+    -webkit-box-shadow: 0px 5px 8.4px 1.6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 5px 8.4px 1.6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 5px 8.4px 1.6px rgba(0, 0, 0, 0.16);
+}
+#read-rules-pop .read-rules-box .pop-title{
+    background-color: #333333;
+    height: 42px;
+}
+#read-rules-pop .read-rules-box .pop-title h2{
+    float: left;
+    line-height: 42px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+}
+#read-rules-pop .read-rules-box .pop-title .close-pop{
+    float: right;
+    width: 42px;
+    height: 42px;
+    background: url("../img/layer_close.png") center center no-repeat;
+    cursor: pointer;
+}
+#read-rules-pop .read-rules-box .pop-title .close-pop:hover{
+    background-color: #222222;
+}
+#read-rules-pop .read-rules-box .shop-list-box{
+    border-bottom: 1px solid #F0F0F0;
+    position: relative;
+    z-index: 1;
+    height: 42px;
+    margin-top: 18px;
+}
+#read-rules-pop .read-rules-box .shop-list{
+    background-color: #fff;
+    left: 9px;
+    margin-left: 13px;
+    position: absolute;
+    bottom: -3px;
+    z-index: 9;
+    height: 42px;
+}
+#read-rules-pop .read-rules-box .shop-list>li{
+    float: left;
+    width: 126px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 2px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 33px;
+    font-family: "Songti";
+    cursor: pointer;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 2px solid #fff;
+}
+#read-rules-pop .read-rules-box .shop-list>li.complete{
+    background: url("../img/size_completed.png") 10px center no-repeat;
+}
+#read-rules-pop .read-rules-box .shop-list>li.incomplete{
+    background: url("../img/size_waiting.png") 10px center no-repeat;
+}
+#read-rules-pop .read-rules-box .shop-list>li.default{
+    background: url("../img/size_default.png") 10px center no-repeat;
+}
+#read-rules-pop .read-rules-box .shop-list>li.danger{
+    background: url("../img/icon_red_error.png") 10px center no-repeat;
+}
+#read-rules-pop .read-rules-box .shop-list>li span{
+    float: left;
+    width: 6em;
+    font-size: 12px;
+    font-family: 'Songti';
+}
+#read-rules-pop .read-rules-box .shop-list>li.active{
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+    border-top: 2px solid #E74848;
+    border-bottom: none;
+}
+#read-rules-pop .rule-detail{
+    padding: 4px 22px;
+    display: none;
+}
+#read-rules-pop .rule-detail.active{
+    display: block;
+}
+#read-rules-pop .rule-detail .rule-detail-top{
+    font-size: 13px;
+    line-height: 42px;
+}
+#read-rules-pop .rule-detail .rule-detail-top p{
+    float: left;
+}
+#read-rules-pop .rule-detail .rule-detail-top p span{
+    font-size: 13px;
+}
+#read-rules-pop .rule-detail .rule-detail-top .clear-rule{
+    float: right;
+    padding-left: 20px;
+    background: url("../img/clear-icon.png") left center no-repeat;
+}
+#read-rules-pop .rule-detail .rule-detail-top .clear-rule:hover{
+    text-decoration: underline;
+    color: #ff5252;
+    cursor: pointer;
+}
+#read-rules-pop .rule-detail .rule-table-top{
+    background-color: #F0F0F0;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+}
+#read-rules-pop .rule-detail .rule-table-top .rule-text{
+    width: 130px;
+    float: left;
+    text-align: center;
+}
+#read-rules-pop .rule-detail .rule-table-top .num-text{
+    float: left;
+    width: 150px;
+    text-align: center;
+    margin-left: 67px;
+}
+#read-rules-pop .rule-detail .rule-table{
+    height: 247px;
+    overflow-y: auto;
+}
+#read-rules-pop .rule-detail .rule-table>li{
+    line-height: 32px;
+    height: 32px;
+    border-bottom: 1px solid #F0F0F0;
+    padding: 8px 0;
+}
+#read-rules-pop .rule-detail .rule-table>li .rule-size{
+    width: 130px;
+    float: left;
+    text-align: center;
+}
+#read-rules-pop .rule-detail .rule-table>li input{
+    float: left;
+    width: 140px;
+    text-align: center;
+    margin-left: 67px;
+    height: 30px;
+}
+#read-rules-pop .rule-detail .rule-table>li .error-p{
+    float: left;
+    color: #ff5252;
+    font-size: 12px;
+    margin-left: 20px;
+}
+#read-rules-pop .rules-pop-bottom{
+    padding: 20px;
+}
+#read-rules-pop .rules-pop-bottom .look-rule-table{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    font-family: 'Songti';
+    color: #333333;
+    background: url("../img/lookSize.png") 7px center no-repeat;
+    padding-left: 32px;
+}
+#read-rules-pop .rules-pop-bottom .btn{
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    width: 126px;
+    margin-left: 9px;
+}
+#read-rules-pop .rules-pop-bottom .btn-danger.active{
+    border-color: #cccccc;
+    background-color: #cccccc;
+}
+#read-rules-pop .red-color{
+    color: #ff5252;
+}

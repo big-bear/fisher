@@ -1,0 +1,36 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-01-24 14:33:51
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-21 17:20:42
+*/
+@charset "UTF-8";
+
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.friendlink{
+    margin-top: 120px;
+    background-color: #F8F8F8;
+    padding-bottom: 27px;
+}
+.friendlink-head{
+    height: 45px;
+    line-height: 55px;
+    color: #646464;
+    font-size: 14px;
+}
+.friendlink-foot a{
+    display: inline-block;
+    color: #666666;
+    line-height: 22px;
+    margin-right: 19px;
+}
+.friendlink-foot a:hover{
+	text-decoration:underline;
+	color: #ff5252;
+}
+#footer{
+	margin-top: 0;
+}

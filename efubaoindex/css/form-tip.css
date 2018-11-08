@@ -1,0 +1,79 @@
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    display:none;
+}
+.mask.active{
+	display:block;
+}
+/*表单提示信息*/
+#form-tip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+#form-tip {
+    width: 412px;
+    height: 180px;
+    background: #fff;
+}
+#form-tip .title {
+    background: #333333;
+    height: 40px;
+}
+#form-tip h3 {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 40px;
+    height: 40px;
+    background: url(../img/heitiao.png) center center repeat-x;
+}
+#form-tip .btn-area {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 120px;
+}
+#form-tip p {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+#form-tip .sure-btn {
+    float: left;
+    display: block;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #ff4747;
+}
+#form-tip .sure-btn {
+    color: #fff;
+    background: #ff4747;
+}
+.close {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/Close.png) center center no-repeat;
+}
+.close:hover {
+    background: url(../img/CloseHover.png) center center no-repeat;
+}
+/*表单提示结束*/

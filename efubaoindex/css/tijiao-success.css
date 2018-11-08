@@ -1,0 +1,32 @@
+#main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border:1px solid #F0F0F0;
+    height: 540px;
+}
+.pop-img{
+    margin-top: 68px;
+    text-align: center;
+}
+.pop-text{
+    margin-top: 16px;
+    text-align: center;
+}
+.pop-text .p1{
+    line-height: 45px;
+    font-size: 31px;
+}
+.pop-text .p2{
+    line-height: 34px;
+    font-size: 14px;
+}
+.look-need-detail{
+    width: 160px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 26px;
+}

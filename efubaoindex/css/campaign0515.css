@@ -1,0 +1,163 @@
+.campaign-banner{
+    width: 100%;
+    height: 985px;
+    background: url("../img/campaign/0515/0515banner.jpg") center top no-repeat;
+}
+.campaign-banner .center-div{
+    position: relative;
+    height: 985px;
+}
+.campaign-banner a{
+    position: absolute;
+    display: block;
+    width: 304px;
+    height: 207px;
+    bottom: 54px;
+}
+.campaign-banner .a1{
+     left: 14px;
+ }
+.campaign-banner .a2{
+    left: 343px;
+}
+.campaign-banner .a3{
+    left: 671px;
+}
+.junior{
+    background-color: #F6FFDF;
+    height: 738px;
+    padding-top: 60px;
+}
+.high-school{
+    background-color: #E9FFB7;
+    height: 738px;
+    padding-top: 60px;
+}
+.high-school-top{
+    height: 286px;
+    background: url("../img/campaign/0515/floor2.jpg") center center no-repeat;
+}
+.big-school{
+    background-color: #F6FFDF;
+    height: 843px;
+    padding-top: 60px;
+}
+.big-school-top{
+    height: 288px;
+    background: url("../img/campaign/0515/floor3.jpg") center center no-repeat;
+}
+.center-div{
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+}
+.junior-top{
+    height: 286px;
+    background: url("../img/campaign/0515/floor1.jpg") center center no-repeat;
+}
+.shop-ul{
+    margin-top: 18px;
+    position: relative;
+}
+.shop-ul li{
+    width: 300px;
+    margin-left: 45px;
+    float: left;
+}
+.shop-ul .first-li{
+    margin-left: 0;
+}
+.shop-ul li a{
+    display: block;
+}
+.shop-ul li a img{
+    width: 300px;
+    height: 280px;
+}
+.shop-ul li .shop-text{
+    height: 100px;
+    background-color: #37BC3D;
+    padding: 0 10px;
+}
+.shop-ul li .shop-text .a1{
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+}
+.shop-ul li .shop-text .shop-price-text{
+    float: left;
+    font-size: 18px;
+    color: #174919;
+    font-weight: 600;
+    vertical-align: bottom;
+    margin-top: 15px;
+}
+.shop-ul li .shop-text .shop-price{
+    margin-top: 10px;
+}
+.shop-ul li .shop-text .shop-price-num{
+    float: right;
+    color: #FEF746;
+}
+.shop-ul li .shop-text .shop-price-num .span1{
+    font-size: 34px;
+}
+.shop-ul li .shop-text .shop-price-num .span2{
+    font-size: 25px;
+}
+.shop-ul li .shop-text .shop-price-num .span3{
+    font-size: 18px;
+}
+.black-div{
+    height: 10px;
+    background-color: #083B0A;
+}
+#goto-top{
+    height: 240px;
+    background-color: #1BB546;
+    text-align: center;
+    line-height: 220px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.leaves1{
+    width: 136px;
+    height: 113px;
+    position: absolute;
+    background: url("../img/campaign/0515/leaves1.png") center center no-repeat;
+    left: 314px;
+    bottom: -52px;
+}
+.leaves2{
+    width: 102px;
+    height: 87px;
+    position: absolute;
+    background: url("../img/campaign/0515/leaves2.png") center center no-repeat;
+    left: 270px;
+    bottom: 168px;
+}
+.leaves3{
+    width: 92px;
+    height: 71px;
+    position: absolute;
+    background: url("../img/campaign/0515/leaves3.png") center center no-repeat;
+    left: 820px;
+    bottom: -80px;
+}
+.leaves4{
+    width: 118px;
+    height: 111px;
+    position: absolute;
+    background: url("../img/campaign/0515/leaves4.png") center center no-repeat;
+    left: 294px;
+    bottom: -80px;
+}
+.leaves5{
+    width: 127px;
+    height: 121px;
+    position: absolute;
+    background: url("../img/campaign/0515/leaves5.png") center center no-repeat;
+    left: 830px;
+    bottom: -122px;
+}

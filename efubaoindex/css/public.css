@@ -1,0 +1,111 @@
+/*å¤´éƒ¨CSSå¼€å§‹*/
+.head {
+    width: 1200px;
+    height: 73px;
+    padding-top: 16px;
+    margin: 0 auto;
+}
+
+.head .logo_box {
+    width: 110px;
+    height: 51px;
+    border-right: 1px solid #f0f0f0;
+    float: left;
+}
+
+.head .logo_box a {
+    display: block;
+}
+
+.head .logo_box img {
+    vertical-align: top;
+    border: 0;
+}
+
+.head p {
+    width: 100px;
+    height: 51px;
+    float: left;
+}
+
+.head p img {
+    vertical-align: top;
+    border: 0;
+}
+/*å¤´éƒ¨CSSå¼€å§‹*/
+
+/*å°¾éƒ¨CSSå¼€å§‹*/
+.foot {
+    width: 1200px;
+    padding-top: 92px;
+    height: 129px;
+    margin: 0 auto;
+}
+
+.foot div {
+    float: left;
+}
+
+.foot dl {
+    float: left;
+}
+
+.foot .contact {
+    width: 259px;
+    height: 76px;
+}
+
+.foot .contact dt{
+    width: 49px;
+    height: 100%;
+    background: url("../img/mobile_footer.jpg") no-repeat 3px 2px;
+    float: left;
+}
+
+.foot .contact dd {
+    width: 210px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    float: left;
+}
+
+.foot .address_box {
+    width: 563px;
+    padding-left: 35px;
+}
+
+.foot .address_box p {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.tow_code_box {
+    width: 342px;
+}
+
+.tow_code_box dt {
+    width: 227px;
+    height: 129px;
+    background: url("../img/index/77-01.jpg") no-repeat right top ;
+    float: left;
+    -webkit-background-size: 86px;
+    -moz-background-size: 86px;
+    -ms-background-size: 86px;
+    -o-background-size: 86px;
+    background-size: 86px;
+
+}
+
+.tow_code_box dd {
+    padding-top: 18px;
+    float: left;
+}
+
+.tow_code_box dd p {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+/*å°¾éƒ¨CSSç»“æŸ*/

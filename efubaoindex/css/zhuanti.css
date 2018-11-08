@@ -1,0 +1,204 @@
+.banner{
+    background: url("../img/zhuanti/zhuanti-banner.jpg") center center no-repeat;
+    width: 100%;
+    height: 1005px;
+    overflow: hidden;
+}
+.banner .go-work{
+    margin: 0 auto;
+    margin-top: 304px;
+    width: 334px;
+}
+.banner .go-work a{
+    width: 150px;
+    height: 36px;
+    border: 1px solid #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Microsoft Yahei';
+}
+.banner .go-work a:hover{
+    color: #DD2F24;
+    background-color: #fff;
+}
+.banner .go-work .fla{
+    float: left;
+}
+.banner .go-work .fra{
+    float: right;
+}
+.banner .describe{
+    margin-top: 420px;
+}
+.banner .describe p{
+    line-height: 45px;
+    color: #6E6E6E;
+    font-size: 23px;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+}
+.floor1{
+    background: url("../img/zhuanti/floor1.jpg") center center no-repeat;
+    width: 100%;
+    height: 550px;
+}
+.floor2{
+    background: url("../img/zhuanti/floor2.jpg") center center no-repeat;
+    width: 100%;
+    height: 618px;
+}
+.floor4{
+    background: url("../img/zhuanti/floor4.jpg") center center no-repeat;
+    width: 100%;
+    height: 792px;
+}
+.tijiao-div{
+    height: 550px;
+    width: 918px;
+    margin: 0 auto;
+    padding-left: 72px;
+    overflow: hidden;
+}
+.tijiao-div .tijiao-top{
+    font-size: 27px;
+    font-family: "Microsoft Yahei";
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.tijiao-div .dingzhi-type-box{
+    margin-top: 30px;
+}
+.tijiao-div .dingzhi-p{
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    width: 154px;
+    line-height: 32px;
+}
+.tijiao-div .dingzhi-type{
+    float: left;
+    width: 640px;
+}
+.tijiao-div .dingzhi-type li{
+    float: left;
+    width: 148px;
+    height: 30px;
+    border: 1px solid #FAB4AB;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Microsoft Yahei';
+    margin-right: 6px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.tijiao-div .dingzhi-type li.active{
+    color: #fff;
+    background-color: #F3432D;
+}
+.floor-bottom{
+    height: 267px;
+    background: url("../img/zhuanti/floor-bottom.jpg") center center no-repeat;
+    width: 100%;
+}
+.sms-code-div{
+    margin-top: 30px;
+}
+.sms-code-div i{
+    display: none;
+}
+.sms-code-div .letter-middle{
+    float: left;
+}
+.sms-code-div .letter-middle span{
+    font-family: "Microsoft Yahei";
+    font-style: italic;
+    font-weight: bold;
+}
+.sms-code-div input{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.sms-code-div .valid-code{
+    display: none;
+}
+.sms-code-div .code-img{
+    float: left;
+    width: 100px;
+}
+.sms-code-div .code-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 2px;
+}
+.sms-code-div #getSMSAuthCode{
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    float: left;
+    margin-left: 2px;
+    background-color: #F3432D;
+    color: #fff;
+    width: 100px;
+    border: 1px solid #F3432D;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.sms-code-div #smsAuthCode{
+    float: left;
+}
+.sms-code-div #validCode{
+    float: left;
+}
+.sms-code-div em{
+    position: relative;
+    float: left;
+}
+form label.error{
+    top: -40px;
+    left: 0px;
+}
+#go-success{
+    height: 50px;
+    width: 215px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #F3432D;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.floor3{
+    background: url("../img/zhuanti/floor3.jpg") center center no-repeat;
+    width: 100%;
+    height: 964px;
+}
+.tips{
+    text-align: center;
+    font-size: 15px;
+    color: #ff5252;
+    margin-top: 10px;
+    display: none;
+}
+.tips.show{
+    display: block;
+}

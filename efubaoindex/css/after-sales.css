@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.left-nav{
+    margin-bottom: 120px;
+}
+#header{
+    overflow: hidden;
+}
+.head-nav .list-head{
+    display: none;
+}
+.head-nav .head-nav-list{
+    margin-left: 0;
+}
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.right-content {
+    float: left;
+    width: 956px;
+    border: 1px solid #F0F0F0;
+    padding: 0 20px;
+    height: 470px;
+}
+.right-content h1{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.right-content .table-top{
+    background-color: #F0F0F0;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #f0f0f0;
+}
+.right-content .table-top .order-num{
+    float: left;
+    margin-left: 10px;
+}
+.right-content .table-top .business{
+    float: right;
+    margin-right: 10px;
+}
+.right-content .goods-detail table{
+    width: 956px;
+    border: 1px solid #F0F0F0;
+}
+.right-content .goods-detail table tr{
+    border: 1px solid #F0F0F0;
+}
+.right-content .goods-detail table td{
+    border: 1px solid #F0F0F0;
+    vertical-align: top;
+}
+.goods-detail table .td-div{
+    margin: 10px;
+}
+.right-content .goods-detail table .td1{
+    width: 370px;
+}
+.goods-detail table .td1 .shopimg
+.right-content .goods-detail table .td2{
+    width: 183px;
+}
+.right-content .goods-detail table .td3{
+    width: 206px;
+}
+.right-content .goods-detail table .td4{
+    width: 195px;
+}
+.goods-detail table .td1 .shopimg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f0f0f0;
+    float: left;
+}
+.goods-detail table .td1 .shop-describe{
+    line-height: 24px;
+    float: left;
+    margin-left: 10px;
+
+}
+.server-type{
+    height: 107px;
+    margin-top: 25px;
+    width: 922px;
+    border: 1px solid #FF5252;
+    padding:0 16px;
+    position: relative;
+}
+.server-type .server-type-describe{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.server-type ul li{
+    width: 134px;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 8px;
+    font-size: 12px;
+    float: left;
+}
+.server-type ul li a{
+    display: block;
+    width: 134px;
+    height: 34px;
+    line-height: 34px;
+}
+.server-type .badge{
+    position: absolute;
+    right: 40px;
+    top: -20px;
+}

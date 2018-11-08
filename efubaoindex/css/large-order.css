@@ -1,0 +1,427 @@
+.quotes-list-main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid #F0F0F0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 30px;
+    padding-bottom: 40px;
+    padding-top: 34px;
+}
+.quotes-list-main span{
+    font-family: Songti;
+}
+.quotes-list-top{
+    background: url("../img/quetes-list-icon.png") left center no-repeat;
+    padding-left: 67px;
+    height: 52px;
+    line-height: 52px;
+    color: #333333;
+    font-size: 24px;
+}
+.quotes-list-top span{
+    color: #ff5252;
+    font-size: 24px;
+}
+table{
+    width: 1136px;
+}
+table td{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.quotes-table-top{
+    border: 1px solid #fff;
+    margin-top: 15px;
+}
+.first-tr{
+    height: 28px;
+    background-color: #F0F0F0;
+    border: 1px solid #fff;
+}
+.quotes-table-top tr td{
+    border: 1px solid #fff;
+    font-family: Songti;
+    padding: 0 12px;
+}
+.main-first-td{
+    height: 32px;
+    padding-right: 20px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+.check-label{
+    float: left;
+    margin-top: 7px;
+}
+.main-first-td p{
+    height: 32px;
+    line-height: 32px;
+    float: left;
+}
+.main-first-td p span{
+    font-size: 13px;
+    font-family:"microsoft yahei";
+}
+table .first-td-left{
+    float: left;
+}
+table .first-td-right{
+    float: right;
+}
+table .first-td-right span{
+    line-height: 32px;
+}
+table tr td{
+    font-family: Songti;
+}
+.ipt-check{
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.td-right-div{
+    margin: 12px;
+    float: left;
+}
+.main-label{
+    margin-top: 3px;
+}
+.td-right-div .td-right-div-name{
+    height: 25px;
+    line-height: 25px;
+    font-family: "microsoft yahei";
+}
+.td-right-div-p2{
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    font-family: Songti;
+}
+.td-price{
+    font-size: 22px;
+    font-family: "Arial regular", "Arial";
+}
+.td-padding-r1{
+    padding-right: 47px;
+}
+.td-padding-r2{
+    padding-right: 34px;
+}
+.td-explain p{
+    line-height: 20px;
+    font-family: Songti;
+}
+.td-pad-top{
+    padding-top: 30px;
+}
+.table-bottom-p{
+    line-height: 40px;
+    font-family: Songti;
+}
+.floor-table{
+    margin-top: 15px;
+}
+.td-showimg{
+    width: 106px;
+    height: 26px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 26px;
+    font-family: "Songti";
+    cursor: pointer;
+}
+.td-showimg:hover{
+    border: 1px solid #ff5252;
+    color: #ff5252;
+}
+.foot-fixed{
+    position: fixed;
+    height: 53px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    bottom: 0px;
+    background-color: #fff;
+}
+.center-div{
+    margin: 0 auto;
+    width: 1200px;
+}
+.service-provider{
+    float: right;
+    width: 193px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff5252;
+    color: #fff;
+    font-size: 18px;
+    margin-top: -1px;
+}
+.service-provider:hover{
+    background-color: #ff4747;
+}
+.service-price{
+    float: right;
+    margin-right: 36px;
+}
+.service-price span{
+    color: #FF5252;
+    font-size: 22px;
+    font-family: "Arial regular", "Arial";
+    line-height: 53px;
+}
+.service-number{
+    float: right;
+    margin-right: 27px;
+}
+.service-number span{
+    font-size: 13px;
+    line-height: 53px;
+}
+/*点击查看显示图片功能样式*/
+.image-show{
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 98;
+    text-align: center;
+    display: none;
+}
+.image-show ul{
+    width: 100%;
+    height: 100%;
+}
+.image-show ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.image-show ul .img-show{
+    display: block;
+}
+.image-show ul li img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    max-height: 94%;
+    max-width: 94%;
+}
+.image-show .image-prev{
+    background: url("../img/pin_view_arrows.png") 0 0 no-repeat;
+    width: 60px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -75px;
+    cursor: pointer;
+}
+.image-show .image-prev:hover{
+    background: url("../img/pin_view_arrows.png") 0px -170px no-repeat;
+}
+.image-show .image-prev:active{
+    background: url("../img/pin_view_arrows.png") 0px -340px no-repeat;
+}
+.image-show .image-next{
+    background: url("../img/pin_view_arrows.png") -80px 0px no-repeat;
+    width: 60px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -75px;
+    cursor: pointer;
+}
+.image-show .image-next:hover{
+    background: url("../img/pin_view_arrows.png") -80px -170px no-repeat;
+}
+.image-show .image-next:active{
+    background: url("../img/pin_view_arrows.png") -80px -340px no-repeat;
+}
+.image-show .image-delete{
+    width: 32px;
+    height: 29px;
+    position: absolute;
+    background: url("../img/btn_close_layer.png") -58px 0 no-repeat;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.image-show .image-delete:hover{
+    background: url("../img/btn_close_layer.png") -58px -49px no-repeat;
+}
+.image-show .image-delete:active{
+    background: url("../img/btn_close_layer.png") -58px -98px no-repeat;
+}
+/*图片查看功能样式结束*/
+.produce-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFFFFF;
+    opacity: 0.8;
+    z-index: 98;
+    display: none;
+}
+.price-foot{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 51px;
+    width: 1200px;
+    background-color: #fff;
+    border: 1px solid #F0F0F0;
+    margin-bottom: 120px;
+}
+.quotes-popup{
+    position: fixed;
+    width: 560px;
+    min-height: 440px;
+    left: 50%;
+    top: 50%;
+    margin-left: -280px;
+    margin-top: -250px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    display: none;
+    z-index: 99;
+}
+.quotes-popup .quotes-popup-title{
+    height: 42px;
+    line-height: 42px;
+    background-color: #333333;
+    color: #fff;
+}
+.quotes-popup .quotes-popup-title-left{
+    font-size: 14px;
+    float: left;
+    margin-left: 12px;
+}
+.quotes-popup .quotes-popup-title-right{
+    background: url("../img/Close2.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-right: 14px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.quotes-popup .quotes-popup-title-right:hover{
+    background: url("../img/CloseHover.png") no-repeat;
+}
+.quotes-popup .quotes-popup-main{
+    padding: 5px 16px;
+    padding-bottom: 10px;
+}
+.quotes-popup .quotes-popup-top{
+    line-height: 46px;
+    font-size: 14px;
+}
+.quotes-popup .quotes-popup-content{
+    border: 1px solid #F0F0F0;
+}
+.quotes-popup .quotes-content-top{
+    height: 38px;
+    line-height: 38px;
+    background-color: #F0F0F0;
+    padding-left: 13px;
+}
+.quotes-popup .quotes-content-p1{
+    float: left;
+    font-size: 14px;
+}
+.quotes-popup .quotes-content-p2{
+    float: left;
+    font-size: 12px;
+    font-family: Songti;
+    margin-left: 25px;
+}
+.quotes-popup .quotes-content-ul{
+    padding: 10px 13px;
+}
+.quotes-popup .quotes-content-ul li{
+    line-height: 30px;
+    font-size: 14px;
+}
+.quotes-popup-btn{
+    height: 33px;
+    padding: 0 16px;
+    padding-bottom: 20px;
+}
+.quotes-popup .quotes-popup-ok{
+    width: 132px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #ff5252;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    margin-right: 8px;
+}
+.quotes-popup .quotes-popup-ok:hover{
+    background-color: #ff4747;
+}
+.quotes-popup .quotes-popup-nook{
+    width: 132px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 14px;
+    float: right;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+}
+.quotes-popup .quotes-popup-nook:hover{
+    border: 1px solid #ff5252;
+    color: #ff5252;
+}
+.td-ipt1{
+    height: 32px;
+    line-height: 32px;
+    width: 140px;
+}
+.td-ipt2{
+    height: 32px;
+    line-height: 32px;
+    width: 80px;
+}
+.td-textarea{
+    margin: 12px;
+}
+.td-textarea textarea{
+    width: 100%;
+    height: 60px;
+    line-height: 20px;
+}
+.floor-table .date-ipt{
+    height: 32px;
+    margin-top: 20px;
+    width: 200px;
+    padding-left: 30px;
+}
+em{
+    position: relative;
+}
+.check{
+    float: left;
+    margin-top: 15px;
+    margin-left: 12px;
+}

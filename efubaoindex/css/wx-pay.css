@@ -1,0 +1,89 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    color: #333333;
+}
+.wx-pay-top{
+    height: 88px;
+    line-height: 88px;
+}
+.wx-pay-top .left{
+    float: left;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: #333333;
+}
+.wx-pay-top .right{
+    float: right;
+    margin-right: 20px;
+}
+.wx-pay-top .right .span1{
+    font-size: 12px;
+    font-family: "Songti";
+    color: #333333;
+}
+.wx-pay-top .right .span2{
+    font-family: "Arial regular", "Arial";
+    color: #ff5252;
+    font-size: 18px;
+}
+.wx-pay-main{
+    width: 1200px;
+    height: 564px;
+    box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.12);
+}
+.wx-pay-main .content .main-left{
+    width: 137px;
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+    line-height: 22px;
+    float: left;
+}
+.wx-pay-main .content .main-middle{
+    float: left;
+    padding-top: 30px;
+    width: 370px;
+}
+.wx-pay-main .content .main-middle .erweima-tips{
+    line-height: 22px;
+    font-family: "Songti";
+    font-size: 12px;
+    color: #333333;
+}
+.red-color{
+    color: #ff5252;
+}
+.wx-pay-main .content .main-middle .erweima-div{
+    width: 298px;
+    height: 298px;
+    border: 1px solid #F0F0F0;
+    margin-top: 18px;
+}
+.wx-pay-main .content .main-middle .erweima-div img{
+    display: block;
+    width: 298px;
+    height: 298px;
+}
+.wx-pay-main .content .main-middle .pay-btn{
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+}
+.wx-pay-main .content .mian-right{
+    float: left;
+    padding-top: 60px;
+}
+.wx-pay-main .other-pay{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 70px;
+    width: 130px;
+    line-height: 70px;
+    color: #2EA7E7;
+    font-size: 14px;
+    font-weight: bold;
+    background: url("../img/pay-left-icon.png") 18px center no-repeat;
+    padding-left: 48px;
+}

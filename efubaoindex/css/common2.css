@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/*css 样式初始化开始*/
+body, p, ul,li,ol,dl, dd, h1,h2, h3, h4 ,h5,h6,th,td,textarea,img{
+    margin: 0;
+    padding: 0;
+    font-family:'STHeiti Light','STHeiti Light','microsoft yahei';
+    font-size: 12px;
+    color: #333333;
+}
+i{
+    font-style: normal;
+}
+span{
+    font-family: "Songti";
+}
+table {
+    border-collapse: collapse;
+}
+.footer span{
+    color: #B9B9B9;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+img{
+    display: block;
+}
+em{
+    font-style: normal;
+}
+button{
+    border: none;
+    outline:none
+}
+textarea{
+    resize: none;
+    outline: none;
+}
+select{
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    outline:none;
+    border-radius:1px;
+    height:28px;
+    border:1px solid #cccccc;
+    padding:0 10px;
+    text-align:center;
+}
+input{
+    margin:0;
+    padding:0;
+    border:1px solid #cccccc;
+    padding:0px 5px;
+    outline:none;
+}
+/*css 样式初始化结束*/
+/*css 工具类开始*/
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.number-family{
+    font-family: "Arial regular", "Arial";
+}
+input[type="checkbox"]{
+     display:none;
+ }
+label.checklabel{
+    display:inline-block;
+}
+label.checklabel::before{
+    display:inline-block;
+    content:'';
+    vertical-align: middle;
+    width:13px;
+    height:13px;
+    border:1px solid #333;
+    margin:0 5px;
+    background-color: #fff;
+    /* position: relative; */
+    /* top: -1px; */
+}
+input[type="checkbox"]:checked+label.checklabel::before{
+    background: #fff url(../img/duihao.png) no-repeat center center;
+}
+.radio:before {
+    border: none;
+    display: inline-block;
+    content: '';
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    background: url(../img/check-notradio.png) no-repeat center center;
+}
+input[type="checkbox"]:checked+.radio::before {
+    background: url(../img/check-radio.png) no-repeat center center;
+}
+.shengluehao{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+/*按钮的样式*/
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn:active, .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:focus, .btn-default.focus {
+    color: #ff5252;
+    background-color: #fff;
+    border-color: #ff5252;
+}
+.btn-default:hover {
+    color: #ff5252;
+    background-color: #fff;
+    border-color: #ff5252;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-primary {
+    color: #ff5252;
+    background-color: #fff;
+    border-color: #ff5252;
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #bb1f25;
+    border-color: #bb1f25;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+.btn-danger:focus, .btn-danger.focus {
+    color: #fff;
+    background-color: #e83531;
+    border-color: #e83531;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #e83531;
+    border-color: #e83531;
+}
+.btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.disabled{
+    border:1px dashed #cccccc;
+    color:#cccccc;
+    cursor:not-allowed;
+}
+.common-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFFFFF;
+    opacity: 0.8;
+    z-index: 98;
+    display: none;
+}
+.common-select {
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.common-select .common-select-p {
+    width: 155px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    background: url("../img/xiaosanjiao.png") 138px center no-repeat;
+}
+.common-select ul {
+    position: absolute;
+    left: 0;
+    top: 31px;
+    z-index: 999;
+    border: 1px solid #cccccc;
+    display: none;
+    background-color: #fff;
+}
+.common-select ul li {
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    width: 155px;
+}
+.common-select ul li:hover {
+    background-color: #f0f0f0;
+}
+.common-select select {
+    padding: 0 55px;
+}

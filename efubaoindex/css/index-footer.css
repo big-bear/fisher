@@ -1,0 +1,71 @@
+/*
+* @Author: lizeshuai
+* @Date:   2017-02-27 19:06:46
+* @Last Modified by:   lizeshuai
+* @Last Modified time: 2017-02-28 10:45:04
+*/
+@charset "UTF-8";
+.footer{
+	height: 126px;
+	background-color: #3A3A3A;
+	color:#B9B9B9; 
+}
+.footer-main{
+	width: 1200px;
+	margin:0 auto;
+	height: 101px;
+	padding-top: 25px;
+}
+.footer-main .footer-left{
+	float: left;
+}
+.footer-main .footer-left>ul>li{	
+	float: left;
+	margin-left: 10px;
+}
+.footer-main .footer-left>ul>li:nth-child(1){
+	margin-left: 0px;
+}
+.footer-main .footer-left>ul>li a{
+	color: #B9B9B9;
+}
+.footer-main .footer-second{
+	margin-top: 12px;
+}
+.footer-main .footer-second span:nth-child(1){
+	width: 214px;
+	display: inline-block;
+}
+.footer-main .footer-second span:nth-child(3){
+	margin-left: 50px;
+}
+.footer-main .footer-last{
+	margin-top: 12px;
+}
+.footer-main .footer-last span:nth-child(1){
+	width: 214px;
+	display: inline-block;
+}
+.footer-main .footer-right{
+	float: right;
+	width: 190px;
+}
+.footer-main .erweima{
+	float: left;
+	width: 77px;
+	height: 77px;
+}
+.footer-main .erweima-p{
+	float: left;
+	margin-top: 20px;
+	margin-left:7px; 
+}
+.footer-main .erweima-p2{
+	margin-top: 8px;
+}
+.fixed-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}

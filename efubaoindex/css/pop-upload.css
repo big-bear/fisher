@@ -1,0 +1,151 @@
+.upload-pop-box .upload-pop {
+    background-color: #fff;
+    width: 670px;
+    max-height: 550px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -250px;
+    z-index: 999;
+    -webkit-box-shadow: 0px 5px 8.4px 1.6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 5px 8.4px 1.6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 5px 8.4px 1.6px rgba(0, 0, 0, 0.16);
+    padding-bottom: 10px;
+}
+.upload-pop-box .upload-pop-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFFFFF;
+    opacity: 0.8;
+    z-index: 98;
+}
+.upload-file .upload-ul {
+    margin-left: 9px;
+    min-height: 150px;
+    max-height: 380px;
+    overflow-y: auto;
+}
+.upload-file .upload-ul li {
+    width: 623px;
+    height: 58px;
+    font-size: 12px;
+    border: 1px solid #F0F0F0;
+    line-height: 58px;
+    padding-left: 15px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.upload-file .upload-ul li .upload-time {
+    position: absolute;
+}
+.upload-file .upload-ul li .upload-file-name {
+    position: absolute;
+    left: 157px;
+    max-width: 150px;
+}
+.upload-file .upload-ul li .upload-status {
+    position: absolute;
+    right: 93px;
+}
+.upload-file .upload-ul li .upload-delete {
+    position: absolute;
+    right: 27px;
+    background: url("../img/delete.png") left center no-repeat;
+    padding-left: 17px;
+    cursor: pointer;
+}
+.upload-file .upload-ul li .upload-delete:hover {
+    background: url("../img/deleteHover.png") left center no-repeat;
+    color: #FF4747;
+}
+.upload-file .upload-ul li .upload-progress {
+    top: 26px;
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    background-color: #E5E9F0;
+    left: 320px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    z-index: 1;
+}
+.upload-file .upload-ul li .upload-progress .upload-progressbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    height: 5px;
+    width: 0%;
+    background-color: #7BBC52;
+}
+.webuploader-pick {
+    padding: 0 40px;
+    line-height: 32px;
+}
+#ctlBtn{
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #FF7D7D;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+}
+.upload-file .upload-tips{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    color: #A3A3A3;
+    width: auto;
+    margin-left: 20px;
+}
+.upload-file .letter-middle{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    width: 77px;
+    text-align: right;
+    font-size: 14px;
+}
+.upload-file .common-ipt{
+    margin-bottom: 18px;
+}
+.upload-pop-box .pop-title{
+    background-color: #333333;
+    height: 42px;
+}
+.upload-pop-box h2{
+    padding: 0;
+    margin: 0;
+    float: left;
+    line-height: 42px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+}
+.upload-pop-box .close-pop{
+    float: right;
+    width: 42px;
+    height: 42px;
+    background: url("../img/layer_close.png") center center no-repeat;
+    cursor: pointer;
+}
+.upload-pop-box #uploader {
+    margin-top: 15px;
+}
+.bottom-btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.bottom-btn .btn{
+    width: 120px;
+    line-height: 32px;
+}
