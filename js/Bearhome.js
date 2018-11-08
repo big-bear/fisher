@@ -20,7 +20,7 @@
         document.getElementById("aboutMe").style.height = win_h+"px";
         document.getElementById("Contacts").style.height = win_h+"px";
         
-        document.addEventListener("scroll", pageScroll);
+        window.addEventListener("scroll", pageScroll);
         
         document.getElementById("main").addEventListener("mousemove",function(e){
             if(bearstate == 6) {
@@ -312,7 +312,7 @@
     
     //Page Scroll
     function pageScroll() {
-        win_t = document.documentElement.scrollTop;
+        win_t = document.body.scrollTop+document.documentElement.scrollTop;
         //console.log(win_t);
         if(win_t == 0){
             stayHead();
