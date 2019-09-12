@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ResourceMonitor</title>
+    
+<link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--header Start-->
+    <section id="header">
+        <ul class="topmenu">
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Clusters</a></li>
+            <li><a href="#">Node</a></li>
+            <li><a href="#">Schedule Domain</a></li>
+            <li><a href="#">Framework</a></li>
+            <li><a href="#">Service</a></li>
+        </ul>
+        <div class="top-messages active">
+            <div class="message-number">9</div>
+        </div>
+    </section>
+    <!--header End-->
+    <!--Main Start-->
+    <section class="main-content clearfix">
+        <!--Mainstate Start-->
+        <ul class="main-state">
+            <li id="topTask">
+                <div class="icon"><span class="task-line-1"></span><span class="task-line-2"></span><span class="task-line-3"></span></div>
+                <div class="txt">Tasks：<a href="#">5034</a>running</div>
+            </li>
+            <li id="topCluster">
+                <div class="icon"></div>
+                <div class="txt">Clusters：<a href="#">3</a>/&ensp;3</div>
+            </li>
+            <li id="topNodes">
+                <div class="icon"><span class="circle-1"></span><span class="circle-2"></span><span class="circle-3"></span><span class="circle-4"></span></div>
+                <div class="txt">Nodes：<a href="#">206</a>/&ensp;207</div>
+            </li>
+            <li id="topSchedule">
+                <div class="icon"><span class="circle-1"></span><span class="circle-2"></span><span class="circle-3"></span><span class="circle-4"></span></div>
+                <div class="txt">Schedule Domains：<a href="#">27</a>online</div>
+            </li>
+        </ul>
+        <!--Mainstate End-->
+        <!--topTips Start-->
+        <div id="topTips">
+            <div class="state">
+                <div class="icon-health"><div class="circle"></div></div>
+                <p>100% healthy</p>
+            </div>
+            <div class="tip">
+                <p>All nodes running well!</p>
+                <a href="#">more details &gt;&gt;</a>
+            </div>
+            <div class="tip">
+                <p>No task is  in trouble!</p>
+                <a href="#">more details &gt;&gt;</a>
+            </div>
+        </div>
+        <!--topTips End-->
+        <!--Left content Start-->
+        <div id="indexLeft">
+            <table class="index-table">
+                <tbody>
+                    <tr>
+                        <th class="clu" scope="col">Clusters</th>
+                        <th class="type" scope="col">type</th>
+                        <th class="num" scope="col">number of nodes</th>
+                    </tr>
+                    <tr>
+                        <td class="clu">Apc</td>
+                        <td class="type">master</td>
+                        <td class="num">77</td>
+                    </tr>
+                    <tr>
+                        <td class="clu">Asc</td>
+                        <td class="type">slave</td>
+                        <td class="num">53</td>
+                    </tr>
+                    <tr>
+                        <td class="clu">Anc</td>
+                        <td class="type">slave</td>
+                        <td class="num">84</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="global-tasks">
+                <div class="index-title">
+                    <h2>Global tasks</h2>
+                    <p>Failed: 17855</p>
+                    <p>Killed: 5104</p>
+                    <p>Finished: 545</p>
+                </div>
+                <img src="imgs/index-chart.png" alt="">
+            </div>
+        </div>
+        <!--Left content End-->
+        <!--Right content Start-->
+        <div id="indexRight">
+            <h2>Global Resource Allocated</h2>
+            <ul>
+                <li><img class="pie" src="imgs/pie-1.png" alt=""><span class="data">CPU：204</span></li>
+                <li><img class="pie" src="imgs/pie-2.png" alt=""><span class="data">Memory：270GB</span></li>
+                <li><img class="pie" src="imgs/pie-3.png" alt=""><span class="data">GPU：20</span></li>
+            </ul>
+        </div>
+        <!--Right content End-->
+    </section>
+    <!--Main End-->
+    
+    
+</body>
+</html>
