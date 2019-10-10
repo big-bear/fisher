@@ -1,0 +1,718 @@
+/* Index Page 0507 By XingZhuangZhi LESS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: #fff;
+  font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+canvas {
+  display: block;
+}
+#topbar {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 98px;
+}
+#topbar .top-logo {
+  float: left;
+  margin: 27px 0 0 28px;
+}
+#topbar .top-logo img {
+  display: block;
+  width: 83px;
+  height: 44px;
+}
+#topbar #topmenu {
+  float: left;
+  margin-left: 40px;
+  margin-top: 38px;
+  line-height: 50px;
+  font-size: 18px;
+  list-style: none;
+}
+#topbar #topmenu li {
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#topbar #topmenu li a {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 28px;
+  border-radius: 3px;
+  transition: all 0.3s ease 0s;
+}
+#topbar #topmenu li a:hover {
+  background-color: #141618;
+}
+.blue-btn {
+  display: block;
+  width: 192px;
+  height: 54px;
+  background: none;
+  border: none;
+  background-color: #4086fa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 54px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+.blue-btn:hover {
+  background-color: #2476ff;
+}
+h2 {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 80px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 48px;
+}
+p {
+  font-weight: 300;
+}
+#s1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#s1 .left-content {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  width: 824px;
+  margin-right: -138px;
+  margin-top: -95px;
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}
+#s1 .left-content h1 {
+  line-height: 85px;
+  font-size: 56px;
+  color: #fff;
+  font-weight: 300;
+}
+#s1 .left-content p {
+  line-height: 56px;
+  font-size: 26px;
+  color: #fff;
+  font-weight: 300;
+}
+#s1 .left-content .blue-btn {
+  margin-top: 59px;
+}
+#s1.txtfade .left-content {
+  top: 40%;
+  opacity: 0;
+}
+#s1Bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#s2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  float: left;
+}
+#s2 .s2-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 880px;
+  margin-left: -440px;
+  margin-top: -150px;
+  text-align: center;
+}
+#s2 .s2-content .ahout-content {
+  padding-top: 40px;
+  font-size: 13px;
+  line-height: 26px;
+}
+#s2 .s2-content .blue-btn {
+  margin: 56px auto 0;
+}
+#s3 {
+  clear: both;
+  position: relative;
+  background-color: #171d22;
+  z-index: 5;
+}
+#s3 #pcBox {
+  position: absolute;
+  right: 0;
+  top: 0%;
+  display: block;
+  width: auto;
+  height: 100%;
+  z-index: 6;
+}
+#s3 #pcLighting {
+  position: absolute;
+  display: block;
+  right: 20%;
+  top: 20%;
+  animation: lightfade 1.4s ease-out infinite alternate;
+  z-index: 7;
+}
+@-webkit-keyframes lightfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes lightfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes lightfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#s3 .s3-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -677px;
+  margin-top: -123px;
+  width: 549px;
+  height: 303px;
+  z-index: 8;
+}
+#s3 .s3-content .blue-btn {
+  margin-top: 47px;
+}
+#s3 .s3-content .hel-logo {
+  width: 122px;
+  height: 31px;
+  background: url("../imgs/helicube-logo.png") no-repeat left top;
+}
+#s4 {
+  clear: both;
+  position: relative;
+  background-color: #1c2026;
+  z-index: 5;
+}
+#s4 #StackDark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: auto;
+  z-index: 6;
+}
+#s4 #StackLight {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: auto;
+  z-index: 7;
+  animation: stackfade 1.4s ease-in-out infinite alternate;
+}
+@-webkit-keyframes stackfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes stackfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes stackfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes stackfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#s4 .s4-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 549px;
+  height: 296px;
+  margin-left: 138px;
+  margin-top: -139px;
+  z-index: 8;
+}
+#s4 .s4-content p {
+  line-height: 30px;
+  font-size: 22px;
+  letter-spacing: 6px;
+}
+#s4 .s4-content .blue-btn {
+  margin-top: 47px;
+}
+#s5 {
+  clear: both;
+  position: relative;
+  background-color: #1b1d1f;
+  z-index: 5;
+  height: 783px;
+  width: 100%;
+  overflow: hidden;
+}
+#s5 #schoolImage {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -392px;
+  margin-left: -138px;
+  width: 1098px;
+  height: 783px;
+  z-index: 6;
+}
+#s5 #linuxEyes {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 503px;
+  margin-top: 146px;
+  z-index: 7;
+  animation: eyes 0.9s ease-in-out infinite alternate;
+}
+@-webkit-keyframes eyes {
+  0% {
+    -webkit-transform: scaleY(0);
+  }
+  16% {
+    -webkit-transform: scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+  }
+}
+@-moz-keyframes eyes {
+  0% {
+    -moz-transform: scaleY(0);
+  }
+  16% {
+    -moz-transform: scaleY(1);
+  }
+  100% {
+    -moz-transform: scaleY(1);
+  }
+}
+@-o-keyframes eyes {
+  0% {
+    -o-transform: scaleY(0);
+  }
+  16% {
+    -o-transform: scaleY(1);
+  }
+  100% {
+    -o-transform: scaleY(1);
+  }
+}
+@keyframes eyes {
+  0% {
+    transform: scaleY(0);
+  }
+  16% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+#s5 #linuxLeft {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 450px;
+  margin-top: 219px;
+  z-index: 7;
+  animation: leftfoot 0.7s ease-in-out infinite alternate;
+}
+@-webkit-keyframes leftfoot {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-16deg);
+  }
+}
+@-moz-keyframes leftfoot {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(-16deg);
+  }
+}
+@-o-keyframes leftfoot {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(-16deg);
+  }
+}
+@keyframes leftfoot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-16deg);
+  }
+}
+#s5 #linuxRight {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 528px;
+  margin-top: 226px;
+  z-index: 7;
+  animation: rightfoot 0.7s ease-in-out infinite alternate;
+}
+@-webkit-keyframes rightfoot {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(16deg);
+  }
+}
+@-moz-keyframes rightfoot {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(16deg);
+  }
+}
+@-o-keyframes rightfoot {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(16deg);
+  }
+}
+@keyframes rightfoot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(16deg);
+  }
+}
+#s5 .s5-content {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  margin-top: -134px;
+  margin-right: -60px;
+  width: 732px;
+  height: 384px;
+  z-index: 8;
+}
+#s5 .s5-content h2 {
+  margin-bottom: 20px;
+}
+#s5 .s5-content p {
+  font-size: 22px;
+  line-height: 44px;
+}
+#s5 .s5-content .blue-btn {
+  margin-top: 50px;
+}
+#s6 {
+  padding-top: 88px;
+  background-color: #fff;
+}
+#s6 h2 {
+  color: #333;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#s6 .tip {
+  line-height: 24px;
+  font-size: 14px;
+  color: #a0a0a0;
+  text-align: center;
+}
+#s6 .s6-content {
+  display: block;
+  margin: 54px auto 0;
+  width: 66.4%;
+}
+#s6 .work-list {
+  float: left;
+  width: 33.3%;
+  min-height: 240px;
+  margin-bottom: 120px;
+  border-right: 1px solid #a0a0a0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#s6 .work-list h4 {
+  padding-left: 23.8%;
+  padding-top: 20px;
+  padding-bottom: 23px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 500;
+  text-indent: 3px;
+}
+#s6 .work-list .work-name {
+  clear: both;
+  line-height: 70px;
+  color: #333;
+  padding-left: 23.8%;
+  padding-bottom: 10px;
+}
+#s6 .work-list .work-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+#s6 .work-list .icon-1 {
+  background: url("../imgs/biocloud-icons.png") no-repeat 0px center;
+}
+#s6 .work-list .icon-2 {
+  background: url("../imgs/biocloud-icons.png") no-repeat -210px center;
+}
+#s6 .work-list .icon-3 {
+  background: url("../imgs/biocloud-icons.png") no-repeat -70px center;
+}
+#s6 .work-list .icon-4 {
+  background: url("../imgs/biocloud-icons.png") no-repeat -280px center;
+}
+#s6 .work-list .icon-5 {
+  background: url("../imgs/biocloud-icons.png") no-repeat -140px center;
+}
+#s6 .work-list:nth-child(3) {
+  border: none;
+}
+#footer {
+  clear: both;
+  width: 100%;
+  padding: 18px 0;
+  border-top: 1px solid #f0f0f0;
+  text-align: center;
+}
+#footer p {
+  color: #333;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.clearfix {
+  overflow: auto;
+  _height: 1%;
+}
+@media screen and (max-width: 1400px) {
+  h2 {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 64px;
+  }
+  h3 {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 34px;
+  }
+  .blue-btn {
+    width: 148px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  #topbar .top-logo {
+    margin: 22px 0 0 21px;
+  }
+  #topbar .top-logo img {
+    display: block;
+    width: 70px;
+    height: 37px;
+  }
+  #topbar #topmenu {
+    margin-left: 20px;
+    margin-top: 36px;
+    line-height: 34px;
+    font-size: 14px;
+  }
+  #topbar #topmenu li {
+    float: left;
+    padding: 0 5px;
+  }
+  #topbar #topmenu li a {
+    padding: 0 24px;
+  }
+  #s1 .left-content {
+    margin-top: -60px;
+    margin-right: -98px;
+    width: 586px;
+    height: 211px;
+  }
+  #s1 .left-content h1 {
+    font-size: 38px;
+    line-height: 59px;
+  }
+  #s1 .left-content p {
+    line-height: 38px;
+    font-size: 17px;
+  }
+  #s1 .left-content .blue-btn {
+    margin-top: 40px;
+  }
+  #s2 .s2-content {
+    margin-top: -150px;
+  }
+  #s2 .s2-content .ahout-content {
+    padding-top: 28px;
+  }
+  #s2 .s2-content .blue-btn {
+    margin: 34px auto 0;
+  }
+  #s3 .s3-content {
+    margin-left: -478px;
+    margin-top: -88px;
+    width: 478px;
+    height: 240px;
+  }
+  #s3 .s3-content .blue-btn {
+    margin-top: 36px;
+  }
+  #s3 .s3-content .hel-logo {
+    width: 87px;
+    height: 22px;
+    background: url("../imgs/helicube-logo.png") no-repeat left top;
+    background-size: contain;
+  }
+  #s4 .s4-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 549px;
+    height: 200px;
+    margin-left: 138px;
+    margin-top: -100px;
+    z-index: 8;
+  }
+  #s4 .s4-content p {
+    line-height: 21px;
+    font-size: 17px;
+    letter-spacing: 6px;
+  }
+  #s4 .s4-content .blue-btn {
+    margin-top: 37px;
+  }
+  #s5 .s5-content {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: -118px;
+    margin-right: -36px;
+    width: 520px;
+    height: 274px;
+    z-index: 8;
+  }
+  #s5 .s5-content h2 {
+    margin-bottom: 13px;
+  }
+  #s5 .s5-content p {
+    font-size: 17px;
+    line-height: 34px;
+  }
+  #s5 .s5-content .blue-btn {
+    margin-top: 40px;
+  }
+  #s6 .s6-content {
+    margin: 54px auto 0;
+    width: 68%;
+  }
+  #s6 .work-list {
+    margin-bottom: 120px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #s6 .work-list h4 {
+    padding-left: 20%;
+  }
+  #s6 .work-list .work-name {
+    padding-left: 17.8%;
+  }
+  #s6 .work-list:nth-child(3) {
+    border: none;
+  }
+}

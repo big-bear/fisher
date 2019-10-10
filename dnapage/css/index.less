@@ -1,0 +1,676 @@
+/* Index Page 0507 By XingZhuangZhi LESS Document */
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+.box-sizing(@args){
+    -webkit-box-sizing:@args;
+    -moz-box-sizing:@args;
+    -ms-box-sizing:@args;
+    -o-box-sizing:@args;
+    box-sizing:@args;
+}
+.transform-origin(@args){
+    -webkit-transform-origin:@args;
+    -moz-transform-origin:@args;
+    -ms-transform-origin:@args;
+    -o-transform-origin:@args;
+    transform-origin:@args;
+}
+.transform(@args){
+    -webkit-transform:@args;
+    -moz-transform:@args;
+    -ms-transform:@args;
+    -o-transform:@args;
+    transform:@args;
+}
+.transition(@args){
+    -webkit-transition:@args;
+    -moz-transition:@args;
+    -ms-transition:@args;
+    -o-transition:@args;
+    transition:@args;
+}
+
+.keyframes(@name) { 
+    @-webkit-keyframes @name {
+        .-frames(-webkit-)
+    }
+    @-moz-keyframes @name {
+        .-frames(-moz-)
+    }
+    @-o-keyframes @name {
+        .-frames(-o-)
+    }
+    @keyframes @name {
+        .-frames()
+    }
+}
+.light-fade(){
+    .keyframes(lightfade);
+    .-frames(@-...){
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+.stack-fade(){
+    .keyframes(stackfade);
+    .-frames(@-...){
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+.eyes(){
+    .keyframes(eyes);
+    .-frames(@-...){
+        0%{
+            @{-}transform:scaleY(0);
+        }
+        16%{
+            @{-}transform:scaleY(1);
+        }
+        100%{
+            @{-}transform:scaleY(1);
+        }
+    }
+}
+.left-foot(){
+    .keyframes(leftfoot);
+    .-frames(@-...){
+        0%{
+            @{-}transform:rotate(0deg);
+        }
+        100%{
+            @{-}transform:rotate(-16deg);
+        }
+    }
+}
+.right-foot(){
+    .keyframes(rightfoot);
+    .-frames(@-...){
+        0%{
+            @{-}transform:rotate(0deg);
+        }
+        100%{
+            @{-}transform:rotate(16deg);
+        }
+    }
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,p {
+    color: #fff;
+    font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+canvas {
+    display: block;
+}
+#topbar {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 98px;
+    .top-logo {
+        float: left;
+        margin: 27px 0 0 28px;
+        img {
+            display: block;
+            width: 83px;
+            height: 44px;
+        }
+    }
+    #topmenu {
+        float: left;
+        margin-left: 40px;
+        margin-top: 38px;
+        line-height: 50px;
+        font-size: 18px;
+        list-style: none;
+        
+        li {
+            float: left;
+            padding: 0 10px;
+            box-sizing: border-box;
+            
+            a {
+                cursor: pointer;
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 0 28px;
+                border-radius: 3px;
+                transition: all 0.3s ease 0s;
+            }
+            a:hover {
+                background-color: #141618;
+            }
+        }
+        
+    }
+}
+.blue-btn {
+    display: block;
+    width: 192px;
+    height: 54px;
+    background: none;
+    border: none;
+    background-color: #4086fa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 54px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+.blue-btn:hover {
+    background-color: #2476ff;
+}
+h2 {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 80px;
+}
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 48px;
+}
+p {
+    font-weight: 300;
+}
+#s1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .left-content {
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        width: 824px;
+        margin-right: -138px;
+        margin-top: -95px;
+        z-index: 2;
+        opacity: 1;
+        transition: all 0.3s ease 0s;
+        h1 {
+            line-height: 85px;
+            font-size: 56px;
+            color: #fff;
+            font-weight: 300;
+        }
+        p {
+            line-height: 56px;
+            font-size: 26px;
+            color: #fff;
+            font-weight: 300;
+        }
+        .blue-btn {
+            margin-top: 59px;
+        }
+    }
+}
+#s1.txtfade {
+    .left-content {
+        top: 40%;
+        opacity: 0;
+    }
+}
+#s1Bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#s2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    float: left;
+    .s2-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 880px;
+        margin-left: -440px;
+        margin-top: -150px;
+        text-align: center;
+        .ahout-content {
+            padding-top: 40px;
+            font-size: 13px;
+            line-height: 26px;
+        }
+        .blue-btn {
+            margin: 56px auto 0;
+        }
+    }
+}
+
+#s3 {
+    clear: both;
+    position: relative;
+    background-color: #171d22;
+    z-index: 5;
+    #pcBox {
+        position: absolute;
+        right: 0;
+        top: 0%;
+        display: block;
+        width: auto;
+        height: 100%;
+        z-index: 6;
+    }
+    #pcLighting {
+        position: absolute;
+        display: block;
+        right: 20%;
+        top: 20%;
+        animation: lightfade 1.4s ease-out infinite alternate;
+		.light-fade();
+        z-index: 7;
+        //animation: lightingfade 1s ease-in-out infinite alternate;
+    }
+    .s3-content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -677px;
+        margin-top: -123px;
+        width: 549px;
+        height: 303px;
+        z-index: 8;
+        .blue-btn {
+            margin-top: 47px;
+        }
+        .hel-logo {
+            width: 122px;
+            height: 31px;
+            background: url("../imgs/helicube-logo.png") no-repeat left top;
+        }
+    }
+}
+
+#s4 {
+    clear: both;
+    position: relative;
+    background-color: #1c2026;
+    z-index: 5;
+    #StackDark {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        height: 100%;
+        width: auto;
+        z-index: 6;
+    }
+    #StackLight {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        height: 100%;
+        width: auto;
+        z-index: 7;
+        animation: stackfade 1.4s ease-in-out infinite alternate;
+		.stack-fade();
+    }
+    .s4-content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 549px;
+        height: 296px;
+        margin-left: 138px;
+        margin-top: -139px;
+        z-index: 8;
+        p {
+            line-height: 30px;
+            font-size: 22px;
+            letter-spacing: 6px;
+        }
+        .blue-btn {
+            margin-top: 47px;
+        }
+    }
+}
+
+#s5 {
+    clear: both;
+    position: relative;
+    background-color: #1b1d1f;
+    z-index: 5;
+    height: 783px;
+    width: 100%;
+    overflow: hidden;
+    #schoolImage {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -392px;
+        margin-left: -138px;
+        width: 1098px;
+        height: 783px;
+        z-index: 6;
+    }
+    #linuxEyes {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: 503px;
+        margin-top: 146px;
+        z-index: 7;
+        animation: eyes 0.9s ease-in-out infinite alternate;
+		.eyes();
+    }
+    #linuxLeft {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: 450px;
+        margin-top: 219px;
+        z-index: 7;
+        animation: leftfoot 0.7s ease-in-out infinite alternate;
+		.left-foot();
+    }
+    #linuxRight {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: 528px;
+        margin-top: 226px;
+        z-index: 7;
+        animation: rightfoot 0.7s ease-in-out infinite alternate;
+		.right-foot();
+    }
+    .s5-content {
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        margin-top: -134px;
+        margin-right: -60px;
+        width: 732px;
+        height: 384px;
+        z-index: 8;
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 22px;
+            line-height: 44px;
+        }
+        .blue-btn {
+            margin-top: 50px;
+        }
+    }
+}
+
+#s6 {
+    padding-top: 88px;
+    background-color: #fff;
+    h2 {
+        color: #333;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .tip {
+        line-height: 24px;
+        font-size: 14px;
+        color: #a0a0a0;
+        text-align: center;
+    }
+    .s6-content {
+        display: block;
+        margin: 54px auto 0;
+        width: 66.4%;
+    }
+    .work-list {
+        float: left;
+        width: 33.3%;
+        min-height: 240px;
+        margin-bottom: 120px;
+        border-right: 1px solid #a0a0a0;
+        .box-sizing(border-box);
+        h4 {
+            padding-left: 23.8%;
+            padding-top: 20px;
+            padding-bottom: 23px;
+            font-size: 18px;
+            line-height: 28px;
+            color: #333;
+            font-weight: 500;
+            text-indent: 3px;
+        }
+        .work-name {
+            clear: both;
+            line-height: 70px;
+            color: #333;
+            padding-left: 23.8%;
+            padding-bottom: 10px;
+        }
+        .work-icon {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+        }
+        .icon-1 {
+            background: url("../imgs/biocloud-icons.png") no-repeat 0px center;
+        }
+        .icon-2 {
+            background: url("../imgs/biocloud-icons.png") no-repeat -210px center;
+        }
+        .icon-3 {
+            background: url("../imgs/biocloud-icons.png") no-repeat -70px center;
+        }
+        .icon-4 {
+            background: url("../imgs/biocloud-icons.png") no-repeat -280px center;
+        }
+        .icon-5 {
+            background: url("../imgs/biocloud-icons.png") no-repeat -140px center;
+        }
+    }
+    .work-list:nth-child(3) {
+        border: none;
+    }
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    padding: 18px 0;
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+    p {
+        color: #333;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+}
+
+.clearfix{
+    overflow:auto;
+    _height:1%;
+}
+
+
+//响应式样式 <1400px
+
+@media screen and (max-width: 1400px) {
+    
+    
+    
+    h2 {
+        font-size: 44px;
+        font-weight: 300;
+        line-height: 64px;
+    }
+    h3 {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    .blue-btn {
+        width: 148px;
+        height: 42px;
+        line-height: 42px;
+        border-radius: 3px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    #topbar {
+        .top-logo {
+            margin: 22px 0 0 21px;
+            img {
+                display: block;
+                width: 70px;
+                height: 37px;
+            }
+        }
+        #topmenu {
+            margin-left: 20px;
+            margin-top: 36px;
+            line-height: 34px;
+            font-size: 14px;
+            li {
+                float: left;
+                padding: 0 5px;
+                a {
+                    padding: 0 24px;
+                }
+            }
+
+        }
+    }
+    #s1 {
+        .left-content {
+            margin-top: -60px;
+            margin-right: -98px;
+            width: 586px;
+            height: 211px;
+            h1 {
+                font-size: 38px;
+                line-height: 59px;
+            }
+            p {
+                line-height: 38px;
+                font-size: 17px;
+            }
+            .blue-btn {
+                margin-top: 40px;
+            }
+        }
+    }
+    #s2 {
+        .s2-content {
+            margin-top: -150px;
+            .ahout-content {
+                padding-top: 28px;
+            }
+            .blue-btn {
+                margin: 34px auto 0;
+            }
+        }
+    }
+    #s3 {
+        .s3-content {
+            margin-left: -478px;
+            margin-top: -88px;
+            width: 478px;
+            height: 240px;
+            .blue-btn {
+                margin-top: 36px;
+            }
+            .hel-logo {
+                width: 87px;
+                height: 22px;
+                background: url("../imgs/helicube-logo.png") no-repeat left top;
+                background-size: contain;
+            }
+        }
+    }
+    #s4 {
+        .s4-content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 549px;
+            height: 200px;
+            margin-left: 138px;
+            margin-top: -100px;
+            z-index: 8;
+            p {
+                line-height: 21px;
+                font-size: 17px;
+                letter-spacing: 6px;
+            }
+            .blue-btn {
+                margin-top: 37px;
+            }
+        }
+    }
+    #s5 {
+        .s5-content {
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            margin-top: -118px;
+            margin-right: -36px;
+            width: 520px;
+            height: 274px;
+            z-index: 8;
+            h2 {
+                margin-bottom: 13px;
+            }
+            p {
+                font-size: 17px;
+                line-height: 34px;
+            }
+            .blue-btn {
+                margin-top: 40px;
+            }
+        }
+    }
+    #s6 {
+        .s6-content {
+            margin: 54px auto 0;
+            width: 68%;
+        }
+        .work-list {
+            margin-bottom: 120px;
+            .box-sizing(border-box);
+            h4 {
+                padding-left: 20%;
+            }
+            .work-name {
+                padding-left: 17.8%;
+            }
+        }
+        .work-list:nth-child(3) {
+            border: none;
+        }
+    }
+    
+}
