@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>广州ERP登录样式</title>
+<script src="js/lottie.min.js"></script>
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	body {
+		background-color: #CCEAFD;
+		font-family: "Microsoft YaHei", "Pingfang SC", "Hiragino Sans GB", "Helvetica", "Droid Sans", "Arial", "sans-serif";
+	}
+	#loginBg {
+		position: absolute;
+		top: 50%;
+		right: 50%;
+		transform: translate(640px,-53%);
+		width: 1600px;
+		height: 1100px;
+	}
+	.loginpannel {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(350px,-350px);
+		width: 406px;
+		height: 630px;
+		padding: 58px 36px 0;
+		z-index: 3;
+		background-color: #fff;
+		border-radius: 6px;
+		box-sizing: border-box;
+		box-shadow: 0px 5px 7px rgba(0, 6, 34, 0.10);
+	}
+	.login-title {
+		position: relative;
+		margin-left: 74px;
+		padding-bottom: 40px;
+		font-weight: 600;
+		line-height: 42px;
+		font-size: 30px;
+		color: #0F224E;
+	}
+	.login-title:before {
+		content: "";
+		position: absolute;
+		left: -66px;
+		top: -24px;
+		width: 55px;
+		height: 62px;
+		background: url("imgs/Logo@2x.png") no-repeat left top;
+		background-size: contain;
+	}
+	.login-companyname {
+		margin-left: 74px;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: normal;
+		color: #151E2B;
+		letter-spacing: 2.4px;
+	}
+	.username, .pwd, .selectcompany {
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.username:before {
+		position: absolute;
+		left: 11px;
+		top: 10px;
+		content: "";
+		width: 24px;
+		height: 24px;
+		background: url("imgs/Icon-user@2x.png") no-repeat left top;
+		background-size: contain;
+	}
+	.pwd:before {
+		position: absolute;
+		left: 11px;
+		top: 10px;
+		content: "";
+		width: 24px;
+		height: 24px;
+		background: url("imgs/Icon-pwd@2x.png") no-repeat left top;
+		background-size: contain;
+	}
+	.username input, .pwd input, .company-list {
+		display: block;
+		width: 100%;
+		height: 44px;
+		padding: 0 40px;
+		border-radius: 3px;
+		border: 1px solid #E2E6EB;
+		box-sizing: border-box;
+	}
+	.username input:hover, .pwd input:hover, .company-list:hover {
+		outline:none;
+		border: 1px solid #2D84F0;
+	}
+	.username input:focus, .pwd input:focus, .company-list:focus {
+		outline:none;
+		border: 1px solid #2D84F0;
+	}
+	.username input:focus, .pwd input:focus {
+		box-shadow: inset 0px 1px 3px rgba(0, 36, 164, 0.2);
+	}
+	.selectcompany:after {
+		content: "";
+		position: absolute;
+		right: 10px;
+		top: 9px;
+		width: 24px;
+		height: 24px;
+		background: url("imgs/User-arrow@2x.png") no-repeat left top;
+		background-size: contain;
+		z-index: 1;
+	}
+	.company-list {
+		position: relative;
+		padding: 0 12px;
+		text-align: center;
+		z-index: 2;
+		background: none;
+		cursor: pointer;
+	}
+	.remember {
+		height: 16px;
+		line-height: 16px;
+		font-size: 14px;
+	}
+	.remember input {
+		position: relative;
+		top: 2px;
+		left: 0;
+		display: inline;
+		
+	}
+	.remember span {
+		padding-left: 5px;
+		font-size: 12px;
+	}
+	.forgetpwd {
+		float: right;
+		font-size: 12px;
+		color: #1B1F26;
+	}
+	.login-btn, .reset-btn {
+		display: block;
+		margin-top: 40px;
+		height: 48px;
+		line-height: 48px;
+		color: #fff;
+		font-size: 16px;
+		text-align: center;
+		width: 100%;
+		background-color: #175EFF;
+		cursor: pointer;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		box-sizing: border-box;
+		transition: all 0.3s ease 0s;
+		letter-spacing: 2px;
+	}
+	.login-btn:hover {
+		background-color: #004AF0;
+	}
+	.reset-btn {
+		margin-top: 12px;
+		border: 1px solid #E2E6EB;
+		color: #5D5D5D;
+		background-color: #fff;
+	}
+	.reset-btn:hover {
+		border-color: #3185EE;
+		color: #000;
+	}
+	.tips {
+		position: absolute;
+		bottom: -15px;
+		left: 1px;
+		display: none;
+		line-height: 12px;
+		font-size: 12px;
+		color: #FF332C;
+	}
+	.showtips .tips {
+		display: block;
+	}
+	.showtips input {
+		border: 1px solid #E63E24;
+	}
+	.otherway {
+		padding-top: 36px;
+		line-height: 14px;
+		font-size: 12px;
+		text-align: right;
+	}
+	.otherway a {
+		color: #175EFF;
+	}
+	.copyright {
+		position: absolute;
+		bottom: 4px;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 12px;
+		line-height: 34px;
+		color: #919FC3;
+	}
+	@media screen and (max-width: 1440px) {
+		#loginBg {
+			transform: translate(467px,-50%);
+			width: 1150px;
+			height: 790px;
+		}
+		.loginpannel {
+			position: absolute;
+			padding: 42px 24px 0;
+			left: 50%;
+			top: 50%;
+			transform: translate(232px,-290px);
+			width: 340px;
+			height: 540px;
+			z-index: 3;
+		}
+		.login-title {
+			margin-left: 62px;
+			line-height: 40px;
+			font-size: 26px;
+			padding-bottom: 20px;
+			letter-spacing: 1.6px;
+		}
+		.login-title:before {
+			left: -64px;
+			top: -22px;
+			width: 49px;
+			height: 56px;
+		}
+		.login-companyname {
+			margin-left: 62px;
+			font-size: 14px;
+			line-height: 20px;
+			letter-spacing: 3px;
+		}
+		.login-btn, .reset-btn {
+			margin-top: 20px;
+		}
+		.otherway {
+			padding-top: 20px;
+		}
+	}
+</style>
+</head>
+
+<body>
+	<!--右侧登录框 Start-->
+	<div class="loginpannel">
+		<h2 class="login-companyname">中国铁路广州局集团有限公司</h2>
+		<h1 class="login-title">企业数字化云平台</h1>	
+		<!--class为selectcompany、username、password的div，添加showtips，可显示提示-->
+		<div class="selectcompany">
+			<input type="text" class="company-list" value="请选择单位" readonly>
+		</div>
+		<div class="selectcompany">
+			<input type="text" class="company-list" value="用户名密码登录" readonly>
+		</div>
+		<div class="username">
+			<input type="text" placeholder="请输入用户名">
+			<p class="tips">提示：该用户不存在，请重新输入</p>
+		</div>
+		<div class="pwd">
+			<input type="password" placeholder="请输入密码">
+			<p class="tips">提示：请输入6位以上密码</p>
+		</div>
+		<div class="remember">
+			<input type="checkbox"><span>记住密码</span>
+			<a class="forgetpwd" href="#">忘记密码</a>
+		</div>
+		<button class="login-btn">登录</button>
+		<div class="otherway">
+			<a href="#">其他登录方式&gt;</a>
+		</div>
+	</div>
+	<!--右侧登录框 End-->
+	<div id="loginBg"></div>
+	<p class="copyright">技术支持：中国铁道科学研究院集团有限公司电子计算研究所</p>
+	<!--执行背景Lottie动画 Start-->
+	<script>
+		var b = lottie.loadAnimation({
+			container: document.getElementById('loginBg'), // the dom element that will contain the animation
+			renderer: 'svg', 
+			loop: true,  
+			autoplay: true, 
+			path: 'js/login.json' 
+		});
+	</script>
+	<!--执行背景Lottie动画 End-->
+</body>
+</html>
+
