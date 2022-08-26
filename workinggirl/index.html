@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>西安车站登录样式</title>
+<script src="./lottie.min.js"></script>
+<style>
+	body {
+		background-color: #fff;
+	}
+	#welcome {
+		position: absolute;
+		left: 50%;
+		top: 40%;
+		transform: translate(-50%,-50%);
+		width: 80%;
+		height: 70%;
+		background: url("images/login-pannel.png") no-repeat left top;
+		background-size: contain;
+		z-index: 3;
+	}
+</style>
+</head>
+
+<body>
+	<div id="welcome"></div>
+	<script>
+		var b = lottie.loadAnimation({
+			container: document.getElementById('welcome'), // the dom element that will contain the animation
+			renderer: 'svg', 
+			loop: true,  
+			autoplay: true, 
+			path: 'welcome3.json' 
+		});
+	</script>
+</body>
+</html>
+
